@@ -1,0 +1,30 @@
+# ============================================================================
+# BATCH EXCEL TO JSON CONVERSION - MaratonaCIn 2024
+# ============================================================================
+# Format: <excel_file> <json_file>
+# Lines starting with # are comments
+
+
+# Main Contests (Weekly)
+"data/Rank-Contest 1.xlsx" data/contest-01.json
+"data/Rank-Contest 2.xlsx" data/contest-02.json
+"data/Rank-Contest 3.xlsx" data/contest-03.json
+"data/Rank-Contest 4.xlsx" data/contest-04.json
+"data/Rank-Contest 5.xlsx" data/contest-05.json
+"data/Rank-Contest 6.xlsx" data/contest-06.json
+"data/Rank-Contest 7.xlsx" data/contest-07.json
+"data/Rank-Contest 8.xlsx" data/contest-08.json
+"data/Rank-Contest 9.xlsx" data/contest-09.json
+"data/Rank-Contest 10.xlsx" data/contest-10.json
+
+# Homeworks (Weekly)
+"data/Rank-Homework 1 - STL.xlsx" data/homework-01.json
+"data/Rank-Homework 2 - Buscas.xlsx" data/homework-02.json
+"data/Rank-Homework 3 - Grafos 1.xlsx" data/homework-03.json
+"data/Rank-Homework 4 - Grafos 2.xlsx" data/homework-04.json
+"data/Rank-Homework 5 - DP 1.xlsx" data/homework-05.json
+"data/Rank-Homework 6 - DP 2.xlsx" data/homework-06.json
+"data/Rank-Homework 7 - Number Theory.xlsx" data/homework-07.json
+"data/Rank-Homework 8 - Range Query.xlsx" data/homework-08.json
+"data/Rank-Homework 9 - Strings.xlsx" data/homework-09.json
+"data/Rank-Homework 10 - Geometria.xlsx" data/homework-10.json
