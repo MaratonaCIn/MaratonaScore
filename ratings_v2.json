@@ -1,0 +1,7072 @@
+{
+  "competitors": {
+    "1_milhao_de_abelhas": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 117.76119402985074,
+          "problems_solved": 7,
+          "rank": 4,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 117.76119402985074,
+          "problems_solved": 7,
+          "rank": 4,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 150.0,
+          "problems_solved": 10,
+          "rank": 1,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 37,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 120.45454545454547,
+          "problems_solved": 8,
+          "rank": 2,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 135.0,
+          "problems_solved": 7,
+          "rank": 2,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 150.0,
+          "problems_solved": 9,
+          "rank": 1,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 96.46464646464646,
+          "problems_solved": 5,
+          "rank": 5,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 127.08333333333334,
+          "problems_solved": 5,
+          "rank": 3,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 55.15873015873016,
+          "problems_solved": 4,
+          "rank": 12,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 70.76190476190476,
+          "problems_solved": 13,
+          "rank": 3,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 69.15584415584416,
+          "problems_solved": 13,
+          "rank": 6,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 32.72200772200772,
+          "problems_solved": 5,
+          "rank": 16,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 3.0,
+          "problems_solved": 0,
+          "rank": 23,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 35.526315789473685,
+          "problems_solved": 7,
+          "rank": 12,
+          "total_participants": 20
+        },
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 22.692307692307693,
+          "problems_solved": 3,
+          "rank": 10,
+          "total_participants": 14
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 35.885167464114836,
+          "problems_solved": 5,
+          "rank": 10,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 46.291866028708135,
+          "problems_solved": 7,
+          "rank": 9,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 46.103896103896105,
+          "problems_solved": 7,
+          "rank": 7,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 27.142857142857142,
+          "problems_solved": 2,
+          "rank": 11,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 10,
+      "status": "active",
+      "team_name": "walfridosat",
+      "total_upsolving": 13,
+      "upsolving_by_contest": {
+        "contest-01": 2,
+        "contest-02": 2,
+        "contest-03": 1,
+        "contest-04": 4,
+        "contest-05": 0,
+        "contest-06": 0,
+        "contest-07": 0,
+        "contest-08": 3,
+        "contest-09": 0,
+        "contest-10": 0,
+        "homework-01": 0,
+        "homework-02": 1,
+        "homework-03": 0,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-06": 0,
+        "homework-07": 0,
+        "homework-08": 0,
+        "homework-09": 0,
+        "homework-10": 0
+      }
+    },
+    "1arth": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 0.6666666666666654,
+          "problems_solved": 0,
+          "rank": 74,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "afccc",
+      "total_upsolving": 1,
+      "upsolving_by_contest": {
+        "homework-01": 1
+      }
+    },
+    "<rocg>": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 20.44776119402985,
+          "problems_solved": 1,
+          "rank": 54,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 20.44776119402985,
+          "problems_solved": 1,
+          "rank": 54,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks_participated": 0,
+      "status": "active",
+      "team_name": "rosean3",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0
+      }
+    },
+    "???%": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 55.373134328358205,
+          "problems_solved": 3,
+          "rank": 34,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 55.373134328358205,
+          "problems_solved": 3,
+          "rank": 34,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 28.6046511627907,
+          "problems_solved": 1,
+          "rank": 28,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 36.94444444444444,
+          "problems_solved": 3,
+          "rank": 32,
+          "total_participants": 37
+        }
+      },
+      "contests_participated": 4,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 63.19047619047619,
+          "problems_solved": 12,
+          "rank": 15,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 56.62337662337663,
+          "problems_solved": 10,
+          "rank": 10,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 48.166023166023166,
+          "problems_solved": 8,
+          "rank": 9,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 14.25,
+          "problems_solved": 2,
+          "rank": 18,
+          "total_participants": 26
+        }
+      },
+      "homeworks_participated": 4,
+      "status": "active",
+      "team_name": "gugajcvda",
+      "total_upsolving": 3,
+      "upsolving_by_contest": {
+        "contest-01": 1,
+        "contest-02": 1,
+        "contest-03": 0,
+        "contest-04": 1,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-04": 0
+      }
+    },
+    "?lvaro Negromonte": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 15.223880597014924,
+          "problems_solved": 1,
+          "rank": 61,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 15.223880597014924,
+          "problems_solved": 1,
+          "rank": 61,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 4.651162790697677,
+          "problems_solved": 0,
+          "rank": 40,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 1.3888888888888895,
+          "problems_solved": 0,
+          "rank": 36,
+          "total_participants": 37
+        }
+      },
+      "contests_participated": 4,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 22.285714285714285,
+          "problems_solved": 4,
+          "rank": 52,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 21.623376623376622,
+          "problems_solved": 3,
+          "rank": 32,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "acn3",
+      "total_upsolving": 3,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 0,
+        "contest-04": 3,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "Ariel": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 33.76190476190476,
+          "problems_solved": 6,
+          "rank": 39,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "RSAriel",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "homework-01": 0
+      }
+    },
+    "BerSiqueira": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 38,
+          "total_participants": 38
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "BernardoSiqueira",
+      "total_upsolving": 2,
+      "upsolving_by_contest": {
+        "homework-03": 2
+      }
+    },
+    "Bianca": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 41.64179104477612,
+          "problems_solved": 2,
+          "rank": 39,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 41.64179104477612,
+          "problems_solved": 2,
+          "rank": 39,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 20.46511627906977,
+          "problems_solved": 1,
+          "rank": 35,
+          "total_participants": 44
+        }
+      },
+      "contests_participated": 3,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 57.95238095238095,
+          "problems_solved": 11,
+          "rank": 20,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 1.8181818181818188,
+          "problems_solved": 0,
+          "rank": 52,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 34.07335907335907,
+          "problems_solved": 5,
+          "rank": 14,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 18.375,
+          "problems_solved": 3,
+          "rank": 17,
+          "total_participants": 26
+        }
+      },
+      "homeworks_participated": 4,
+      "status": "active",
+      "team_name": "bpas",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 0,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-04": 0
+      }
+    },
+    "Caio": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 16.716417910447763,
+          "problems_solved": 1,
+          "rank": 59,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 16.716417910447763,
+          "problems_solved": 1,
+          "rank": 59,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 11.476190476190476,
+          "problems_solved": 2,
+          "rank": 63,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "caioleitao",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0
+      }
+    },
+    "Cleber": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 13.961038961038959,
+          "problems_solved": 2,
+          "rank": 41,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "cvsj",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "homework-02": 0
+      }
+    },
+    "Dggb": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 33.43283582089552,
+          "problems_solved": 2,
+          "rank": 50,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 33.43283582089552,
+          "problems_solved": 2,
+          "rank": 50,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 40.93023255813954,
+          "problems_solved": 2,
+          "rank": 26,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 75.0,
+          "problems_solved": 5,
+          "rank": 19,
+          "total_participants": 37
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 17.929292929292927,
+          "problems_solved": 1,
+          "rank": 20,
+          "total_participants": 23
+        }
+      },
+      "contests_participated": 5,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 47.47619047619048,
+          "problems_solved": 9,
+          "rank": 30,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 21.16883116883117,
+          "problems_solved": 3,
+          "rank": 33,
+          "total_participants": 56
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 16.985645933014354,
+          "problems_solved": 2,
+          "rank": 14,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 1.315789473684212,
+          "problems_solved": 0,
+          "rank": 19,
+          "total_participants": 20
+        }
+      },
+      "homeworks_participated": 4,
+      "status": "active",
+      "team_name": "DaviGuerreiro",
+      "total_upsolving": 8,
+      "upsolving_by_contest": {
+        "contest-01": 2,
+        "contest-02": 2,
+        "contest-03": 0,
+        "contest-04": 0,
+        "contest-08": 0,
+        "homework-01": 3,
+        "homework-02": 0,
+        "homework-07": 0,
+        "homework-08": 1
+      }
+    },
+    "DudaC": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 10.476190476190474,
+          "problems_solved": 2,
+          "rank": 66,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "mecb",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "homework-01": 0
+      }
+    },
+    "GioMafra": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 34.92537313432835,
+          "problems_solved": 2,
+          "rank": 48,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 34.92537313432835,
+          "problems_solved": 2,
+          "rank": 48,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 18.139534883720927,
+          "problems_solved": 1,
+          "rank": 37,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 68.05555555555556,
+          "problems_solved": 5,
+          "rank": 24,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 52.27272727272728,
+          "problems_solved": 4,
+          "rank": 16,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 12.5,
+          "problems_solved": 1,
+          "rank": 21,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 50.83333333333333,
+          "problems_solved": 3,
+          "rank": 14,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 13.38383838383838,
+          "problems_solved": 1,
+          "rank": 22,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 39.58333333333333,
+          "problems_solved": 2,
+          "rank": 15,
+          "total_participants": 17
+        }
+      },
+      "contests_participated": 9,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 47.80952380952381,
+          "problems_solved": 9,
+          "rank": 29,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 31.94805194805195,
+          "problems_solved": 5,
+          "rank": 25,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 26.447876447876446,
+          "problems_solved": 4,
+          "rank": 20,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 36.875,
+          "problems_solved": 7,
+          "rank": 11,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 24.436090225563913,
+          "problems_solved": 5,
+          "rank": 15,
+          "total_participants": 20
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 1.315789473684212,
+          "problems_solved": 0,
+          "rank": 19,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 7.177033492822966,
+          "problems_solved": 1,
+          "rank": 18,
+          "total_participants": 20
+        }
+      },
+      "homeworks_participated": 7,
+      "status": "active",
+      "team_name": "GioMafra",
+      "total_upsolving": 24,
+      "upsolving_by_contest": {
+        "contest-01": 3,
+        "contest-02": 3,
+        "contest-03": 5,
+        "contest-04": 1,
+        "contest-05": 1,
+        "contest-06": 1,
+        "contest-07": 1,
+        "contest-08": 1,
+        "contest-09": 0,
+        "homework-01": 2,
+        "homework-02": 0,
+        "homework-03": 4,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-07": 0,
+        "homework-08": 2
+      }
+    },
+    "GuilhermeMuniz": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 37.910447761194035,
+          "problems_solved": 2,
+          "rank": 44,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 37.910447761194035,
+          "problems_solved": 2,
+          "rank": 44,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 6.238095238095238,
+          "problems_solved": 1,
+          "rank": 68,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "GuilhermeMuniz",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0
+      }
+    },
+    "Gustavo S": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 81.044776119403,
+          "problems_solved": 4,
+          "rank": 13,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 81.044776119403,
+          "problems_solved": 4,
+          "rank": 13,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 27.523809523809526,
+          "problems_solved": 5,
+          "rank": 47,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 22.07792207792208,
+          "problems_solved": 3,
+          "rank": 31,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "gssm",
+      "total_upsolving": 2,
+      "upsolving_by_contest": {
+        "contest-01": 1,
+        "contest-02": 1,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "Heitor Cordeiro": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 57.61194029850746,
+          "problems_solved": 3,
+          "rank": 31,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 57.61194029850746,
+          "problems_solved": 3,
+          "rank": 31,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 34.09523809523809,
+          "problems_solved": 6,
+          "rank": 38,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 32.4025974025974,
+          "problems_solved": 5,
+          "rank": 24,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "hhhc",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "Heitor Riquelme": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 35.67164179104478,
+          "problems_solved": 2,
+          "rank": 47,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 35.67164179104478,
+          "problems_solved": 2,
+          "rank": 47,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 70.23255813953489,
+          "problems_solved": 4,
+          "rank": 18,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 127.22222222222223,
+          "problems_solved": 8,
+          "rank": 3,
+          "total_participants": 37
+        }
+      },
+      "contests_participated": 4,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 38.0,
+          "problems_solved": 7,
+          "rank": 37,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 37.79220779220779,
+          "problems_solved": 6,
+          "rank": 20,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "hrms2",
+      "total_upsolving": 5,
+      "upsolving_by_contest": {
+        "contest-01": 2,
+        "contest-02": 2,
+        "contest-03": 1,
+        "contest-04": 0,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "Hugo Medeiros": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 76.56716417910448,
+          "problems_solved": 4,
+          "rank": 19,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 76.56716417910448,
+          "problems_solved": 4,
+          "rank": 19,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 101.86046511627907,
+          "problems_solved": 6,
+          "rank": 8,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 106.11111111111111,
+          "problems_solved": 7,
+          "rank": 11,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 88.63636363636363,
+          "problems_solved": 6,
+          "rank": 8,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 90.0,
+          "problems_solved": 5,
+          "rank": 10,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 115.27777777777779,
+          "problems_solved": 7,
+          "rank": 6,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 91.91919191919192,
+          "problems_solved": 5,
+          "rank": 7,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 68.75,
+          "problems_solved": 3,
+          "rank": 11,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 117.06349206349208,
+          "problems_solved": 7,
+          "rank": 4,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 67.76190476190476,
+          "problems_solved": 13,
+          "rank": 12,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 70.06493506493507,
+          "problems_solved": 13,
+          "rank": 4,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 43.91891891891892,
+          "problems_solved": 7,
+          "rank": 10,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 67.75,
+          "problems_solved": 14,
+          "rank": 2,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 73.6842105263158,
+          "problems_solved": 14,
+          "rank": 2,
+          "total_participants": 20
+        },
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 66.15384615384616,
+          "problems_solved": 9,
+          "rank": 3,
+          "total_participants": 14
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 75.0,
+          "problems_solved": 11,
+          "rank": 1,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 73.6842105263158,
+          "problems_solved": 11,
+          "rank": 2,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 62.337662337662344,
+          "problems_solved": 9,
+          "rank": 3,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 54.285714285714285,
+          "problems_solved": 4,
+          "rank": 7,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 10,
+      "status": "active",
+      "team_name": "Zig",
+      "total_upsolving": 94,
+      "upsolving_by_contest": {
+        "contest-01": 9,
+        "contest-02": 9,
+        "contest-03": 7,
+        "contest-04": 5,
+        "contest-05": 5,
+        "contest-06": 6,
+        "contest-07": 5,
+        "contest-08": 6,
+        "contest-09": 9,
+        "contest-10": 5,
+        "homework-01": 1,
+        "homework-02": 1,
+        "homework-03": 7,
+        "homework-04": 3,
+        "homework-05": 0,
+        "homework-06": 3,
+        "homework-07": 2,
+        "homework-08": 4,
+        "homework-09": 6,
+        "homework-10": 1
+      }
+    },
+    "Italo": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 61.343283582089555,
+          "problems_solved": 3,
+          "rank": 26,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 61.343283582089555,
+          "problems_solved": 3,
+          "rank": 26,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 25.11627906976744,
+          "problems_solved": 1,
+          "rank": 31,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 69.44444444444444,
+          "problems_solved": 5,
+          "rank": 23,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 22.72727272727273,
+          "problems_solved": 2,
+          "rank": 21,
+          "total_participants": 23
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 32.22222222222222,
+          "problems_solved": 2,
+          "rank": 17,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 20.2020202020202,
+          "problems_solved": 1,
+          "rank": 19,
+          "total_participants": 23
+        }
+      },
+      "contests_participated": 7,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 52.04761904761905,
+          "problems_solved": 10,
+          "rank": 27,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 14.870129870129869,
+          "problems_solved": 2,
+          "rank": 39,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "ills2",
+      "total_upsolving": 1,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 0,
+        "contest-04": 0,
+        "contest-05": 0,
+        "contest-07": 1,
+        "contest-08": 0,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "Ivison (irs3": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 40.8955223880597,
+          "problems_solved": 2,
+          "rank": 40,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 40.8955223880597,
+          "problems_solved": 2,
+          "rank": 40,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 22.790697674418606,
+          "problems_solved": 1,
+          "rank": 33,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 53.888888888888886,
+          "problems_solved": 4,
+          "rank": 27,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 36.36363636363636,
+          "problems_solved": 3,
+          "rank": 19,
+          "total_participants": 23
+        }
+      },
+      "contests_participated": 5,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 32.42857142857142,
+          "problems_solved": 6,
+          "rank": 43,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 13.05194805194805,
+          "problems_solved": 2,
+          "rank": 43,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 8.976833976833976,
+          "problems_solved": 1,
+          "rank": 30,
+          "total_participants": 38
+        }
+      },
+      "homeworks_participated": 3,
+      "status": "active",
+      "team_name": "irs3",
+      "total_upsolving": 2,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 0,
+        "contest-04": 0,
+        "contest-05": 0,
+        "homework-01": 2,
+        "homework-02": 0,
+        "homework-03": 0
+      }
+    },
+    "J?lio C?sar": {
+      "contests": {
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 3.4883720930232567,
+          "problems_solved": 0,
+          "rank": 41,
+          "total_participants": 44
+        }
+      },
+      "contests_participated": 1,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 21.95238095238095,
+          "problems_solved": 4,
+          "rank": 53,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 14.415584415584416,
+          "problems_solved": 2,
+          "rank": 40,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "jcbs3",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-03": 0,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "J?ssyca Ferreira": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 63.582089552238806,
+          "problems_solved": 3,
+          "rank": 23,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 63.582089552238806,
+          "problems_solved": 3,
+          "rank": 23,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 2.325581395348836,
+          "problems_solved": 0,
+          "rank": 42,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 76.38888888888889,
+          "problems_solved": 5,
+          "rank": 18,
+          "total_participants": 37
+        }
+      },
+      "contests_participated": 4,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 27.857142857142858,
+          "problems_solved": 5,
+          "rank": 46,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 0.9090909090909094,
+          "problems_solved": 0,
+          "rank": 54,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 27.123552123552123,
+          "problems_solved": 4,
+          "rank": 19,
+          "total_participants": 38
+        }
+      },
+      "homeworks_participated": 3,
+      "status": "active",
+      "team_name": "jessyca_ferreira",
+      "total_upsolving": 1,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 0,
+        "contest-04": 0,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 1
+      }
+    },
+    "Jo?o": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 150.0,
+          "problems_solved": 10,
+          "rank": 1,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 150.0,
+          "problems_solved": 10,
+          "rank": 1,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 99.53488372093022,
+          "problems_solved": 6,
+          "rank": 10,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 150.0,
+          "problems_solved": 10,
+          "rank": 1,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 150.0,
+          "problems_solved": 11,
+          "rank": 1,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 150.0,
+          "problems_solved": 8,
+          "rank": 1,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 145.0,
+          "problems_solved": 9,
+          "rank": 3,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 150.0,
+          "problems_solved": 9,
+          "rank": 1,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 146.875,
+          "problems_solved": 6,
+          "rank": 2,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 150.0,
+          "problems_solved": 9,
+          "rank": 1,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 69.0952380952381,
+          "problems_solved": 13,
+          "rank": 8,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 46.753246753246756,
+          "problems_solved": 8,
+          "rank": 16,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 75.0,
+          "problems_solved": 14,
+          "rank": 1,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 41.0,
+          "problems_solved": 8,
+          "rank": 10,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 56.39097744360902,
+          "problems_solved": 11,
+          "rank": 7,
+          "total_participants": 20
+        },
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 38.46153846153846,
+          "problems_solved": 5,
+          "rank": 7,
+          "total_participants": 14
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 63.277511961722496,
+          "problems_solved": 9,
+          "rank": 3,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 53.4688995215311,
+          "problems_solved": 8,
+          "rank": 7,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 54.22077922077922,
+          "problems_solved": 8,
+          "rank": 5,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 75.0,
+          "problems_solved": 5,
+          "rank": 1,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 10,
+      "status": "active",
+      "team_name": "jvgc",
+      "total_upsolving": 76,
+      "upsolving_by_contest": {
+        "contest-01": 3,
+        "contest-02": 3,
+        "contest-03": 7,
+        "contest-04": 2,
+        "contest-05": 0,
+        "contest-06": 3,
+        "contest-07": 3,
+        "contest-08": 2,
+        "contest-09": 6,
+        "contest-10": 3,
+        "homework-01": 1,
+        "homework-02": 6,
+        "homework-03": 0,
+        "homework-04": 9,
+        "homework-05": 3,
+        "homework-06": 7,
+        "homework-07": 4,
+        "homework-08": 7,
+        "homework-09": 7,
+        "homework-10": 0
+      }
+    },
+    "Jo?o Lopes": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 62.83582089552239,
+          "problems_solved": 3,
+          "rank": 24,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 62.83582089552239,
+          "problems_solved": 3,
+          "rank": 24,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 71.3953488372093,
+          "problems_solved": 4,
+          "rank": 17,
+          "total_participants": 44
+        }
+      },
+      "contests_participated": 3,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 38.333333333333336,
+          "problems_solved": 7,
+          "rank": 36,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 26.558441558441558,
+          "problems_solved": 4,
+          "rank": 29,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "jvcl",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 0,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "Jo?o Lu?s": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 119.25373134328359,
+          "problems_solved": 7,
+          "rank": 2,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 119.25373134328359,
+          "problems_solved": 7,
+          "rank": 2,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 103.02325581395348,
+          "problems_solved": 6,
+          "rank": 7,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 138.61111111111111,
+          "problems_solved": 9,
+          "rank": 2,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 102.27272727272727,
+          "problems_solved": 7,
+          "rank": 6,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 107.5,
+          "problems_solved": 6,
+          "rank": 8,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 80.55555555555556,
+          "problems_solved": 5,
+          "rank": 11,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 109.84848484848484,
+          "problems_solved": 6,
+          "rank": 4,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 94.79166666666666,
+          "problems_solved": 4,
+          "rank": 8,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 88.09523809523809,
+          "problems_solved": 6,
+          "rank": 9,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 68.0952380952381,
+          "problems_solved": 13,
+          "rank": 11,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 61.103896103896105,
+          "problems_solved": 11,
+          "rank": 8,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 65.15444015444015,
+          "problems_solved": 12,
+          "rank": 5,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 45.125,
+          "problems_solved": 9,
+          "rank": 9,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 51.50375939849624,
+          "problems_solved": 10,
+          "rank": 8,
+          "total_participants": 20
+        },
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 18.846153846153847,
+          "problems_solved": 3,
+          "rank": 12,
+          "total_participants": 14
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 44.377990430622006,
+          "problems_solved": 6,
+          "rank": 7,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 60.64593301435407,
+          "problems_solved": 9,
+          "rank": 5,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 44.31818181818181,
+          "problems_solved": 7,
+          "rank": 8,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 56.07142857142857,
+          "problems_solved": 4,
+          "rank": 6,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 10,
+      "status": "active",
+      "team_name": "jlga",
+      "total_upsolving": 55,
+      "upsolving_by_contest": {
+        "contest-01": 6,
+        "contest-02": 6,
+        "contest-03": 7,
+        "contest-04": 3,
+        "contest-05": 4,
+        "contest-06": 5,
+        "contest-07": 5,
+        "contest-08": 5,
+        "contest-09": 5,
+        "contest-10": 6,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-06": 3,
+        "homework-07": 0,
+        "homework-08": 0,
+        "homework-09": 0,
+        "homework-10": 0
+      }
+    },
+    "Joao Fellows": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 59.285714285714285,
+          "problems_solved": 11,
+          "rank": 16,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 51.68831168831169,
+          "problems_solved": 9,
+          "rank": 13,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "JoaoFellows",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "Jpds": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 7.662337662337664,
+          "problems_solved": 1,
+          "rank": 47,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "Jpds",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "homework-02": 0
+      }
+    },
+    "Jvrco": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 104.77611940298507,
+          "problems_solved": 6,
+          "rank": 8,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 104.77611940298507,
+          "problems_solved": 6,
+          "rank": 8,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 84.88372093023256,
+          "problems_solved": 5,
+          "rank": 14,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 110.27777777777777,
+          "problems_solved": 7,
+          "rank": 8,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 84.09090909090908,
+          "problems_solved": 6,
+          "rank": 10,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 110.0,
+          "problems_solved": 6,
+          "rank": 7,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 99.16666666666666,
+          "problems_solved": 6,
+          "rank": 8,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 85.1010101010101,
+          "problems_solved": 5,
+          "rank": 10,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 104.16666666666666,
+          "problems_solved": 4,
+          "rank": 5,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 113.4920634920635,
+          "problems_solved": 7,
+          "rank": 5,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 71.0952380952381,
+          "problems_solved": 13,
+          "rank": 2,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 57.07792207792208,
+          "problems_solved": 10,
+          "rank": 9,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 65.83011583011583,
+          "problems_solved": 12,
+          "rank": 4,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 47.125,
+          "problems_solved": 9,
+          "rank": 7,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 46.61654135338346,
+          "problems_solved": 9,
+          "rank": 9,
+          "total_participants": 20
+        },
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 54.230769230769226,
+          "problems_solved": 7,
+          "rank": 4,
+          "total_participants": 14
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 30.023923444976077,
+          "problems_solved": 4,
+          "rank": 11,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 37.79904306220095,
+          "problems_solved": 6,
+          "rank": 12,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 31.655844155844154,
+          "problems_solved": 5,
+          "rank": 10,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 40.714285714285715,
+          "problems_solved": 3,
+          "rank": 9,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 10,
+      "status": "active",
+      "team_name": "Jvrco",
+      "total_upsolving": 39,
+      "upsolving_by_contest": {
+        "contest-01": 4,
+        "contest-02": 4,
+        "contest-03": 7,
+        "contest-04": 2,
+        "contest-05": 5,
+        "contest-06": 4,
+        "contest-07": 4,
+        "contest-08": 4,
+        "contest-09": 0,
+        "contest-10": 4,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-06": 0,
+        "homework-07": 1,
+        "homework-08": 0,
+        "homework-09": 0,
+        "homework-10": 0
+      }
+    },
+    "Lao2": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 42.38805970149254,
+          "problems_solved": 2,
+          "rank": 38,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 42.38805970149254,
+          "problems_solved": 2,
+          "rank": 38,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 16.714285714285715,
+          "problems_solved": 3,
+          "rank": 58,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 56,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "Lao2",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "Lucas Guimar?es<lgf>": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 68,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 68,
+          "total_participants": 68
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 36.45833333333333,
+          "problems_solved": 2,
+          "rank": 16,
+          "total_participants": 17
+        }
+      },
+      "contests_participated": 3,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 68.42857142857143,
+          "problems_solved": 13,
+          "rank": 10,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 61.55844155844156,
+          "problems_solved": 11,
+          "rank": 7,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 39.67181467181467,
+          "problems_solved": 6,
+          "rank": 11,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 9.125,
+          "problems_solved": 1,
+          "rank": 20,
+          "total_participants": 26
+        }
+      },
+      "homeworks_participated": 4,
+      "status": "active",
+      "team_name": "lgf_cin",
+      "total_upsolving": 24,
+      "upsolving_by_contest": {
+        "contest-01": 12,
+        "contest-02": 12,
+        "contest-09": 0,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-04": 0
+      }
+    },
+    "Lucas Vidal": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 78.05970149253731,
+          "problems_solved": 4,
+          "rank": 17,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 78.05970149253731,
+          "problems_solved": 4,
+          "rank": 17,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 86.04651162790697,
+          "problems_solved": 5,
+          "rank": 13,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 125.83333333333333,
+          "problems_solved": 8,
+          "rank": 4,
+          "total_participants": 37
+        }
+      },
+      "contests_participated": 4,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 21.619047619047617,
+          "problems_solved": 4,
+          "rank": 54,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 22.532467532467535,
+          "problems_solved": 3,
+          "rank": 30,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "Lucas_vw",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 0,
+        "contest-04": 0,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "Marcos Gabriel": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 82.53731343283582,
+          "problems_solved": 4,
+          "rank": 11,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 82.53731343283582,
+          "problems_solved": 4,
+          "rank": 11,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 69.06976744186046,
+          "problems_solved": 4,
+          "rank": 19,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 72.22222222222223,
+          "problems_solved": 5,
+          "rank": 21,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 65.9090909090909,
+          "problems_solved": 5,
+          "rank": 14,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 70.0,
+          "problems_solved": 4,
+          "rank": 13,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 64.44444444444444,
+          "problems_solved": 4,
+          "rank": 13,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 94.1919191919192,
+          "problems_solved": 5,
+          "rank": 6,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 75.0,
+          "problems_solved": 3,
+          "rank": 9,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 36.9047619047619,
+          "problems_solved": 3,
+          "rank": 14,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 58.61904761904762,
+          "problems_solved": 11,
+          "rank": 18,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 38.7012987012987,
+          "problems_solved": 6,
+          "rank": 18,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 38.32046332046332,
+          "problems_solved": 6,
+          "rank": 13,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 27.625,
+          "problems_solved": 5,
+          "rank": 14,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 18.23308270676692,
+          "problems_solved": 4,
+          "rank": 17,
+          "total_participants": 20
+        },
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 24.615384615384613,
+          "problems_solved": 3,
+          "rank": 9,
+          "total_participants": 14
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 22.84688995215311,
+          "problems_solved": 3,
+          "rank": 13,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 26.076555023923447,
+          "problems_solved": 4,
+          "rank": 14,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 25.324675324675326,
+          "problems_solved": 4,
+          "rank": 11,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 25.357142857142858,
+          "problems_solved": 2,
+          "rank": 12,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 10,
+      "status": "active",
+      "team_name": "mgma",
+      "total_upsolving": 16,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 1,
+        "contest-04": 0,
+        "contest-05": 2,
+        "contest-06": 3,
+        "contest-07": 5,
+        "contest-08": 1,
+        "contest-09": 0,
+        "contest-10": 4,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-06": 0,
+        "homework-07": 0,
+        "homework-08": 0,
+        "homework-09": 0,
+        "homework-10": 0
+      }
+    },
+    "Mariana": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 59.850746268656714,
+          "problems_solved": 3,
+          "rank": 28,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 59.850746268656714,
+          "problems_solved": 3,
+          "rank": 28,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 57.906976744186046,
+          "problems_solved": 3,
+          "rank": 20,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 55.27777777777778,
+          "problems_solved": 4,
+          "rank": 26,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 25.0,
+          "problems_solved": 2,
+          "rank": 20,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 15.000000000000002,
+          "problems_solved": 1,
+          "rank": 20,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 4.999999999999999,
+          "problems_solved": 0,
+          "rank": 19,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 15.656565656565657,
+          "problems_solved": 1,
+          "rank": 21,
+          "total_participants": 23
+        }
+      },
+      "contests_participated": 8,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 33.42857142857143,
+          "problems_solved": 6,
+          "rank": 40,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 6.2987012987013,
+          "problems_solved": 1,
+          "rank": 50,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 17.277992277992276,
+          "problems_solved": 2,
+          "rank": 23,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 10.125,
+          "problems_solved": 1,
+          "rank": 19,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 13.345864661654135,
+          "problems_solved": 3,
+          "rank": 18,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 20.215311004784688,
+          "problems_solved": 3,
+          "rank": 15,
+          "total_participants": 20
+        }
+      },
+      "homeworks_participated": 6,
+      "status": "active",
+      "team_name": "msf6",
+      "total_upsolving": 2,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 0,
+        "contest-04": 0,
+        "contest-05": 0,
+        "contest-06": 1,
+        "contest-07": 1,
+        "contest-08": 0,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-08": 0
+      }
+    },
+    "Marina Rodas": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 76,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "marinarodass",
+      "total_upsolving": 3,
+      "upsolving_by_contest": {
+        "homework-01": 3
+      }
+    },
+    "Paula N?brega": {
+      "contests": {
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 23.953488372093027,
+          "problems_solved": 1,
+          "rank": 32,
+          "total_participants": 44
+        }
+      },
+      "contests_participated": 1,
+      "homeworks_participated": 0,
+      "status": "active",
+      "team_name": "pncg",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-03": 0
+      }
+    },
+    "Paulo <pvas2>": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 54.626865671641795,
+          "problems_solved": 3,
+          "rank": 35,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 54.626865671641795,
+          "problems_solved": 3,
+          "rank": 35,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 32.76190476190476,
+          "problems_solved": 6,
+          "rank": 42,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "swashbuckler",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0
+      }
+    },
+    "Pedro Dantas": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 39.40298507462687,
+          "problems_solved": 2,
+          "rank": 42,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 39.40298507462687,
+          "problems_solved": 2,
+          "rank": 42,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 33.095238095238095,
+          "problems_solved": 6,
+          "rank": 41,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "phds3",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0
+      }
+    },
+    "Pedro Moraes": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 79.55223880597015,
+          "problems_solved": 4,
+          "rank": 15,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 79.55223880597015,
+          "problems_solved": 4,
+          "rank": 15,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 63.52380952380952,
+          "problems_solved": 12,
+          "rank": 14,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "pedrohmss",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0
+      }
+    },
+    "Peter Garrett": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 106.26865671641791,
+          "problems_solved": 6,
+          "rank": 6,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 106.26865671641791,
+          "problems_solved": 6,
+          "rank": 6,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 105.34883720930233,
+          "problems_solved": 6,
+          "rank": 5,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 89.16666666666666,
+          "problems_solved": 6,
+          "rank": 16,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 90.9090909090909,
+          "problems_solved": 6,
+          "rank": 7,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 72.5,
+          "problems_solved": 4,
+          "rank": 12,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 48.33333333333333,
+          "problems_solved": 3,
+          "rank": 15,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 53.78787878787878,
+          "problems_solved": 3,
+          "rank": 14,
+          "total_participants": 23
+        }
+      },
+      "contests_participated": 8,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 58.95238095238095,
+          "problems_solved": 11,
+          "rank": 17,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 70.97402597402598,
+          "problems_solved": 13,
+          "rank": 2,
+          "total_participants": 56
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 46.125,
+          "problems_solved": 9,
+          "rank": 8,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 30.639097744360903,
+          "problems_solved": 6,
+          "rank": 13,
+          "total_participants": 20
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 15.669856459330145,
+          "problems_solved": 2,
+          "rank": 15,
+          "total_participants": 20
+        }
+      },
+      "homeworks_participated": 5,
+      "status": "active",
+      "team_name": "Victor_Mendonca",
+      "total_upsolving": 9,
+      "upsolving_by_contest": {
+        "contest-01": 1,
+        "contest-02": 1,
+        "contest-03": 2,
+        "contest-04": 0,
+        "contest-05": 1,
+        "contest-06": 1,
+        "contest-07": 2,
+        "contest-08": 0,
+        "homework-01": 1,
+        "homework-02": 0,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-07": 0
+      }
+    },
+    "R?gis": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 22.61904761904762,
+          "problems_solved": 4,
+          "rank": 51,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "Jvcregis",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "homework-01": 0
+      }
+    },
+    "Rodrigo Gomes": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 36.41791044776119,
+          "problems_solved": 2,
+          "rank": 46,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 36.41791044776119,
+          "problems_solved": 2,
+          "rank": 46,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 39.76744186046512,
+          "problems_solved": 2,
+          "rank": 27,
+          "total_participants": 44
+        }
+      },
+      "contests_participated": 3,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 58.285714285714285,
+          "problems_solved": 11,
+          "rank": 19,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 47.20779220779221,
+          "problems_solved": 8,
+          "rank": 15,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 33.397683397683394,
+          "problems_solved": 5,
+          "rank": 15,
+          "total_participants": 38
+        }
+      },
+      "homeworks_participated": 3,
+      "status": "active",
+      "team_name": "rgar",
+      "total_upsolving": 2,
+      "upsolving_by_contest": {
+        "contest-01": 1,
+        "contest-02": 1,
+        "contest-03": 0,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0
+      }
+    },
+    "SamuellH12": {
+      "contests": {
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 2.777777777777779,
+          "problems_solved": 0,
+          "rank": 35,
+          "total_participants": 37
+        }
+      },
+      "contests_participated": 1,
+      "homeworks": {
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 0.6756756756756743,
+          "problems_solved": 0,
+          "rank": 37,
+          "total_participants": 38
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "SamuellHCosta",
+      "total_upsolving": 2,
+      "upsolving_by_contest": {
+        "contest-04": 1,
+        "homework-03": 1
+      }
+    },
+    "Thawan": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 93.28358208955224,
+          "problems_solved": 5,
+          "rank": 10,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 93.28358208955224,
+          "problems_solved": 5,
+          "rank": 10,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 116.51162790697674,
+          "problems_solved": 7,
+          "rank": 4,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 108.88888888888889,
+          "problems_solved": 7,
+          "rank": 9,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 113.63636363636364,
+          "problems_solved": 8,
+          "rank": 5,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 130.0,
+          "problems_solved": 7,
+          "rank": 4,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 147.5,
+          "problems_solved": 9,
+          "rank": 2,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 134.34343434343435,
+          "problems_solved": 8,
+          "rank": 3,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 107.29166666666666,
+          "problems_solved": 4,
+          "rank": 4,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 73.4126984126984,
+          "problems_solved": 5,
+          "rank": 10,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 56.95238095238095,
+          "problems_solved": 11,
+          "rank": 23,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 55.714285714285715,
+          "problems_solved": 10,
+          "rank": 12,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 55.98455598455598,
+          "problems_solved": 10,
+          "rank": 8,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 32.75,
+          "problems_solved": 6,
+          "rank": 12,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 59.02255639097744,
+          "problems_solved": 11,
+          "rank": 5,
+          "total_participants": 20
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 20,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 40.430622009569376,
+          "problems_solved": 6,
+          "rank": 10,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 17.207792207792206,
+          "problems_solved": 3,
+          "rank": 13,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 42.5,
+          "problems_solved": 3,
+          "rank": 8,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 9,
+      "status": "active",
+      "team_name": "trs3",
+      "total_upsolving": 16,
+      "upsolving_by_contest": {
+        "contest-01": 2,
+        "contest-02": 2,
+        "contest-03": 2,
+        "contest-04": 1,
+        "contest-05": 1,
+        "contest-06": 3,
+        "contest-07": 1,
+        "contest-08": 1,
+        "contest-09": 0,
+        "contest-10": 0,
+        "homework-01": 2,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-07": 1,
+        "homework-08": 0,
+        "homework-09": 0,
+        "homework-10": 0
+      }
+    },
+    "Vpd": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 60.59701492537313,
+          "problems_solved": 3,
+          "rank": 27,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 60.59701492537313,
+          "problems_solved": 3,
+          "rank": 27,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 11.809523809523808,
+          "problems_solved": 2,
+          "rank": 62,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "Vpd",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0
+      }
+    },
+    "Vyni": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 59.1044776119403,
+          "problems_solved": 3,
+          "rank": 29,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 59.1044776119403,
+          "problems_solved": 3,
+          "rank": 29,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks_participated": 0,
+      "status": "active",
+      "team_name": "Vyni",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0
+      }
+    },
+    "agaf2": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 56.11940298507463,
+          "problems_solved": 3,
+          "rank": 33,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 56.11940298507463,
+          "problems_solved": 3,
+          "rank": 33,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 55.58139534883721,
+          "problems_solved": 3,
+          "rank": 22,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 70.83333333333333,
+          "problems_solved": 5,
+          "rank": 22,
+          "total_participants": 37
+        }
+      },
+      "contests_participated": 4,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 57.285714285714285,
+          "problems_solved": 11,
+          "rank": 22,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 20.259740259740262,
+          "problems_solved": 3,
+          "rank": 35,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 7.625482625482626,
+          "problems_solved": 1,
+          "rank": 32,
+          "total_participants": 38
+        }
+      },
+      "homeworks_participated": 3,
+      "status": "active",
+      "team_name": "albertoguevara",
+      "total_upsolving": 4,
+      "upsolving_by_contest": {
+        "contest-01": 1,
+        "contest-02": 1,
+        "contest-03": 0,
+        "contest-04": 0,
+        "homework-01": 0,
+        "homework-02": 1,
+        "homework-03": 1
+      }
+    },
+    "andre f [??]": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 38.656716417910445,
+          "problems_solved": 2,
+          "rank": 43,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 38.656716417910445,
+          "problems_solved": 2,
+          "rank": 43,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 104.18604651162791,
+          "problems_solved": 6,
+          "rank": 6,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 111.66666666666667,
+          "problems_solved": 7,
+          "rank": 7,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 38.63636363636363,
+          "problems_solved": 3,
+          "rank": 18,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 50.0,
+          "problems_solved": 3,
+          "rank": 16,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 66.94444444444444,
+          "problems_solved": 4,
+          "rank": 12,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 40.4040404040404,
+          "problems_solved": 2,
+          "rank": 15,
+          "total_participants": 23
+        }
+      },
+      "contests_participated": 8,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 70.42857142857143,
+          "problems_solved": 13,
+          "rank": 4,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 38.246753246753244,
+          "problems_solved": 6,
+          "rank": 19,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 28.474903474903474,
+          "problems_solved": 4,
+          "rank": 17,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 26.625,
+          "problems_solved": 5,
+          "rank": 15,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 25.75187969924812,
+          "problems_solved": 5,
+          "rank": 14,
+          "total_participants": 20
+        },
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 20.769230769230766,
+          "problems_solved": 3,
+          "rank": 11,
+          "total_participants": 14
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 14.354066985645932,
+          "problems_solved": 2,
+          "rank": 16,
+          "total_participants": 20
+        }
+      },
+      "homeworks_participated": 7,
+      "status": "active",
+      "team_name": "afs15",
+      "total_upsolving": 2,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 0,
+        "contest-04": 0,
+        "contest-05": 0,
+        "contest-06": 2,
+        "contest-07": 0,
+        "contest-08": 0,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-06": 0,
+        "homework-07": 0
+      }
+    },
+    "arielszz": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 10.142857142857142,
+          "problems_solved": 2,
+          "rank": 67,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "arielszz",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "homework-01": 0
+      }
+    },
+    "caions": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 78.80597014925374,
+          "problems_solved": 4,
+          "rank": 16,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 78.80597014925374,
+          "problems_solved": 4,
+          "rank": 16,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 83.72093023255815,
+          "problems_solved": 5,
+          "rank": 15,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 124.44444444444444,
+          "problems_solved": 8,
+          "rank": 5,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 115.9090909090909,
+          "problems_solved": 8,
+          "rank": 4,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 132.5,
+          "problems_solved": 7,
+          "rank": 3,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 131.38888888888889,
+          "problems_solved": 8,
+          "rank": 4,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 71.71717171717171,
+          "problems_solved": 4,
+          "rank": 11,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 71.875,
+          "problems_solved": 3,
+          "rank": 10,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 106.34920634920636,
+          "problems_solved": 7,
+          "rank": 7,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 70.0952380952381,
+          "problems_solved": 13,
+          "rank": 5,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 70.51948051948052,
+          "problems_solved": 13,
+          "rank": 3,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 70.07722007722008,
+          "problems_solved": 13,
+          "rank": 3,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 63.625,
+          "problems_solved": 13,
+          "rank": 3,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 57.70676691729324,
+          "problems_solved": 11,
+          "rank": 6,
+          "total_participants": 20
+        },
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 47.30769230769231,
+          "problems_solved": 6,
+          "rank": 5,
+          "total_participants": 14
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 51.55502392344498,
+          "problems_solved": 7,
+          "rank": 5,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 75.0,
+          "problems_solved": 11,
+          "rank": 1,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 75.0,
+          "problems_solved": 11,
+          "rank": 1,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 73.21428571428572,
+          "problems_solved": 5,
+          "rank": 2,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 10,
+      "status": "active",
+      "team_name": "caions",
+      "total_upsolving": 42,
+      "upsolving_by_contest": {
+        "contest-01": 4,
+        "contest-02": 4,
+        "contest-03": 7,
+        "contest-04": 3,
+        "contest-05": 3,
+        "contest-06": 4,
+        "contest-07": 2,
+        "contest-08": 7,
+        "contest-09": 4,
+        "contest-10": 4,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-06": 0,
+        "homework-07": 0,
+        "homework-08": 0,
+        "homework-09": 0,
+        "homework-10": 0
+      }
+    },
+    "edu-p": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 40.149253731343286,
+          "problems_solved": 2,
+          "rank": 41,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 40.149253731343286,
+          "problems_solved": 2,
+          "rank": 41,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 19.30232558139535,
+          "problems_solved": 1,
+          "rank": 36,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 39.72222222222222,
+          "problems_solved": 3,
+          "rank": 30,
+          "total_participants": 37
+        }
+      },
+      "contests_participated": 4,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 1.3333333333333335,
+          "problems_solved": 0,
+          "rank": 72,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "eaa5",
+      "total_upsolving": 3,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 1,
+        "contest-04": 0,
+        "homework-01": 2
+      }
+    },
+    "espindoolaa": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 19.701492537313435,
+          "problems_solved": 1,
+          "rank": 55,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 19.701492537313435,
+          "problems_solved": 1,
+          "rank": 55,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 11.142857142857142,
+          "problems_solved": 2,
+          "rank": 64,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "meb",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0
+      }
+    },
+    "fpm3": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 37.16417910447761,
+          "problems_solved": 2,
+          "rank": 45,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 37.16417910447761,
+          "problems_solved": 2,
+          "rank": 45,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 26.27906976744186,
+          "problems_solved": 1,
+          "rank": 30,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 91.94444444444444,
+          "problems_solved": 6,
+          "rank": 14,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 54.54545454545455,
+          "problems_solved": 4,
+          "rank": 15,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 52.5,
+          "problems_solved": 3,
+          "rank": 15,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 34.72222222222222,
+          "problems_solved": 2,
+          "rank": 16,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 38.131313131313135,
+          "problems_solved": 2,
+          "rank": 16,
+          "total_participants": 23
+        }
+      },
+      "contests_participated": 8,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 38.666666666666664,
+          "problems_solved": 7,
+          "rank": 35,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 36.42857142857143,
+          "problems_solved": 6,
+          "rank": 23,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 15.926640926640925,
+          "problems_solved": 2,
+          "rank": 25,
+          "total_participants": 38
+        }
+      },
+      "homeworks_participated": 3,
+      "status": "active",
+      "team_name": "fpm3",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 0,
+        "contest-04": 0,
+        "contest-05": 0,
+        "contest-06": 0,
+        "contest-07": 0,
+        "contest-08": 0,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0
+      }
+    },
+    "frqal": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 77.31343283582089,
+          "problems_solved": 4,
+          "rank": 18,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 77.31343283582089,
+          "problems_solved": 4,
+          "rank": 18,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 43.25581395348837,
+          "problems_solved": 2,
+          "rank": 24,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 73.61111111111111,
+          "problems_solved": 5,
+          "rank": 20,
+          "total_participants": 37
+        }
+      },
+      "contests_participated": 4,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 69.76190476190476,
+          "problems_solved": 13,
+          "rank": 6,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 51.23376623376624,
+          "problems_solved": 9,
+          "rank": 14,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 38.996138996138995,
+          "problems_solved": 6,
+          "rank": 12,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 22.5,
+          "problems_solved": 4,
+          "rank": 16,
+          "total_participants": 26
+        }
+      },
+      "homeworks_participated": 4,
+      "status": "active",
+      "team_name": "limafrqa_",
+      "total_upsolving": 2,
+      "upsolving_by_contest": {
+        "contest-01": 1,
+        "contest-02": 1,
+        "contest-03": 0,
+        "contest-04": 0,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-04": 0
+      }
+    },
+    "fso2": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 32.6865671641791,
+          "problems_solved": 2,
+          "rank": 51,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 32.6865671641791,
+          "problems_solved": 2,
+          "rank": 51,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 43.57142857142857,
+          "problems_solved": 8,
+          "rank": 31,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 8.116883116883116,
+          "problems_solved": 1,
+          "rank": 46,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "fso2",
+      "total_upsolving": 2,
+      "upsolving_by_contest": {
+        "contest-01": 1,
+        "contest-02": 1,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "gabmei": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 1.9999999999999991,
+          "problems_solved": 0,
+          "rank": 24,
+          "total_participants": 26
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "gasm",
+      "total_upsolving": 1,
+      "upsolving_by_contest": {
+        "homework-04": 1
+      }
+    },
+    "gbm2": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 81.7910447761194,
+          "problems_solved": 4,
+          "rank": 12,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 81.7910447761194,
+          "problems_solved": 4,
+          "rank": 12,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 27.19047619047619,
+          "problems_solved": 5,
+          "rank": 48,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "gabrielbezmor",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0
+      }
+    },
+    "guui": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 117.01492537313433,
+          "problems_solved": 7,
+          "rank": 5,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 117.01492537313433,
+          "problems_solved": 7,
+          "rank": 5,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 127.67441860465117,
+          "problems_solved": 8,
+          "rank": 3,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 103.33333333333334,
+          "problems_solved": 7,
+          "rank": 13,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 77.27272727272727,
+          "problems_solved": 6,
+          "rank": 13,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 105.0,
+          "problems_solved": 6,
+          "rank": 9,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 21,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 67.17171717171718,
+          "problems_solved": 4,
+          "rank": 13,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 97.91666666666666,
+          "problems_solved": 4,
+          "rank": 7,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 109.92063492063492,
+          "problems_solved": 7,
+          "rank": 6,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 69.42857142857143,
+          "problems_solved": 13,
+          "rank": 7,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 39.15584415584415,
+          "problems_solved": 6,
+          "rank": 17,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 64.47876447876448,
+          "problems_solved": 12,
+          "rank": 6,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 55.375,
+          "problems_solved": 11,
+          "rank": 5,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 40.41353383458647,
+          "problems_solved": 8,
+          "rank": 11,
+          "total_participants": 20
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 8.492822966507179,
+          "problems_solved": 1,
+          "rank": 17,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 18.899521531100476,
+          "problems_solved": 3,
+          "rank": 16,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 23.53896103896104,
+          "problems_solved": 4,
+          "rank": 12,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 15,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 9,
+      "status": "active",
+      "team_name": "gmsmr",
+      "total_upsolving": 52,
+      "upsolving_by_contest": {
+        "contest-01": 5,
+        "contest-02": 5,
+        "contest-03": 2,
+        "contest-04": 3,
+        "contest-05": 5,
+        "contest-06": 4,
+        "contest-07": 9,
+        "contest-08": 6,
+        "contest-09": 4,
+        "contest-10": 5,
+        "homework-01": 0,
+        "homework-02": 1,
+        "homework-03": 0,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-07": 0,
+        "homework-08": 0,
+        "homework-09": 0,
+        "homework-10": 3
+      }
+    },
+    "gvnb": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 56.865671641791046,
+          "problems_solved": 3,
+          "rank": 32,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 56.865671641791046,
+          "problems_solved": 3,
+          "rank": 32,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks_participated": 0,
+      "status": "active",
+      "team_name": "gvnb",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0
+      }
+    },
+    "hmp": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 105.52238805970148,
+          "problems_solved": 6,
+          "rank": 7,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 105.52238805970148,
+          "problems_solved": 6,
+          "rank": 7,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 15.714285714285712,
+          "problems_solved": 3,
+          "rank": 61,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 15.324675324675324,
+          "problems_solved": 2,
+          "rank": 38,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "HeitorMendes",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "joaohl19": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 2.985074626865669,
+          "problems_solved": 0,
+          "rank": 64,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 2.985074626865669,
+          "problems_solved": 0,
+          "rank": 64,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 100.69767441860465,
+          "problems_solved": 6,
+          "rank": 9,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 66.66666666666667,
+          "problems_solved": 5,
+          "rank": 25,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 81.81818181818181,
+          "problems_solved": 6,
+          "rank": 11,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 112.5,
+          "problems_solved": 6,
+          "rank": 6,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 101.66666666666666,
+          "problems_solved": 6,
+          "rank": 7,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 89.64646464646465,
+          "problems_solved": 5,
+          "rank": 8,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 59.375,
+          "problems_solved": 3,
+          "rank": 14,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 69.84126984126985,
+          "problems_solved": 5,
+          "rank": 11,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 1.0000000000000009,
+          "problems_solved": 0,
+          "rank": 73,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 36.883116883116884,
+          "problems_solved": 6,
+          "rank": 22,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 1.3513513513513513,
+          "problems_solved": 0,
+          "rank": 36,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 62.625,
+          "problems_solved": 13,
+          "rank": 4,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 41.72932330827068,
+          "problems_solved": 8,
+          "rank": 10,
+          "total_participants": 20
+        },
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 45.38461538461539,
+          "problems_solved": 6,
+          "rank": 6,
+          "total_participants": 14
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 43.062200956937794,
+          "problems_solved": 6,
+          "rank": 8,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 39.114832535885164,
+          "problems_solved": 6,
+          "rank": 11,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 4.545454545454546,
+          "problems_solved": 1,
+          "rank": 15,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 23.571428571428573,
+          "problems_solved": 2,
+          "rank": 13,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 10,
+      "status": "active",
+      "team_name": "joaohenrique",
+      "total_upsolving": 57,
+      "upsolving_by_contest": {
+        "contest-01": 13,
+        "contest-02": 13,
+        "contest-03": 5,
+        "contest-04": 7,
+        "contest-05": 2,
+        "contest-06": 2,
+        "contest-07": 1,
+        "contest-08": 1,
+        "contest-09": 5,
+        "contest-10": 2,
+        "homework-01": 5,
+        "homework-02": 0,
+        "homework-03": 1,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-06": 0,
+        "homework-07": 0,
+        "homework-08": 0,
+        "homework-09": 0,
+        "homework-10": 0
+      }
+    },
+    "jpojr": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 18.95522388059701,
+          "problems_solved": 1,
+          "rank": 56,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 18.95522388059701,
+          "problems_solved": 1,
+          "rank": 56,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 17.047619047619044,
+          "problems_solved": 3,
+          "rank": 57,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "jeffersonpjunior",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0
+      }
+    },
+    "las4": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 6.923076923076922,
+          "problems_solved": 1,
+          "rank": 13,
+          "total_participants": 14
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "las4",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "homework-06": 0
+      }
+    },
+    "lerf": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 58.35820895522389,
+          "problems_solved": 3,
+          "rank": 30,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 58.35820895522389,
+          "problems_solved": 3,
+          "rank": 30,
+          "total_participants": 68
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 23,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 17.5,
+          "problems_solved": 1,
+          "rank": 19,
+          "total_participants": 21
+        }
+      },
+      "contests_participated": 4,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 28.19047619047619,
+          "problems_solved": 5,
+          "rank": 45,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 1.3636363636363642,
+          "problems_solved": 0,
+          "rank": 53,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "lerf",
+      "total_upsolving": 1,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-05": 1,
+        "contest-06": 0,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "lfsl": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 18.2089552238806,
+          "problems_solved": 1,
+          "rank": 57,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 18.2089552238806,
+          "problems_solved": 1,
+          "rank": 57,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 5.57142857142857,
+          "problems_solved": 1,
+          "rank": 70,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "lfsl",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0
+      }
+    },
+    "lgmmn": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 62.08955223880597,
+          "problems_solved": 3,
+          "rank": 25,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 62.08955223880597,
+          "problems_solved": 3,
+          "rank": 25,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 57.61904761904762,
+          "problems_solved": 11,
+          "rank": 21,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 31.493506493506494,
+          "problems_solved": 5,
+          "rank": 26,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "lgmmn",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "loc2": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 34.17910447761194,
+          "problems_solved": 2,
+          "rank": 49,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 34.17910447761194,
+          "problems_solved": 2,
+          "rank": 49,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 27.441860465116278,
+          "problems_solved": 1,
+          "rank": 29,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 41.111111111111114,
+          "problems_solved": 3,
+          "rank": 29,
+          "total_participants": 37
+        }
+      },
+      "contests_participated": 4,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 28.523809523809526,
+          "problems_solved": 5,
+          "rank": 44,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 15.779220779220779,
+          "problems_solved": 2,
+          "rank": 37,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 8.3011583011583,
+          "problems_solved": 1,
+          "rank": 31,
+          "total_participants": 38
+        }
+      },
+      "homeworks_participated": 3,
+      "status": "active",
+      "team_name": "Lavoisier",
+      "total_upsolving": 2,
+      "upsolving_by_contest": {
+        "contest-01": 1,
+        "contest-02": 1,
+        "contest-03": 0,
+        "contest-04": 0,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0
+      }
+    },
+    "lrf2": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 31.940298507462686,
+          "problems_solved": 2,
+          "rank": 52,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 31.940298507462686,
+          "problems_solved": 2,
+          "rank": 52,
+          "total_participants": 68
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 25.555555555555557,
+          "problems_solved": 2,
+          "rank": 33,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 11.363636363636363,
+          "problems_solved": 1,
+          "rank": 22,
+          "total_participants": 23
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 22.474747474747474,
+          "problems_solved": 1,
+          "rank": 18,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 16.666666666666664,
+          "problems_solved": 1,
+          "rank": 17,
+          "total_participants": 17
+        }
+      },
+      "contests_participated": 6,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 52.714285714285715,
+          "problems_solved": 10,
+          "rank": 25,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 12.142857142857142,
+          "problems_solved": 2,
+          "rank": 45,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 22.2007722007722,
+          "problems_solved": 3,
+          "rank": 21,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 8.125,
+          "problems_solved": 1,
+          "rank": 21,
+          "total_participants": 26
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 27.39234449760766,
+          "problems_solved": 4,
+          "rank": 13,
+          "total_participants": 20
+        }
+      },
+      "homeworks_participated": 5,
+      "status": "active",
+      "team_name": "lumarios",
+      "total_upsolving": 9,
+      "upsolving_by_contest": {
+        "contest-01": 2,
+        "contest-02": 2,
+        "contest-04": 2,
+        "contest-05": 1,
+        "contest-08": 0,
+        "contest-09": 0,
+        "homework-01": 0,
+        "homework-02": 2,
+        "homework-03": 0,
+        "homework-04": 0,
+        "homework-08": 0
+      }
+    },
+    "m4yconn": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 17.38095238095238,
+          "problems_solved": 3,
+          "rank": 56,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "m4yconn",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "homework-01": 0
+      }
+    },
+    "mefc": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 14.477611940298509,
+          "problems_solved": 1,
+          "rank": 62,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 14.477611940298509,
+          "problems_solved": 1,
+          "rank": 62,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 51.714285714285715,
+          "problems_solved": 10,
+          "rank": 28,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "Eduardamefc",
+      "total_upsolving": 2,
+      "upsolving_by_contest": {
+        "contest-01": 1,
+        "contest-02": 1,
+        "homework-01": 0
+      }
+    },
+    "mleticiamn": {
+      "contests": {
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 21.627906976744185,
+          "problems_solved": 1,
+          "rank": 34,
+          "total_participants": 44
+        }
+      },
+      "contests_participated": 1,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 52.38095238095238,
+          "problems_solved": 10,
+          "rank": 26,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 12.597402597402596,
+          "problems_solved": 2,
+          "rank": 44,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 17.953667953667953,
+          "problems_solved": 2,
+          "rank": 22,
+          "total_participants": 38
+        }
+      },
+      "homeworks_participated": 3,
+      "status": "active",
+      "team_name": "mleticiamn",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-03": 0,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0
+      }
+    },
+    "mlv": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 118.50746268656717,
+          "problems_solved": 7,
+          "rank": 3,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 118.50746268656717,
+          "problems_solved": 7,
+          "rank": 3,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 128.83720930232556,
+          "problems_solved": 8,
+          "rank": 2,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 123.05555555555556,
+          "problems_solved": 8,
+          "rank": 6,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 118.18181818181819,
+          "problems_solved": 8,
+          "rank": 3,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 115.0,
+          "problems_solved": 6,
+          "rank": 5,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 117.77777777777779,
+          "problems_solved": 7,
+          "rank": 5,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 147.72727272727272,
+          "problems_solved": 9,
+          "rank": 2,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 150.0,
+          "problems_solved": 6,
+          "rank": 1,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 102.77777777777779,
+          "problems_solved": 7,
+          "rank": 8,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 75.0,
+          "problems_solved": 14,
+          "rank": 1,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 75.0,
+          "problems_solved": 14,
+          "rank": 1,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 70.75289575289575,
+          "problems_solved": 13,
+          "rank": 2,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 75.0,
+          "problems_solved": 16,
+          "rank": 1,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 75.0,
+          "problems_solved": 14,
+          "rank": 1,
+          "total_participants": 20
+        },
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 75.0,
+          "problems_solved": 10,
+          "rank": 1,
+          "total_participants": 14
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 64.5933014354067,
+          "problems_solved": 9,
+          "rank": 2,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 67.82296650717703,
+          "problems_solved": 10,
+          "rank": 3,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 64.12337662337663,
+          "problems_solved": 9,
+          "rank": 2,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 59.64285714285714,
+          "problems_solved": 4,
+          "rank": 4,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 10,
+      "status": "active",
+      "team_name": "matheuslafayette",
+      "total_upsolving": 45,
+      "upsolving_by_contest": {
+        "contest-01": 6,
+        "contest-02": 6,
+        "contest-03": 5,
+        "contest-04": 4,
+        "contest-05": 3,
+        "contest-06": 5,
+        "contest-07": 4,
+        "contest-08": 2,
+        "contest-09": 2,
+        "contest-10": 5,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 1,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-06": 2,
+        "homework-07": 0,
+        "homework-08": 0,
+        "homework-09": 0,
+        "homework-10": 0
+      }
+    },
+    "msnc": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 53.88059701492537,
+          "problems_solved": 3,
+          "rank": 36,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 53.88059701492537,
+          "problems_solved": 3,
+          "rank": 36,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 54.41860465116279,
+          "problems_solved": 3,
+          "rank": 23,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 104.72222222222223,
+          "problems_solved": 7,
+          "rank": 12,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 86.36363636363636,
+          "problems_solved": 6,
+          "rank": 9,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 87.5,
+          "problems_solved": 5,
+          "rank": 11,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 85.55555555555556,
+          "problems_solved": 5,
+          "rank": 9,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 87.37373737373737,
+          "problems_solved": 5,
+          "rank": 9,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 65.625,
+          "problems_solved": 3,
+          "rank": 12,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 135.3174603174603,
+          "problems_solved": 8,
+          "rank": 2,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 67.42857142857143,
+          "problems_solved": 13,
+          "rank": 13,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 69.6103896103896,
+          "problems_solved": 13,
+          "rank": 5,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 60.23166023166023,
+          "problems_solved": 11,
+          "rank": 7,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 54.375,
+          "problems_solved": 11,
+          "rank": 6,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 63.90977443609022,
+          "problems_solved": 12,
+          "rank": 4,
+          "total_participants": 20
+        },
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 31.53846153846154,
+          "problems_solved": 4,
+          "rank": 8,
+          "total_participants": 14
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 57.41626794258373,
+          "problems_solved": 8,
+          "rank": 4,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 66.50717703349282,
+          "problems_solved": 10,
+          "rank": 4,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 37.98701298701299,
+          "problems_solved": 6,
+          "rank": 9,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 57.85714285714286,
+          "problems_solved": 4,
+          "rank": 5,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 10,
+      "status": "active",
+      "team_name": "MiguelNogueira",
+      "total_upsolving": 88,
+      "upsolving_by_contest": {
+        "contest-01": 10,
+        "contest-02": 10,
+        "contest-03": 10,
+        "contest-04": 5,
+        "contest-05": 5,
+        "contest-06": 6,
+        "contest-07": 5,
+        "contest-08": 6,
+        "contest-09": 5,
+        "contest-10": 3,
+        "homework-01": 1,
+        "homework-02": 1,
+        "homework-03": 3,
+        "homework-04": 4,
+        "homework-05": 2,
+        "homework-06": 5,
+        "homework-07": 3,
+        "homework-08": 4,
+        "homework-09": 0,
+        "homework-10": 0
+      }
+    },
+    "palao": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 1.4925373134328346,
+          "problems_solved": 0,
+          "rank": 66,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 1.4925373134328346,
+          "problems_solved": 0,
+          "rank": 66,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 44,
+          "total_participants": 44
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 7.500000000000001,
+          "problems_solved": 0,
+          "rank": 18,
+          "total_participants": 21
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 15,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 5,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 10.809523809523807,
+          "problems_solved": 2,
+          "rank": 65,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 20.714285714285715,
+          "problems_solved": 3,
+          "rank": 34,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 11.003861003861003,
+          "problems_solved": 1,
+          "rank": 27,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 4.000000000000001,
+          "problems_solved": 0,
+          "rank": 22,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 4.887218045112784,
+          "problems_solved": 1,
+          "rank": 19,
+          "total_participants": 20
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 24.162679425837318,
+          "problems_solved": 3,
+          "rank": 12,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 8.492822966507179,
+          "problems_solved": 1,
+          "rank": 17,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 6.331168831168831,
+          "problems_solved": 1,
+          "rank": 14,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 1.785714285714285,
+          "problems_solved": 0,
+          "rank": 14,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 9,
+      "status": "active",
+      "team_name": "paulohltc",
+      "total_upsolving": 7,
+      "upsolving_by_contest": {
+        "contest-01": 2,
+        "contest-02": 2,
+        "contest-03": 2,
+        "contest-07": 0,
+        "contest-10": 1,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-04": 0,
+        "homework-05": 0,
+        "homework-07": 0,
+        "homework-08": 0,
+        "homework-09": 0,
+        "homework-10": 0
+      }
+    },
+    "pco2": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 1.6666666666666663,
+          "problems_solved": 0,
+          "rank": 71,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "pco2",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "homework-01": 0
+      }
+    },
+    "pgoq": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 5.904761904761905,
+          "problems_solved": 1,
+          "rank": 69,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 6.753246753246755,
+          "problems_solved": 1,
+          "rank": 49,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 9.65250965250965,
+          "problems_solved": 1,
+          "rank": 29,
+          "total_participants": 38
+        }
+      },
+      "homeworks_participated": 3,
+      "status": "active",
+      "team_name": "pgoq",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0
+      }
+    },
+    "rabs4": {
+      "contests_participated": 0,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 0.3333333333333327,
+          "problems_solved": 0,
+          "rank": 75,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "rafaelvlt",
+      "total_upsolving": 3,
+      "upsolving_by_contest": {
+        "homework-01": 3
+      }
+    },
+    "resm": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 2.2388059701492544,
+          "problems_solved": 0,
+          "rank": 65,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 2.2388059701492544,
+          "problems_solved": 0,
+          "rank": 65,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 1.1627906976744207,
+          "problems_solved": 0,
+          "rank": 43,
+          "total_participants": 44
+        }
+      },
+      "contests_participated": 3,
+      "homeworks": {
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 2.2727272727272734,
+          "problems_solved": 0,
+          "rank": 51,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 2.7027027027027026,
+          "problems_solved": 0,
+          "rank": 34,
+          "total_participants": 38
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 20,
+          "total_participants": 20
+        }
+      },
+      "homeworks_participated": 3,
+      "status": "active",
+      "team_name": "Ryei_Estevan",
+      "total_upsolving": 3,
+      "upsolving_by_contest": {
+        "contest-01": 1,
+        "contest-02": 1,
+        "contest-03": 1,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-05": 0
+      }
+    },
+    "rgaw": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 17.462686567164177,
+          "problems_solved": 1,
+          "rank": 58,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 17.462686567164177,
+          "problems_solved": 1,
+          "rank": 58,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 16.047619047619047,
+          "problems_solved": 3,
+          "rank": 60,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 0.4545454545454547,
+          "problems_solved": 0,
+          "rank": 55,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "renata_alves",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "rmcm": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 80.29850746268656,
+          "problems_solved": 4,
+          "rank": 14,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 80.29850746268656,
+          "problems_solved": 4,
+          "rank": 14,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 87.2093023255814,
+          "problems_solved": 5,
+          "rank": 12,
+          "total_participants": 44
+        }
+      },
+      "contests_participated": 3,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 53.04761904761905,
+          "problems_solved": 10,
+          "rank": 24,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 56.16883116883117,
+          "problems_solved": 10,
+          "rank": 11,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 15.250965250965251,
+          "problems_solved": 2,
+          "rank": 26,
+          "total_participants": 38
+        }
+      },
+      "homeworks_participated": 3,
+      "status": "active",
+      "team_name": "rmcm",
+      "total_upsolving": 9,
+      "upsolving_by_contest": {
+        "contest-01": 4,
+        "contest-02": 4,
+        "contest-03": 0,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 1
+      }
+    },
+    "rrcv2": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 65.07462686567165,
+          "problems_solved": 3,
+          "rank": 21,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 65.07462686567165,
+          "problems_solved": 3,
+          "rank": 21,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 42.093023255813954,
+          "problems_solved": 2,
+          "rank": 25,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 14.166666666666668,
+          "problems_solved": 1,
+          "rank": 34,
+          "total_participants": 37
+        }
+      },
+      "contests_participated": 4,
+      "homeworks_participated": 0,
+      "status": "active",
+      "team_name": "rrcv2",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 0,
+        "contest-04": 0
+      }
+    },
+    "rrs6": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 104.02985074626866,
+          "problems_solved": 6,
+          "rank": 9,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 104.02985074626866,
+          "problems_solved": 6,
+          "rank": 9,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 88.37209302325581,
+          "problems_solved": 5,
+          "rank": 11,
+          "total_participants": 44
+        }
+      },
+      "contests_participated": 3,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 21.285714285714285,
+          "problems_solved": 4,
+          "rank": 55,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 7.207792207792209,
+          "problems_solved": 1,
+          "rank": 48,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "Rafael_Rodrigues",
+      "total_upsolving": 20,
+      "upsolving_by_contest": {
+        "contest-01": 4,
+        "contest-02": 4,
+        "contest-03": 3,
+        "homework-01": 9,
+        "homework-02": 0
+      }
+    },
+    "rsc8": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 31.19402985074627,
+          "problems_solved": 2,
+          "rank": 53,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 31.19402985074627,
+          "problems_solved": 2,
+          "rank": 53,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 16.976744186046513,
+          "problems_solved": 1,
+          "rank": 38,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 52.5,
+          "problems_solved": 4,
+          "rank": 28,
+          "total_participants": 37
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 20.0,
+          "problems_solved": 1,
+          "rank": 18,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 24.747474747474747,
+          "problems_solved": 1,
+          "rank": 17,
+          "total_participants": 23
+        }
+      },
+      "contests_participated": 6,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 42.9047619047619,
+          "problems_solved": 8,
+          "rank": 33,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 13.506493506493506,
+          "problems_solved": 2,
+          "rank": 42,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 10.328185328185327,
+          "problems_solved": 1,
+          "rank": 28,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 1.0000000000000009,
+          "problems_solved": 0,
+          "rank": 25,
+          "total_participants": 26
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 2.631578947368421,
+          "problems_solved": 0,
+          "rank": 18,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 20,
+          "total_participants": 20
+        }
+      },
+      "homeworks_participated": 6,
+      "status": "active",
+      "team_name": "rsc8",
+      "total_upsolving": 17,
+      "upsolving_by_contest": {
+        "contest-01": 4,
+        "contest-02": 4,
+        "contest-03": 2,
+        "contest-04": 1,
+        "contest-06": 0,
+        "contest-08": 0,
+        "homework-01": 4,
+        "homework-02": 0,
+        "homework-03": 0,
+        "homework-04": 1,
+        "homework-07": 0,
+        "homework-08": 1
+      }
+    },
+    "stepple": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 43.134328358208954,
+          "problems_solved": 2,
+          "rank": 37,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 43.134328358208954,
+          "problems_solved": 2,
+          "rank": 37,
+          "total_participants": 68
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 90.55555555555556,
+          "problems_solved": 6,
+          "rank": 15,
+          "total_participants": 37
+        }
+      },
+      "contests_participated": 3,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 26.857142857142858,
+          "problems_solved": 5,
+          "rank": 49,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 27.01298701298701,
+          "problems_solved": 4,
+          "rank": 28,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 2.027027027027026,
+          "problems_solved": 0,
+          "rank": 35,
+          "total_participants": 38
+        }
+      },
+      "homeworks_participated": 3,
+      "status": "active",
+      "team_name": "stepple",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-04": 0,
+        "homework-01": 0,
+        "homework-02": 0,
+        "homework-03": 0
+      }
+    },
+    "tca": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 75.82089552238807,
+          "problems_solved": 4,
+          "rank": 20,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 75.82089552238807,
+          "problems_solved": 4,
+          "rank": 20,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 82.55813953488372,
+          "problems_solved": 5,
+          "rank": 16,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 87.77777777777777,
+          "problems_solved": 6,
+          "rank": 17,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 50.0,
+          "problems_solved": 4,
+          "rank": 17,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 35.0,
+          "problems_solved": 2,
+          "rank": 17,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 2.500000000000002,
+          "problems_solved": 0,
+          "rank": 20,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 69.44444444444444,
+          "problems_solved": 4,
+          "rank": 12,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 101.04166666666666,
+          "problems_solved": 4,
+          "rank": 6,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 131.74603174603175,
+          "problems_solved": 8,
+          "rank": 3,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 42.57142857142857,
+          "problems_solved": 8,
+          "rank": 34,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 31.03896103896104,
+          "problems_solved": 5,
+          "rank": 27,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 6.949806949806948,
+          "problems_solved": 1,
+          "rank": 33,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 0.0,
+          "problems_solved": 0,
+          "rank": 26,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 23.1203007518797,
+          "problems_solved": 5,
+          "rank": 16,
+          "total_participants": 20
+        },
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 5.0,
+          "problems_solved": 1,
+          "rank": 14,
+          "total_participants": 14
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 41.74641148325359,
+          "problems_solved": 6,
+          "rank": 9,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 47.60765550239234,
+          "problems_solved": 7,
+          "rank": 8,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 47.88961038961038,
+          "problems_solved": 7,
+          "rank": 6,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 38.92857142857143,
+          "problems_solved": 3,
+          "rank": 10,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 10,
+      "status": "active",
+      "team_name": "toni_amorim",
+      "total_upsolving": 103,
+      "upsolving_by_contest": {
+        "contest-01": 7,
+        "contest-02": 7,
+        "contest-03": 8,
+        "contest-04": 5,
+        "contest-05": 7,
+        "contest-06": 8,
+        "contest-07": 10,
+        "contest-08": 3,
+        "contest-09": 2,
+        "contest-10": 0,
+        "homework-01": 3,
+        "homework-02": 5,
+        "homework-03": 9,
+        "homework-04": 4,
+        "homework-05": 5,
+        "homework-06": 3,
+        "homework-07": 1,
+        "homework-08": 8,
+        "homework-09": 6,
+        "homework-10": 2
+      }
+    },
+    "tcl": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 64.32835820895522,
+          "problems_solved": 3,
+          "rank": 22,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 64.32835820895522,
+          "problems_solved": 3,
+          "rank": 22,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 56.74418604651163,
+          "problems_solved": 3,
+          "rank": 21,
+          "total_participants": 44
+        }
+      },
+      "contests_participated": 3,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 68.76190476190476,
+          "problems_solved": 13,
+          "rank": 9,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 37.33766233766234,
+          "problems_solved": 6,
+          "rank": 21,
+          "total_participants": 56
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "tomclima",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "contest-03": 0,
+        "homework-01": 0,
+        "homework-02": 0
+      }
+    },
+    "vbrj": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 15.970149253731343,
+          "problems_solved": 1,
+          "rank": 60,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 15.970149253731343,
+          "problems_solved": 1,
+          "rank": 60,
+          "total_participants": 68
+        }
+      },
+      "contests_participated": 2,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 16.38095238095238,
+          "problems_solved": 3,
+          "rank": 59,
+          "total_participants": 76
+        }
+      },
+      "homeworks_participated": 1,
+      "status": "active",
+      "team_name": "vbrj",
+      "total_upsolving": 0,
+      "upsolving_by_contest": {
+        "contest-01": 0,
+        "contest-02": 0,
+        "homework-01": 0
+      }
+    },
+    "vlacerda": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 0.7462686567164201,
+          "problems_solved": 0,
+          "rank": 67,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 0.7462686567164201,
+          "problems_solved": 0,
+          "rank": 67,
+          "total_participants": 68
+        },
+        "contest-03": {
+          "max_problems_solved": 10,
+          "points_earned": 15.813953488372093,
+          "problems_solved": 1,
+          "rank": 39,
+          "total_participants": 44
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 107.5,
+          "problems_solved": 7,
+          "rank": 10,
+          "total_participants": 37
+        },
+        "contest-05": {
+          "max_problems_solved": 11,
+          "points_earned": 79.54545454545453,
+          "problems_solved": 6,
+          "rank": 12,
+          "total_participants": 23
+        },
+        "contest-06": {
+          "max_problems_solved": 8,
+          "points_earned": 67.5,
+          "problems_solved": 4,
+          "rank": 14,
+          "total_participants": 21
+        },
+        "contest-07": {
+          "max_problems_solved": 9,
+          "points_earned": 83.05555555555556,
+          "problems_solved": 5,
+          "rank": 10,
+          "total_participants": 21
+        },
+        "contest-08": {
+          "max_problems_solved": 9,
+          "points_earned": 11.11111111111111,
+          "problems_solved": 1,
+          "rank": 23,
+          "total_participants": 23
+        },
+        "contest-09": {
+          "max_problems_solved": 6,
+          "points_earned": 62.5,
+          "problems_solved": 3,
+          "rank": 13,
+          "total_participants": 17
+        },
+        "contest-10": {
+          "max_problems_solved": 9,
+          "points_earned": 51.58730158730159,
+          "problems_solved": 4,
+          "rank": 13,
+          "total_participants": 15
+        }
+      },
+      "contests_participated": 10,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 26.523809523809526,
+          "problems_solved": 5,
+          "rank": 50,
+          "total_participants": 76
+        },
+        "homework-02": {
+          "max_problems_solved": 14,
+          "points_earned": 19.805194805194805,
+          "problems_solved": 3,
+          "rank": 36,
+          "total_participants": 56
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 27.7992277992278,
+          "problems_solved": 4,
+          "rank": 18,
+          "total_participants": 38
+        },
+        "homework-04": {
+          "max_problems_solved": 16,
+          "points_earned": 31.75,
+          "problems_solved": 6,
+          "rank": 13,
+          "total_participants": 26
+        },
+        "homework-05": {
+          "max_problems_solved": 14,
+          "points_earned": 65.22556390977444,
+          "problems_solved": 12,
+          "rank": 3,
+          "total_participants": 20
+        },
+        "homework-06": {
+          "max_problems_solved": 10,
+          "points_earned": 68.07692307692308,
+          "problems_solved": 9,
+          "rank": 2,
+          "total_participants": 14
+        },
+        "homework-07": {
+          "max_problems_solved": 11,
+          "points_earned": 45.69377990430622,
+          "problems_solved": 6,
+          "rank": 6,
+          "total_participants": 20
+        },
+        "homework-08": {
+          "max_problems_solved": 11,
+          "points_earned": 54.78468899521532,
+          "problems_solved": 8,
+          "rank": 6,
+          "total_participants": 20
+        },
+        "homework-09": {
+          "max_problems_solved": 11,
+          "points_earned": 56.00649350649351,
+          "problems_solved": 8,
+          "rank": 4,
+          "total_participants": 15
+        },
+        "homework-10": {
+          "max_problems_solved": 5,
+          "points_earned": 61.42857142857143,
+          "problems_solved": 4,
+          "rank": 3,
+          "total_participants": 15
+        }
+      },
+      "homeworks_participated": 10,
+      "status": "active",
+      "team_name": "vlacerda",
+      "total_upsolving": 63,
+      "upsolving_by_contest": {
+        "contest-01": 5,
+        "contest-02": 5,
+        "contest-03": 11,
+        "contest-04": 2,
+        "contest-05": 5,
+        "contest-06": 4,
+        "contest-07": 3,
+        "contest-08": 6,
+        "contest-09": 4,
+        "contest-10": 8,
+        "homework-01": 7,
+        "homework-02": 1,
+        "homework-03": 0,
+        "homework-04": 2,
+        "homework-05": 0,
+        "homework-06": 0,
+        "homework-07": 0,
+        "homework-08": 0,
+        "homework-09": 0,
+        "homework-10": 0
+      }
+    },
+    "vpbm": {
+      "contests": {
+        "contest-01": {
+          "max_problems_solved": 10,
+          "points_earned": 13.731343283582088,
+          "problems_solved": 1,
+          "rank": 63,
+          "total_participants": 68
+        },
+        "contest-02": {
+          "max_problems_solved": 10,
+          "points_earned": 13.731343283582088,
+          "problems_solved": 1,
+          "rank": 63,
+          "total_participants": 68
+        },
+        "contest-04": {
+          "max_problems_solved": 10,
+          "points_earned": 38.33333333333333,
+          "problems_solved": 3,
+          "rank": 31,
+          "total_participants": 37
+        }
+      },
+      "contests_participated": 3,
+      "homeworks": {
+        "homework-01": {
+          "max_problems_solved": 14,
+          "points_earned": 43.238095238095234,
+          "problems_solved": 8,
+          "rank": 32,
+          "total_participants": 76
+        },
+        "homework-03": {
+          "max_problems_solved": 14,
+          "points_earned": 16.602316602316602,
+          "problems_solved": 2,
+          "rank": 24,
+          "total_participants": 38
+        }
+      },
+      "homeworks_participated": 2,
+      "status": "active",
+      "team_name": "vpbm",
+      "total_upsolving": 5,
+      "upsolving_by_contest": {
+        "contest-01": 2,
+        "contest-02": 2,
+        "contest-04": 0,
+        "homework-01": 1,
+        "homework-03": 0
+      }
+    }
+  },
+  "config": {
+    "contest_problems_weight": 100.0,
+    "contests_to_double": 11,
+    "homework_contests_to_double": 11,
+    "homework_problems_weight": 50.0,
+    "homework_rank_bonus_max": 10.0,
+    "homework_rank_bonus_top_n": 5,
+    "rank_bonus_max": 20.0,
+    "rank_bonus_top_n": 10,
+    "upsolving_points_per_problem": 5.0
+  },
+  "processed_contests": {
+    "contest-01": {
+      "contest_order_index": 10,
+      "duration_minutes": 300,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 10,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "<rocg>",
+        "???%",
+        "?lvaro Negromonte",
+        "Bianca",
+        "Caio",
+        "Dggb",
+        "GioMafra",
+        "GuilhermeMuniz",
+        "Gustavo S",
+        "Heitor Cordeiro",
+        "Heitor Riquelme",
+        "Hugo Medeiros",
+        "Italo",
+        "Ivison (irs3",
+        "J?ssyca Ferreira",
+        "Jo?o",
+        "Jo?o Lopes",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Lao2",
+        "Lucas Guimar?es<lgf>",
+        "Lucas Vidal",
+        "Marcos Gabriel",
+        "Mariana",
+        "Paulo <pvas2>",
+        "Pedro Dantas",
+        "Pedro Moraes",
+        "Peter Garrett",
+        "Rodrigo Gomes",
+        "Thawan",
+        "Vpd",
+        "Vyni",
+        "agaf2",
+        "andre f [??]",
+        "caions",
+        "edu-p",
+        "espindoolaa",
+        "fpm3",
+        "frqal",
+        "fso2",
+        "gbm2",
+        "guui",
+        "gvnb",
+        "hmp",
+        "joaohl19",
+        "jpojr",
+        "lerf",
+        "lfsl",
+        "lgmmn",
+        "loc2",
+        "lrf2",
+        "mefc",
+        "mlv",
+        "msnc",
+        "palao",
+        "resm",
+        "rgaw",
+        "rmcm",
+        "rrcv2",
+        "rrs6",
+        "rsc8",
+        "stepple",
+        "tca",
+        "tcl",
+        "vbrj",
+        "vlacerda",
+        "vpbm"
+      ],
+      "total_participants": 68,
+      "type": "ontime"
+    },
+    "contest-02": {
+      "contest_order_index": 10,
+      "duration_minutes": 300,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 10,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "<rocg>",
+        "???%",
+        "?lvaro Negromonte",
+        "Bianca",
+        "Caio",
+        "Dggb",
+        "GioMafra",
+        "GuilhermeMuniz",
+        "Gustavo S",
+        "Heitor Cordeiro",
+        "Heitor Riquelme",
+        "Hugo Medeiros",
+        "Italo",
+        "Ivison (irs3",
+        "J?ssyca Ferreira",
+        "Jo?o",
+        "Jo?o Lopes",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Lao2",
+        "Lucas Guimar?es<lgf>",
+        "Lucas Vidal",
+        "Marcos Gabriel",
+        "Mariana",
+        "Paulo <pvas2>",
+        "Pedro Dantas",
+        "Pedro Moraes",
+        "Peter Garrett",
+        "Rodrigo Gomes",
+        "Thawan",
+        "Vpd",
+        "Vyni",
+        "agaf2",
+        "andre f [??]",
+        "caions",
+        "edu-p",
+        "espindoolaa",
+        "fpm3",
+        "frqal",
+        "fso2",
+        "gbm2",
+        "guui",
+        "gvnb",
+        "hmp",
+        "joaohl19",
+        "jpojr",
+        "lerf",
+        "lfsl",
+        "lgmmn",
+        "loc2",
+        "lrf2",
+        "mefc",
+        "mlv",
+        "msnc",
+        "palao",
+        "resm",
+        "rgaw",
+        "rmcm",
+        "rrcv2",
+        "rrs6",
+        "rsc8",
+        "stepple",
+        "tca",
+        "tcl",
+        "vbrj",
+        "vlacerda",
+        "vpbm"
+      ],
+      "total_participants": 68,
+      "type": "ontime"
+    },
+    "contest-03": {
+      "contest_order_index": 10,
+      "duration_minutes": 300,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 10,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "???%",
+        "?lvaro Negromonte",
+        "Bianca",
+        "Dggb",
+        "GioMafra",
+        "Heitor Riquelme",
+        "Hugo Medeiros",
+        "Italo",
+        "Ivison (irs3",
+        "J?lio C?sar",
+        "J?ssyca Ferreira",
+        "Jo?o",
+        "Jo?o Lopes",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Lucas Vidal",
+        "Marcos Gabriel",
+        "Mariana",
+        "Paula N?brega",
+        "Peter Garrett",
+        "Rodrigo Gomes",
+        "Thawan",
+        "agaf2",
+        "andre f [??]",
+        "caions",
+        "edu-p",
+        "fpm3",
+        "frqal",
+        "guui",
+        "joaohl19",
+        "loc2",
+        "mleticiamn",
+        "mlv",
+        "msnc",
+        "palao",
+        "resm",
+        "rmcm",
+        "rrcv2",
+        "rrs6",
+        "rsc8",
+        "tca",
+        "tcl",
+        "vlacerda"
+      ],
+      "total_participants": 44,
+      "type": "ontime"
+    },
+    "contest-04": {
+      "contest_order_index": 10,
+      "duration_minutes": 300,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 10,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "???%",
+        "?lvaro Negromonte",
+        "Dggb",
+        "GioMafra",
+        "Heitor Riquelme",
+        "Hugo Medeiros",
+        "Italo",
+        "Ivison (irs3",
+        "J?ssyca Ferreira",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Lucas Vidal",
+        "Marcos Gabriel",
+        "Mariana",
+        "Peter Garrett",
+        "SamuellH12",
+        "Thawan",
+        "agaf2",
+        "andre f [??]",
+        "caions",
+        "edu-p",
+        "fpm3",
+        "frqal",
+        "guui",
+        "joaohl19",
+        "loc2",
+        "lrf2",
+        "mlv",
+        "msnc",
+        "rrcv2",
+        "rsc8",
+        "stepple",
+        "tca",
+        "vlacerda",
+        "vpbm"
+      ],
+      "total_participants": 37,
+      "type": "ontime"
+    },
+    "contest-05": {
+      "contest_order_index": 10,
+      "duration_minutes": 300,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 11,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "GioMafra",
+        "Hugo Medeiros",
+        "Italo",
+        "Ivison (irs3",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Marcos Gabriel",
+        "Mariana",
+        "Peter Garrett",
+        "Thawan",
+        "andre f [??]",
+        "caions",
+        "fpm3",
+        "guui",
+        "joaohl19",
+        "lerf",
+        "lrf2",
+        "mlv",
+        "msnc",
+        "tca",
+        "vlacerda"
+      ],
+      "total_participants": 23,
+      "type": "ontime"
+    },
+    "contest-06": {
+      "contest_order_index": 10,
+      "duration_minutes": 300,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 8,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "GioMafra",
+        "Hugo Medeiros",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Marcos Gabriel",
+        "Mariana",
+        "Peter Garrett",
+        "Thawan",
+        "andre f [??]",
+        "caions",
+        "fpm3",
+        "guui",
+        "joaohl19",
+        "lerf",
+        "mlv",
+        "msnc",
+        "rsc8",
+        "tca",
+        "vlacerda"
+      ],
+      "total_participants": 21,
+      "type": "ontime"
+    },
+    "contest-07": {
+      "contest_order_index": 10,
+      "duration_minutes": 300,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 9,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "GioMafra",
+        "Hugo Medeiros",
+        "Italo",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Marcos Gabriel",
+        "Mariana",
+        "Peter Garrett",
+        "Thawan",
+        "andre f [??]",
+        "caions",
+        "fpm3",
+        "guui",
+        "joaohl19",
+        "mlv",
+        "msnc",
+        "palao",
+        "tca",
+        "vlacerda"
+      ],
+      "total_participants": 21,
+      "type": "ontime"
+    },
+    "contest-08": {
+      "contest_order_index": 10,
+      "duration_minutes": 300,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 9,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "Dggb",
+        "GioMafra",
+        "Hugo Medeiros",
+        "Italo",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Marcos Gabriel",
+        "Mariana",
+        "Peter Garrett",
+        "Thawan",
+        "andre f [??]",
+        "caions",
+        "fpm3",
+        "guui",
+        "joaohl19",
+        "lrf2",
+        "mlv",
+        "msnc",
+        "rsc8",
+        "tca",
+        "vlacerda"
+      ],
+      "total_participants": 23,
+      "type": "ontime"
+    },
+    "contest-09": {
+      "contest_order_index": 10,
+      "duration_minutes": 300,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 6,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "GioMafra",
+        "Hugo Medeiros",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Lucas Guimar?es<lgf>",
+        "Marcos Gabriel",
+        "Thawan",
+        "caions",
+        "guui",
+        "joaohl19",
+        "lrf2",
+        "mlv",
+        "msnc",
+        "tca",
+        "vlacerda"
+      ],
+      "total_participants": 17,
+      "type": "ontime"
+    },
+    "contest-10": {
+      "contest_order_index": 10,
+      "duration_minutes": 300,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 9,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "Hugo Medeiros",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Marcos Gabriel",
+        "Thawan",
+        "caions",
+        "guui",
+        "joaohl19",
+        "mlv",
+        "msnc",
+        "palao",
+        "tca",
+        "vlacerda"
+      ],
+      "total_participants": 15,
+      "type": "ontime"
+    },
+    "homework-01": {
+      "contest_order_index": 10,
+      "duration_minutes": 10080,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 14,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "1arth",
+        "???%",
+        "?lvaro Negromonte",
+        "Ariel",
+        "Bianca",
+        "Caio",
+        "Dggb",
+        "DudaC",
+        "GioMafra",
+        "GuilhermeMuniz",
+        "Gustavo S",
+        "Heitor Cordeiro",
+        "Heitor Riquelme",
+        "Hugo Medeiros",
+        "Italo",
+        "Ivison (irs3",
+        "J?lio C?sar",
+        "J?ssyca Ferreira",
+        "Jo?o",
+        "Jo?o Lopes",
+        "Jo?o Lu?s",
+        "Joao Fellows",
+        "Jvrco",
+        "Lao2",
+        "Lucas Guimar?es<lgf>",
+        "Lucas Vidal",
+        "Marcos Gabriel",
+        "Mariana",
+        "Marina Rodas",
+        "Paulo <pvas2>",
+        "Pedro Dantas",
+        "Pedro Moraes",
+        "Peter Garrett",
+        "R?gis",
+        "Rodrigo Gomes",
+        "Thawan",
+        "Vpd",
+        "agaf2",
+        "andre f [??]",
+        "arielszz",
+        "caions",
+        "edu-p",
+        "espindoolaa",
+        "fpm3",
+        "frqal",
+        "fso2",
+        "gbm2",
+        "guui",
+        "hmp",
+        "joaohl19",
+        "jpojr",
+        "lerf",
+        "lfsl",
+        "lgmmn",
+        "loc2",
+        "lrf2",
+        "m4yconn",
+        "mefc",
+        "mleticiamn",
+        "mlv",
+        "msnc",
+        "palao",
+        "pco2",
+        "pgoq",
+        "rabs4",
+        "rgaw",
+        "rmcm",
+        "rrs6",
+        "rsc8",
+        "stepple",
+        "tca",
+        "tcl",
+        "vbrj",
+        "vlacerda",
+        "vpbm"
+      ],
+      "total_participants": 76,
+      "type": "homework"
+    },
+    "homework-02": {
+      "contest_order_index": 10,
+      "duration_minutes": 10080,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 14,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "???%",
+        "?lvaro Negromonte",
+        "Bianca",
+        "Cleber",
+        "Dggb",
+        "GioMafra",
+        "Gustavo S",
+        "Heitor Cordeiro",
+        "Heitor Riquelme",
+        "Hugo Medeiros",
+        "Italo",
+        "Ivison (irs3",
+        "J?lio C?sar",
+        "J?ssyca Ferreira",
+        "Jo?o",
+        "Jo?o Lopes",
+        "Jo?o Lu?s",
+        "Joao Fellows",
+        "Jpds",
+        "Jvrco",
+        "Lao2",
+        "Lucas Guimar?es<lgf>",
+        "Lucas Vidal",
+        "Marcos Gabriel",
+        "Mariana",
+        "Peter Garrett",
+        "Rodrigo Gomes",
+        "Thawan",
+        "agaf2",
+        "andre f [??]",
+        "caions",
+        "fpm3",
+        "frqal",
+        "fso2",
+        "guui",
+        "hmp",
+        "joaohl19",
+        "lerf",
+        "lgmmn",
+        "loc2",
+        "lrf2",
+        "mleticiamn",
+        "mlv",
+        "msnc",
+        "palao",
+        "pgoq",
+        "resm",
+        "rgaw",
+        "rmcm",
+        "rrs6",
+        "rsc8",
+        "stepple",
+        "tca",
+        "tcl",
+        "vlacerda"
+      ],
+      "total_participants": 56,
+      "type": "homework"
+    },
+    "homework-03": {
+      "contest_order_index": 10,
+      "duration_minutes": 10080,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 14,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "???%",
+        "BerSiqueira",
+        "Bianca",
+        "GioMafra",
+        "Hugo Medeiros",
+        "Ivison (irs3",
+        "J?ssyca Ferreira",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Lucas Guimar?es<lgf>",
+        "Marcos Gabriel",
+        "Mariana",
+        "Rodrigo Gomes",
+        "SamuellH12",
+        "Thawan",
+        "agaf2",
+        "andre f [??]",
+        "caions",
+        "fpm3",
+        "frqal",
+        "guui",
+        "joaohl19",
+        "loc2",
+        "lrf2",
+        "mleticiamn",
+        "mlv",
+        "msnc",
+        "palao",
+        "pgoq",
+        "resm",
+        "rmcm",
+        "rsc8",
+        "stepple",
+        "tca",
+        "vlacerda",
+        "vpbm"
+      ],
+      "total_participants": 38,
+      "type": "homework"
+    },
+    "homework-04": {
+      "contest_order_index": 10,
+      "duration_minutes": 10080,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 16,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "???%",
+        "Bianca",
+        "GioMafra",
+        "Hugo Medeiros",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Lucas Guimar?es<lgf>",
+        "Marcos Gabriel",
+        "Mariana",
+        "Peter Garrett",
+        "Thawan",
+        "andre f [??]",
+        "caions",
+        "frqal",
+        "gabmei",
+        "guui",
+        "joaohl19",
+        "lrf2",
+        "mlv",
+        "msnc",
+        "palao",
+        "rsc8",
+        "tca",
+        "vlacerda"
+      ],
+      "total_participants": 26,
+      "type": "homework"
+    },
+    "homework-05": {
+      "contest_order_index": 10,
+      "duration_minutes": 10080,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 14,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "GioMafra",
+        "Hugo Medeiros",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Marcos Gabriel",
+        "Mariana",
+        "Peter Garrett",
+        "Thawan",
+        "andre f [??]",
+        "caions",
+        "guui",
+        "joaohl19",
+        "mlv",
+        "msnc",
+        "palao",
+        "resm",
+        "tca",
+        "vlacerda"
+      ],
+      "total_participants": 20,
+      "type": "homework"
+    },
+    "homework-06": {
+      "contest_order_index": 10,
+      "duration_minutes": 10080,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 10,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "Hugo Medeiros",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Marcos Gabriel",
+        "andre f [??]",
+        "caions",
+        "joaohl19",
+        "las4",
+        "mlv",
+        "msnc",
+        "tca",
+        "vlacerda"
+      ],
+      "total_participants": 14,
+      "type": "homework"
+    },
+    "homework-07": {
+      "contest_order_index": 10,
+      "duration_minutes": 10080,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 11,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "Dggb",
+        "GioMafra",
+        "Hugo Medeiros",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Marcos Gabriel",
+        "Peter Garrett",
+        "Thawan",
+        "andre f [??]",
+        "caions",
+        "guui",
+        "joaohl19",
+        "mlv",
+        "msnc",
+        "palao",
+        "rsc8",
+        "tca",
+        "vlacerda"
+      ],
+      "total_participants": 20,
+      "type": "homework"
+    },
+    "homework-08": {
+      "contest_order_index": 10,
+      "duration_minutes": 10080,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 11,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "Dggb",
+        "GioMafra",
+        "Hugo Medeiros",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Marcos Gabriel",
+        "Mariana",
+        "Thawan",
+        "caions",
+        "guui",
+        "joaohl19",
+        "lrf2",
+        "mlv",
+        "msnc",
+        "palao",
+        "rsc8",
+        "tca",
+        "vlacerda"
+      ],
+      "total_participants": 20,
+      "type": "homework"
+    },
+    "homework-09": {
+      "contest_order_index": 10,
+      "duration_minutes": 10080,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 11,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "Hugo Medeiros",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Marcos Gabriel",
+        "Thawan",
+        "caions",
+        "guui",
+        "joaohl19",
+        "mlv",
+        "msnc",
+        "palao",
+        "tca",
+        "vlacerda"
+      ],
+      "total_participants": 15,
+      "type": "homework"
+    },
+    "homework-10": {
+      "contest_order_index": 10,
+      "duration_minutes": 10080,
+      "first_processed_date": "2025-10-21",
+      "last_updated_date": "2025-10-28",
+      "max_problems_solved": 5,
+      "participants": [
+        "1_milhao_de_abelhas",
+        "Hugo Medeiros",
+        "Jo?o",
+        "Jo?o Lu?s",
+        "Jvrco",
+        "Marcos Gabriel",
+        "Thawan",
+        "caions",
+        "guui",
+        "joaohl19",
+        "mlv",
+        "msnc",
+        "palao",
+        "tca",
+        "vlacerda"
+      ],
+      "total_participants": 15,
+      "type": "homework"
+    }
+  }
+}

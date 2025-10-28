@@ -28,9 +28,11 @@ std::string ContestProcessor::getCurrentDate() {
 bool ContestProcessor::processScoreboard(
     const std::string& contest_id, const std::string& filename,
     const std::string& contest_type, int contest_duration_minutes,
+    int contest_order_index,
     const models::ScoringConfig& config,
     std::map<std::string, models::CompetitorData>& competitors,
-    std::map<std::string, models::ProcessedContest>& processed_contests) {
+    std::map<std::string, models::ProcessedContest>& processed_contests,
+    bool use_hybrid_scoring) {
     // Open and parse JSON file
     std::ifstream file(filename);
     if (!file.is_open()) {
@@ -128,6 +130,7 @@ bool ContestProcessor::processScoreboard(
     pc.duration_minutes = contest_duration_minutes;
     pc.total_participants = total_participants;
     pc.max_problems_solved = max_ontime_problems;
+    pc.contest_order_index = contest_order_index;
     pc.last_updated_date = getCurrentDate();
 
     if (is_first_time) {
@@ -162,17 +165,38 @@ bool ContestProcessor::processScoreboard(
             perf.max_problems_solved = max_ontime_problems;
 
             if (contest_type == "ontime") {
-                perf.points_earned = ScoreCalculator::calculatePoints(
-                    result.ontime_solved, result.rank, total_participants,
-                    max_ontime_problems, config.contest_problems_weight,
-                    config.contest_rank_bonus);
+                if (use_hybrid_scoring) {
+                    // NEW HYBRID SYSTEM: Base × Compound Multiplier + Rank Bonus
+                    perf.points_earned = ScoreCalculator::calculatePointsHybrid(
+                        result.ontime_solved, result.rank, max_ontime_problems,
+                        config.contest_problems_weight, contest_order_index,
+                        config.contests_to_double, config.rank_bonus_top_n,
+                        config.rank_bonus_max);
+                } else {
+                    // LEGACY SYSTEM
+                    perf.points_earned = ScoreCalculator::calculatePoints(
+                        result.ontime_solved, result.rank, total_participants,
+                        max_ontime_problems, config.contest_problems_weight,
+                        50.0);  // Legacy rank bonus
+                }
                 comp.contests[contest_id] = perf;
                 comp.contests_participated++;
             } else {
-                perf.points_earned = ScoreCalculator::calculatePoints(
-                    result.ontime_solved, result.rank, total_participants,
-                    max_ontime_problems, config.homework_problems_weight,
-                    config.homework_rank_bonus);
+                if (use_hybrid_scoring) {
+                    // NEW HYBRID SYSTEM for homework
+                    perf.points_earned = ScoreCalculator::calculatePointsHybrid(
+                        result.ontime_solved, result.rank, max_ontime_problems,
+                        config.homework_problems_weight, contest_order_index,
+                        config.homework_contests_to_double,
+                        config.homework_rank_bonus_top_n,
+                        config.homework_rank_bonus_max);
+                } else {
+                    // LEGACY SYSTEM
+                    perf.points_earned = ScoreCalculator::calculatePoints(
+                        result.ontime_solved, result.rank, total_participants,
+                        max_ontime_problems, config.homework_problems_weight,
+                        25.0);  // Legacy rank bonus
+                }
                 comp.homeworks[contest_id] = perf;
                 comp.homeworks_participated++;
             }

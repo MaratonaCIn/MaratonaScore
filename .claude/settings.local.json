@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(g++:*)",
+      "Bash(cat:*)",
+      "Bash(build/bin/maratona_score.exe:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

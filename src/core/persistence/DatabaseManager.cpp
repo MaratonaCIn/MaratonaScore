@@ -35,12 +35,30 @@ bool DatabaseManager::loadDatabase(
     if (db.contains("config")) {
         config.contest_problems_weight =
             db["config"]["contest_problems_weight"];
-        config.contest_rank_bonus = db["config"]["contest_rank_bonus"];
         config.homework_problems_weight =
             db["config"]["homework_problems_weight"];
-        config.homework_rank_bonus = db["config"]["homework_rank_bonus"];
         config.upsolving_points_per_problem =
             db["config"]["upsolving_points_per_problem"];
+
+        // Load new hybrid system parameters (with defaults for backwards compatibility)
+        if (db["config"].contains("contests_to_double")) {
+            config.contests_to_double = db["config"]["contests_to_double"];
+        }
+        if (db["config"].contains("rank_bonus_top_n")) {
+            config.rank_bonus_top_n = db["config"]["rank_bonus_top_n"];
+        }
+        if (db["config"].contains("rank_bonus_max")) {
+            config.rank_bonus_max = db["config"]["rank_bonus_max"];
+        }
+        if (db["config"].contains("homework_contests_to_double")) {
+            config.homework_contests_to_double = db["config"]["homework_contests_to_double"];
+        }
+        if (db["config"].contains("homework_rank_bonus_top_n")) {
+            config.homework_rank_bonus_top_n = db["config"]["homework_rank_bonus_top_n"];
+        }
+        if (db["config"].contains("homework_rank_bonus_max")) {
+            config.homework_rank_bonus_max = db["config"]["homework_rank_bonus_max"];
+        }
     }
 
     // Load competitors
@@ -52,6 +70,14 @@ bool DatabaseManager::loadDatabase(
             comp.total_upsolving = data["total_upsolving"];
             comp.contests_participated = data["contests_participated"];
             comp.homeworks_participated = data["homeworks_participated"];
+
+            // Load status (new, with default for backwards compatibility)
+            if (data.contains("status")) {
+                comp.status = models::stringToCompetitorStatus(data["status"].get<std::string>());
+            }
+            if (data.contains("blacklist_reason")) {
+                comp.blacklist_reason = data["blacklist_reason"];
+            }
 
             // Load upsolving by contest
             if (data.contains("upsolving_by_contest")) {
@@ -106,6 +132,11 @@ bool DatabaseManager::loadDatabase(
             pc.total_participants = contest_data["total_participants"];
             pc.max_problems_solved = contest_data["max_problems_solved"];
 
+            // Load contest_order_index (new, with default for backwards compatibility)
+            if (contest_data.contains("contest_order_index")) {
+                pc.contest_order_index = contest_data["contest_order_index"];
+            }
+
             for (const auto& p : contest_data["participants"]) {
                 pc.participants.insert(p);
             }
@@ -127,11 +158,17 @@ bool DatabaseManager::saveDatabase(
 
     // Save config
     db["config"]["contest_problems_weight"] = config.contest_problems_weight;
-    db["config"]["contest_rank_bonus"] = config.contest_rank_bonus;
     db["config"]["homework_problems_weight"] = config.homework_problems_weight;
-    db["config"]["homework_rank_bonus"] = config.homework_rank_bonus;
     db["config"]["upsolving_points_per_problem"] =
         config.upsolving_points_per_problem;
+
+    // Save new hybrid system parameters
+    db["config"]["contests_to_double"] = config.contests_to_double;
+    db["config"]["rank_bonus_top_n"] = config.rank_bonus_top_n;
+    db["config"]["rank_bonus_max"] = config.rank_bonus_max;
+    db["config"]["homework_contests_to_double"] = config.homework_contests_to_double;
+    db["config"]["homework_rank_bonus_top_n"] = config.homework_rank_bonus_top_n;
+    db["config"]["homework_rank_bonus_max"] = config.homework_rank_bonus_max;
 
     // Save competitors
     for (const auto& [user, comp] : competitors) {
@@ -140,6 +177,12 @@ bool DatabaseManager::saveDatabase(
         comp_data["total_upsolving"] = comp.total_upsolving;
         comp_data["contests_participated"] = comp.contests_participated;
         comp_data["homeworks_participated"] = comp.homeworks_participated;
+
+        // Save status (new)
+        comp_data["status"] = models::competitorStatusToString(comp.status);
+        if (!comp.blacklist_reason.empty()) {
+            comp_data["blacklist_reason"] = comp.blacklist_reason;
+        }
 
         // Save upsolving by contest
         for (const auto& [contest_id, count] : comp.upsolving_by_contest) {
@@ -187,6 +230,8 @@ bool DatabaseManager::saveDatabase(
             pc.total_participants;
         db["processed_contests"][contest_id]["max_problems_solved"] =
             pc.max_problems_solved;
+        db["processed_contests"][contest_id]["contest_order_index"] =
+            pc.contest_order_index;  // NEW: save order index
         db["processed_contests"][contest_id]["participants"] = json::array();
         for (const auto& p : pc.participants) {
             db["processed_contests"][contest_id]["participants"].push_back(p);

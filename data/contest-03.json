@@ -1,0 +1,3830 @@
+[
+  {
+    "rank": 1,
+    "team_name": "jlga",
+    "user_name": "Jo?o Lu?s",
+    "score": 13,
+    "penalty": 107227,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "B": {
+        "solved": true,
+        "time": "4:23:18",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 4,
+        "total_attempts": 4
+      },
+      "F": {
+        "solved": true,
+        "time": "0:58:21",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": true,
+        "time": "1:31:11",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "H": {
+        "solved": true,
+        "time": "2:17:41",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": true,
+        "time": "3:56:19",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "M": {
+        "solved": true,
+        "time": "2:56:22",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      }
+    }
+  },
+  {
+    "rank": 2,
+    "team_name": "Zig",
+    "user_name": "Hugo Medeiros",
+    "score": 13,
+    "penalty": 164066113,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": true,
+        "time": "4:23:25",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "4:40:39",
+        "penalty_attempts": 4,
+        "total_attempts": 5
+      },
+      "F": {
+        "solved": true,
+        "time": "3:40:14",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "G": {
+        "solved": true,
+        "time": "2:08:03",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "H": {
+        "solved": true,
+        "time": "2:35:34",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": true,
+        "time": "3:18:06",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 3,
+    "team_name": "matheuslafayette",
+    "user_name": "mlv",
+    "score": 13,
+    "penalty": 185573128,
+    "problems": {
+      "A": {
+        "solved": true,
+        "time": "4:16:29",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "B": {
+        "solved": true,
+        "time": "2:52:08",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "0:11:44",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "F": {
+        "solved": true,
+        "time": "0:21:33",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": true,
+        "time": "0:38:35",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "H": {
+        "solved": true,
+        "time": "1:06:31",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": true,
+        "time": "1:54:49",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "M": {
+        "solved": true,
+        "time": "2:08:13",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 4,
+    "team_name": "jvgc",
+    "user_name": "Jo?o",
+    "score": 13,
+    "penalty": 355768247,
+    "problems": {
+      "A": {
+        "solved": true,
+        "time": "2:47:48",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": true,
+        "time": "3:46:52",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "E": {
+        "solved": true,
+        "time": "0:57:55",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "F": {
+        "solved": true,
+        "time": "0:22:14",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": true,
+        "time": "1:43:32",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": true,
+        "time": "2:24:41",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 5,
+    "team_name": "MiguelNogueira",
+    "user_name": "msnc",
+    "score": 13,
+    "penalty": 608536422,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "B": {
+        "solved": true,
+        "time": "3:59:21",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "1:19:32",
+        "penalty_attempts": 4,
+        "total_attempts": 5
+      },
+      "F": {
+        "solved": true,
+        "time": "0:09:35",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 15,
+        "total_attempts": 15
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 6,
+    "team_name": "toni_amorim",
+    "user_name": "tca",
+    "score": 13,
+    "penalty": 994028690,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "E": {
+        "solved": true,
+        "time": "3:43:23",
+        "penalty_attempts": 6,
+        "total_attempts": 7
+      },
+      "F": {
+        "solved": true,
+        "time": "1:47:04",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": true,
+        "time": "3:39:25",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "H": {
+        "solved": true,
+        "time": "1:37:48",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "M": {
+        "solved": true,
+        "time": "1:57:29",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 7,
+    "team_name": "Jvrco",
+    "user_name": null,
+    "score": 12,
+    "penalty": 7777154,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "B": {
+        "solved": true,
+        "time": "4:15:17",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "3:48:02",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "F": {
+        "solved": true,
+        "time": "1:05:09",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": true,
+        "time": "1:17:49",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "H": {
+        "solved": true,
+        "time": "1:47:16",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 14,
+        "total_attempts": 14
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 8,
+    "team_name": "caions",
+    "user_name": null,
+    "score": 12,
+    "penalty": 285252198,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": true,
+        "time": "3:05:54",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "0:21:15",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "F": {
+        "solved": true,
+        "time": "1:48:15",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "G": {
+        "solved": true,
+        "time": "2:42:25",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 4,
+        "total_attempts": 4
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": true,
+        "time": "3:36:23",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      }
+    }
+  },
+  {
+    "rank": 9,
+    "team_name": "vlacerda",
+    "user_name": null,
+    "score": 12,
+    "penalty": 1326513921,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 3,
+        "total_attempts": 3
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 5,
+        "total_attempts": 5
+      },
+      "F": {
+        "solved": true,
+        "time": "4:24:44",
+        "penalty_attempts": 8,
+        "total_attempts": 9
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 3,
+        "total_attempts": 3
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 4,
+        "total_attempts": 4
+      }
+    }
+  },
+  {
+    "rank": 10,
+    "team_name": "walfridosat",
+    "user_name": "1_milhao_de_abelhas",
+    "score": 11,
+    "penalty": 13067590,
+    "problems": {
+      "A": {
+        "solved": true,
+        "time": "1:35:47",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "B": {
+        "solved": true,
+        "time": "4:28:43",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "C": {
+        "solved": true,
+        "time": "1:55:19",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "0:17:56",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "F": {
+        "solved": true,
+        "time": "0:25:23",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "G": {
+        "solved": true,
+        "time": "4:17:45",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "H": {
+        "solved": true,
+        "time": "1:20:18",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": true,
+        "time": "3:16:33",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "L": {
+        "solved": true,
+        "time": "4:49:27",
+        "penalty_attempts": 5,
+        "total_attempts": 6
+      },
+      "M": {
+        "solved": true,
+        "time": "4:07:30",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 11,
+    "team_name": "joaohenrique",
+    "user_name": "joaohl19",
+    "score": 11,
+    "penalty": 187725130,
+    "problems": {
+      "A": {
+        "solved": true,
+        "time": "4:59:29",
+        "penalty_attempts": 3,
+        "total_attempts": 4
+      },
+      "B": {
+        "solved": true,
+        "time": "4:00:31",
+        "penalty_attempts": 3,
+        "total_attempts": 4
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "1:12:43",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "F": {
+        "solved": true,
+        "time": "1:03:28",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": true,
+        "time": "0:36:05",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "H": {
+        "solved": true,
+        "time": "1:58:30",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      }
+    }
+  },
+  {
+    "rank": 12,
+    "team_name": "gmsmr",
+    "user_name": "guui",
+    "score": 10,
+    "penalty": 274296190,
+    "problems": {
+      "A": {
+        "solved": true,
+        "time": "4:31:49",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "B": {
+        "solved": true,
+        "time": "4:42:47",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "0:42:28",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "F": {
+        "solved": true,
+        "time": "0:30:57",
+        "penalty_attempts": 3,
+        "total_attempts": 4
+      },
+      "G": {
+        "solved": true,
+        "time": "0:20:32",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "H": {
+        "solved": true,
+        "time": "1:03:39",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": true,
+        "time": "3:15:49",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "M": {
+        "solved": true,
+        "time": "3:32:17",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 13,
+    "team_name": "trs3",
+    "user_name": "Thawan",
+    "score": 9,
+    "penalty": 224286155,
+    "problems": {
+      "A": {
+        "solved": true,
+        "time": "2:06:37",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "B": {
+        "solved": true,
+        "time": "3:41:47",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "0:13:15",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "F": {
+        "solved": true,
+        "time": "0:25:06",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": true,
+        "time": "3:16:31",
+        "penalty_attempts": 7,
+        "total_attempts": 8
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": true,
+        "time": "2:12:13",
+        "penalty_attempts": 7,
+        "total_attempts": 8
+      },
+      "M": {
+        "solved": true,
+        "time": "1:39:00",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 14,
+    "team_name": "Rafael_Rodrigues",
+    "user_name": "rrs6",
+    "score": 8,
+    "penalty": 43453,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 7,
+        "total_attempts": 7
+      },
+      "B": {
+        "solved": true,
+        "time": "3:45:45",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "0:59:39",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "F": {
+        "solved": true,
+        "time": "1:07:21",
+        "penalty_attempts": 5,
+        "total_attempts": 6
+      },
+      "G": {
+        "solved": true,
+        "time": "2:17:46",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "H": {
+        "solved": true,
+        "time": "1:44:16",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 15,
+    "team_name": "Victor_Mendonca",
+    "user_name": "Peter Garrett",
+    "score": 8,
+    "penalty": 96416,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "C": {
+        "solved": true,
+        "time": "2:02:40",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "1:29:34",
+        "penalty_attempts": 3,
+        "total_attempts": 4
+      },
+      "F": {
+        "solved": true,
+        "time": "0:45:59",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": true,
+        "time": "0:28:28",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "H": {
+        "solved": true,
+        "time": "0:48:37",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": true,
+        "time": "0:31:25",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 17,
+        "total_attempts": 17
+      }
+    }
+  },
+  {
+    "rank": 16,
+    "team_name": "afs15",
+    "user_name": "andre f [??]",
+    "score": 6,
+    "penalty": 99616,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": true,
+        "time": "3:12:27",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "3:47:29",
+        "penalty_attempts": 3,
+        "total_attempts": 4
+      },
+      "F": {
+        "solved": true,
+        "time": "0:52:17",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": true,
+        "time": "1:17:00",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "L": {
+        "solved": true,
+        "time": "2:58:44",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "M": {
+        "solved": true,
+        "time": "2:28:51",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      }
+    }
+  },
+  {
+    "rank": 17,
+    "team_name": "GioMafra",
+    "user_name": null,
+    "score": 6,
+    "penalty": 6661246,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 4,
+        "total_attempts": 4
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "2:03:12",
+        "penalty_attempts": 4,
+        "total_attempts": 5
+      },
+      "F": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 3,
+        "total_attempts": 3
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 18,
+    "team_name": "rmcm",
+    "user_name": null,
+    "score": 5,
+    "penalty": 75312,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 3,
+        "total_attempts": 3
+      },
+      "B": {
+        "solved": true,
+        "time": "4:54:28",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "2:35:00",
+        "penalty_attempts": 3,
+        "total_attempts": 4
+      },
+      "F": {
+        "solved": true,
+        "time": "1:20:26",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": true,
+        "time": "0:55:15",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": true,
+        "time": "1:08:11",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      }
+    }
+  },
+  {
+    "rank": 19,
+    "team_name": "Lucas_vw",
+    "user_name": "Lucas Vidal",
+    "score": 5,
+    "penalty": 99616,
+    "problems": {
+      "A": {
+        "solved": true,
+        "time": "3:35:13",
+        "penalty_attempts": 5,
+        "total_attempts": 6
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 4,
+        "total_attempts": 4
+      },
+      "F": {
+        "solved": true,
+        "time": "2:13:52",
+        "penalty_attempts": 4,
+        "total_attempts": 5
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": true,
+        "time": "1:17:22",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": true,
+        "time": "4:43:03",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "M": {
+        "solved": true,
+        "time": "1:47:16",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 20,
+    "team_name": "hrms2",
+    "user_name": "Heitor Riquelme",
+    "score": 5,
+    "penalty": 124920,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": true,
+        "time": "2:19:11",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 6,
+        "total_attempts": 6
+      },
+      "E": {
+        "solved": true,
+        "time": "0:56:35",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "F": {
+        "solved": true,
+        "time": "1:13:33",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": true,
+        "time": "2:13:09",
+        "penalty_attempts": 3,
+        "total_attempts": 4
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 21,
+    "team_name": "mgma",
+    "user_name": "Marcos Gabriel",
+    "score": 5,
+    "penalty": 14136298,
+    "problems": {
+      "A": {
+        "solved": true,
+        "time": "4:39:42",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "B": {
+        "solved": true,
+        "time": "2:29:08",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 5,
+        "total_attempts": 5
+      },
+      "F": {
+        "solved": true,
+        "time": "3:33:45",
+        "penalty_attempts": 6,
+        "total_attempts": 7
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": true,
+        "time": "1:52:05",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 22,
+    "team_name": "jvcl",
+    "user_name": "Jo?o Lopes",
+    "score": 4,
+    "penalty": 4617,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "0:45:53",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "F": {
+        "solved": true,
+        "time": "1:25:19",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": true,
+        "time": "1:55:48",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "H": {
+        "solved": true,
+        "time": "3:14:31",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 23,
+    "team_name": "msf6",
+    "user_name": "Mariana",
+    "score": 3,
+    "penalty": 4707,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "1:06:45",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "F": {
+        "solved": true,
+        "time": "2:54:14",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": true,
+        "time": "3:09:05",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 24,
+    "team_name": "tomclima",
+    "user_name": "tcl",
+    "score": 3,
+    "penalty": 5108,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "F": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 6,
+        "total_attempts": 6
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 6,
+        "total_attempts": 6
+      },
+      "H": {
+        "solved": true,
+        "time": "0:57:37",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": true,
+        "time": "3:12:51",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "M": {
+        "solved": true,
+        "time": "3:59:33",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 25,
+    "team_name": "albertoguevara",
+    "user_name": "agaf2",
+    "score": 3,
+    "penalty": 5298,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": true,
+        "time": "4:43:02",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "F": {
+        "solved": true,
+        "time": "1:16:29",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 4,
+        "total_attempts": 4
+      },
+      "H": {
+        "solved": true,
+        "time": "1:50:26",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 26,
+    "team_name": "rsc8",
+    "user_name": null,
+    "score": 3,
+    "penalty": 8962462,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 6,
+        "total_attempts": 6
+      },
+      "F": {
+        "solved": true,
+        "time": "3:40:53",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 27,
+    "team_name": "limafrqa_",
+    "user_name": "frqal",
+    "score": 2,
+    "penalty": 3035,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 3,
+        "total_attempts": 3
+      },
+      "F": {
+        "solved": true,
+        "time": "1:58:17",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": true,
+        "time": "2:44:47",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 28,
+    "team_name": "rrcv2",
+    "user_name": null,
+    "score": 2,
+    "penalty": 4377,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 11,
+        "total_attempts": 11
+      },
+      "F": {
+        "solved": true,
+        "time": "2:53:34",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "H": {
+        "solved": true,
+        "time": "3:43:47",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 29,
+    "team_name": "DaviGuerreiro",
+    "user_name": "Dggb",
+    "score": 2,
+    "penalty": 4948,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 3,
+        "total_attempts": 3
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "F": {
+        "solved": true,
+        "time": "2:29:32",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": true,
+        "time": "4:25:27",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 30,
+    "team_name": "rgar",
+    "user_name": "Rodrigo Gomes",
+    "score": 2,
+    "penalty": 4988,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "2:42:34",
+        "penalty_attempts": 6,
+        "total_attempts": 7
+      },
+      "F": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 3,
+        "total_attempts": 3
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": true,
+        "time": "3:35:42",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 31,
+    "team_name": "paulohltc",
+    "user_name": "palao",
+    "score": 2,
+    "penalty": 3682825,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "F": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 32,
+    "team_name": "eaa5",
+    "user_name": "edu-p",
+    "score": 2,
+    "penalty": 5640839,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 6,
+        "total_attempts": 6
+      },
+      "F": {
+        "solved": true,
+        "time": "3:45:57",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 33,
+    "team_name": "gugajcvda",
+    "user_name": "???%",
+    "score": 1,
+    "penalty": 671,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 3,
+        "total_attempts": 3
+      },
+      "F": {
+        "solved": true,
+        "time": "1:07:57",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      }
+    }
+  },
+  {
+    "rank": 34,
+    "team_name": "Lavoisier",
+    "user_name": "loc2",
+    "score": 1,
+    "penalty": 1242,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "F": {
+        "solved": true,
+        "time": "1:24:55",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 35,
+    "team_name": "fpm3",
+    "user_name": null,
+    "score": 1,
+    "penalty": 2383,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 5,
+        "total_attempts": 5
+      },
+      "F": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 8,
+        "total_attempts": 8
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": true,
+        "time": "3:38:27",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      }
+    }
+  },
+  {
+    "rank": 36,
+    "team_name": "ills2",
+    "user_name": "Italo",
+    "score": 1,
+    "penalty": 2524,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "F": {
+        "solved": true,
+        "time": "3:52:58",
+        "penalty_attempts": 1,
+        "total_attempts": 2
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 37,
+    "team_name": "pncg",
+    "user_name": "Paula N?brega",
+    "score": 1,
+    "penalty": 2744,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "F": {
+        "solved": true,
+        "time": "3:54:49",
+        "penalty_attempts": 2,
+        "total_attempts": 3
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 38,
+    "team_name": "irs3",
+    "user_name": "Ivison (irs3",
+    "score": 1,
+    "penalty": 2804,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "F": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 3,
+        "total_attempts": 3
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": true,
+        "time": "4:40:44",
+        "penalty_attempts": 0,
+        "total_attempts": 1
+      }
+    }
+  },
+  {
+    "rank": 39,
+    "team_name": "mleticiamn",
+    "user_name": null,
+    "score": 1,
+    "penalty": 3055,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 1,
+        "total_attempts": 1
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": true,
+        "time": "2:05:07",
+        "penalty_attempts": 9,
+        "total_attempts": 10
+      },
+      "F": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 40,
+    "team_name": "bpas",
+    "user_name": "Bianca",
+    "score": 1,
+    "penalty": 3756,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 2,
+        "total_attempts": 2
+      },
+      "F": {
+        "solved": true,
+        "time": "4:35:15",
+        "penalty_attempts": 5,
+        "total_attempts": 6
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 41,
+    "team_name": "Ryei_Estevan",
+    "user_name": "resm",
+    "score": 1,
+    "penalty": 4627,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "F": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 42,
+    "team_name": "acn3",
+    "user_name": "?lvaro Negromonte",
+    "score": 0,
+    "penalty": 0,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "F": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 3,
+        "total_attempts": 3
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 43,
+    "team_name": "jcbs3",
+    "user_name": "J?lio C?sar",
+    "score": 0,
+    "penalty": 0,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 6,
+        "total_attempts": 6
+      },
+      "F": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  },
+  {
+    "rank": 44,
+    "team_name": "jessyca_ferreira",
+    "user_name": "J?ssyca Ferreira",
+    "score": 0,
+    "penalty": 0,
+    "problems": {
+      "A": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "B": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "C": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "D": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "E": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 5,
+        "total_attempts": 5
+      },
+      "F": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 11,
+        "total_attempts": 11
+      },
+      "G": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "H": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "I": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "J": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "K": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "L": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      },
+      "M": {
+        "solved": false,
+        "time": null,
+        "penalty_attempts": 0,
+        "total_attempts": 0
+      }
+    }
+  }
+]

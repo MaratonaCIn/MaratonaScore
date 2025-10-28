@@ -1,0 +1,25 @@
+[1/11] Building CXX object src/core/CMakeFiles/MaratonaScore_core.dir/services/ScoreCalculator.cpp.obj
+FAILED: [code=1] src/core/CMakeFiles/MaratonaScore_core.dir/services/ScoreCalculator.cpp.obj 
+C:\msys64\mingw64\bin\g++.exe  -ID:/MaratonaScore/include -ID:/MaratonaScore/include/MaratonaScore -ID:/MaratonaScore/build/_deps/json-src/include -g -std=c++17 -Wall -Wextra -Wpedantic -MD -MT src/core/CMakeFiles/MaratonaScore_core.dir/services/ScoreCalculator.cpp.obj -MF src\core\CMakeFiles\MaratonaScore_core.dir\services\ScoreCalculator.cpp.obj.d -o src/core/CMakeFiles/MaratonaScore_core.dir/services/ScoreCalculator.cpp.obj -c D:/MaratonaScore/src/core/services/ScoreCalculator.cpp
+[2/11] Building CXX object src/core/CMakeFiles/MaratonaScore_core.dir/services/ContestProcessor.cpp.obj
+FAILED: [code=1] src/core/CMakeFiles/MaratonaScore_core.dir/services/ContestProcessor.cpp.obj 
+C:\msys64\mingw64\bin\g++.exe  -ID:/MaratonaScore/include -ID:/MaratonaScore/include/MaratonaScore -ID:/MaratonaScore/build/_deps/json-src/include -g -std=c++17 -Wall -Wextra -Wpedantic -MD -MT src/core/CMakeFiles/MaratonaScore_core.dir/services/ContestProcessor.cpp.obj -MF src\core\CMakeFiles\MaratonaScore_core.dir\services\ContestProcessor.cpp.obj.d -o src/core/CMakeFiles/MaratonaScore_core.dir/services/ContestProcessor.cpp.obj -c D:/MaratonaScore/src/core/services/ContestProcessor.cpp
+[3/11] Building CXX object src/core/CMakeFiles/MaratonaScore_core.dir/services/RatingSystem.cpp.obj
+FAILED: [code=1] src/core/CMakeFiles/MaratonaScore_core.dir/services/RatingSystem.cpp.obj 
+C:\msys64\mingw64\bin\g++.exe  -ID:/MaratonaScore/include -ID:/MaratonaScore/include/MaratonaScore -ID:/MaratonaScore/build/_deps/json-src/include -g -std=c++17 -Wall -Wextra -Wpedantic -MD -MT src/core/CMakeFiles/MaratonaScore_core.dir/services/RatingSystem.cpp.obj -MF src\core\CMakeFiles\MaratonaScore_core.dir\services\RatingSystem.cpp.obj.d -o src/core/CMakeFiles/MaratonaScore_core.dir/services/RatingSystem.cpp.obj -c D:/MaratonaScore/src/core/services/RatingSystem.cpp
+[4/11] Building CXX object src/core/CMakeFiles/MaratonaScore_core.dir/persistence/DatabaseManager.cpp.obj
+FAILED: [code=1] src/core/CMakeFiles/MaratonaScore_core.dir/persistence/DatabaseManager.cpp.obj 
+C:\msys64\mingw64\bin\g++.exe  -ID:/MaratonaScore/include -ID:/MaratonaScore/include/MaratonaScore -ID:/MaratonaScore/build/_deps/json-src/include -g -std=c++17 -Wall -Wextra -Wpedantic -MD -MT src/core/CMakeFiles/MaratonaScore_core.dir/persistence/DatabaseManager.cpp.obj -MF src\core\CMakeFiles\MaratonaScore_core.dir\persistence\DatabaseManager.cpp.obj.d -o src/core/CMakeFiles/MaratonaScore_core.dir/persistence/DatabaseManager.cpp.obj -c D:/MaratonaScore/src/core/persistence/DatabaseManager.cpp
+[5/11] Building CXX object src/cli/CMakeFiles/MaratonaScore_cli.dir/CLIHandler.cpp.obj
+FAILED: [code=1] src/cli/CMakeFiles/MaratonaScore_cli.dir/CLIHandler.cpp.obj 
+C:\msys64\mingw64\bin\g++.exe  -ID:/MaratonaScore/include -ID:/MaratonaScore/include/MaratonaScore -ID:/MaratonaScore/build/_deps/json-src/include -g -std=c++17 -Wall -Wextra -Wpedantic -MD -MT src/cli/CMakeFiles/MaratonaScore_cli.dir/CLIHandler.cpp.obj -MF src\cli\CMakeFiles\MaratonaScore_cli.dir\CLIHandler.cpp.obj.d -o src/cli/CMakeFiles/MaratonaScore_cli.dir/CLIHandler.cpp.obj -c D:/MaratonaScore/src/cli/CLIHandler.cpp
+[6/11] Building CXX object src/cli/CMakeFiles/MaratonaScore_cli.dir/OutputFormatter.cpp.obj
+FAILED: [code=1] src/cli/CMakeFiles/MaratonaScore_cli.dir/OutputFormatter.cpp.obj 
+C:\msys64\mingw64\bin\g++.exe  -ID:/MaratonaScore/include -ID:/MaratonaScore/include/MaratonaScore -ID:/MaratonaScore/build/_deps/json-src/include -g -std=c++17 -Wall -Wextra -Wpedantic -MD -MT src/cli/CMakeFiles/MaratonaScore_cli.dir/OutputFormatter.cpp.obj -MF src\cli\CMakeFiles\MaratonaScore_cli.dir\OutputFormatter.cpp.obj.d -o src/cli/CMakeFiles/MaratonaScore_cli.dir/OutputFormatter.cpp.obj -c D:/MaratonaScore/src/cli/OutputFormatter.cpp
+[7/11] Building CXX object src/cli/CMakeFiles/MaratonaScore_cli.dir/ExcelConverter.cpp.obj
+FAILED: [code=1] src/cli/CMakeFiles/MaratonaScore_cli.dir/ExcelConverter.cpp.obj 
+C:\msys64\mingw64\bin\g++.exe  -ID:/MaratonaScore/include -ID:/MaratonaScore/include/MaratonaScore -ID:/MaratonaScore/build/_deps/json-src/include -g -std=c++17 -Wall -Wextra -Wpedantic -MD -MT src/cli/CMakeFiles/MaratonaScore_cli.dir/ExcelConverter.cpp.obj -MF src\cli\CMakeFiles\MaratonaScore_cli.dir\ExcelConverter.cpp.obj.d -o src/cli/CMakeFiles/MaratonaScore_cli.dir/ExcelConverter.cpp.obj -c D:/MaratonaScore/src/cli/ExcelConverter.cpp
+[8/11] Building CXX object CMakeFiles/maratona_score.dir/src/main.cpp.obj
+FAILED: [code=1] CMakeFiles/maratona_score.dir/src/main.cpp.obj 
+C:\msys64\mingw64\bin\g++.exe  -ID:/MaratonaScore/include -ID:/MaratonaScore/include/MaratonaScore -ID:/MaratonaScore/build/_deps/json-src/include -g -std=c++17 -MD -MT CMakeFiles/maratona_score.dir/src/main.cpp.obj -MF CMakeFiles\maratona_score.dir\src\main.cpp.obj.d -o CMakeFiles/maratona_score.dir/src/main.cpp.obj -c D:/MaratonaScore/src/main.cpp
+ninja: build stopped: subcommand failed.

@@ -109,18 +109,21 @@ void OutputFormatter::printConfig(const core::models::ScoringConfig& config) {
     std::cout << "OnTime Contest (Saturday, 5h):\n";
     std::cout << "  - Problems weight: " << config.contest_problems_weight
               << " points\n";
-    std::cout << "  - Rank bonus: " << config.contest_rank_bonus << " points\n";
-    std::cout << "  - Maximum: "
-              << (config.contest_problems_weight + config.contest_rank_bonus)
+    std::cout << "  - Contests to double: " << config.contests_to_double << "\n";
+    std::cout << "  - Rank bonus (top " << config.rank_bonus_top_n << "): max "
+              << config.rank_bonus_max << " points\n";
+    std::cout << "  - Maximum (1st place, contest 1): "
+              << (config.contest_problems_weight + config.rank_bonus_max)
               << " points\n\n";
 
     std::cout << "Homework (Weekly):\n";
     std::cout << "  - Problems weight: " << config.homework_problems_weight
               << " points\n";
-    std::cout << "  - Rank bonus: " << config.homework_rank_bonus
-              << " points\n";
-    std::cout << "  - Maximum: "
-              << (config.homework_problems_weight + config.homework_rank_bonus)
+    std::cout << "  - Contests to double: " << config.homework_contests_to_double << "\n";
+    std::cout << "  - Rank bonus (top " << config.homework_rank_bonus_top_n << "): max "
+              << config.homework_rank_bonus_max << " points\n";
+    std::cout << "  - Maximum (1st place, homework 1): "
+              << (config.homework_problems_weight + config.homework_rank_bonus_max)
               << " points\n\n";
 
     std::cout << "Upsolving:\n";

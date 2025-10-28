@@ -22,6 +22,11 @@ struct ProcessedContest {
     std::set<std::string> participants;
     int total_participants = 0;
     int max_problems_solved = 0;
+
+    // Chronological index for compound interest calculation
+    // 0-based: first contest = 0, second = 1, etc.
+    // Used in formula: multiplier = 2^(contest_order_index / contests_to_double)
+    int contest_order_index = 0;
 };
 
 }  // namespace models

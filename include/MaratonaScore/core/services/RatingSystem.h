@@ -37,6 +37,14 @@ class RatingSystem {
      */
     void recalculateAllScores();
 
+    /**
+     * @brief Reassign contest order indices chronologically
+     *
+     * Orders contests by first_processed_date and reassigns indices
+     * starting from 0. Should be called after loading from database.
+     */
+    void reassignContestOrderIndices();
+
     // Getters
     const std::map<std::string, models::CompetitorData>& getCompetitors()
         const {

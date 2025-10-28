@@ -14,9 +14,18 @@ bool RatingSystem::processScoreboard(const std::string& contest_id,
                                      const std::string& filename,
                                      const std::string& contest_type,
                                      int contest_duration_minutes) {
+    // Determine contest order index based on how many contests of this type
+    // have been processed
+    int contest_order_index = 0;
+    for (const auto& [id, pc] : processed_contests_) {
+        if (pc.type == contest_type) {
+            contest_order_index++;
+        }
+    }
+
     bool success = ContestProcessor::processScoreboard(
-        contest_id, filename, contest_type, contest_duration_minutes, config_,
-        competitors_, processed_contests_);
+        contest_id, filename, contest_type, contest_duration_minutes,
+        contest_order_index, config_, competitors_, processed_contests_, true);
 
     if (success) {
         recalculateAllScores();

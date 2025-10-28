@@ -55,6 +55,8 @@ int CLIHandler::run(int argc, char* argv[]) {
         return handleRankingsCommand();
     } else if (command == "config") {
         return handleConfigCommand();
+    } else if (command == "edit-config" && argc >= 3) {
+        return handleEditConfigCommand(argc, argv);
     } else if (command == "convert" && argc >= 4) {
         return handleConvertCommand(argc, argv);
     } else if (command == "convert-batch" && argc >= 3) {
@@ -140,6 +142,68 @@ int CLIHandler::handleConvertBatchCommand(int /* argc */, char* argv[]) {
     std::string batch_file = argv[2];
     int success_count = ExcelConverter::convertBatch(batch_file);
     return (success_count > 0) ? 0 : 1;
+}
+
+int CLIHandler::handleEditConfigCommand(int argc, char* argv[]) {
+    std::string param = argv[2];
+
+    auto config = rating_system_.getConfig();
+    bool modified = false;
+
+    if (param == "contest-weight" && argc >= 4) {
+        config.contest_problems_weight = std::atof(argv[3]);
+        modified = true;
+    } else if (param == "contest-double" && argc >= 4) {
+        config.contests_to_double = std::atoi(argv[3]);
+        modified = true;
+    } else if (param == "contest-bonus-top" && argc >= 4) {
+        config.rank_bonus_top_n = std::atoi(argv[3]);
+        modified = true;
+    } else if (param == "contest-bonus-max" && argc >= 4) {
+        config.rank_bonus_max = std::atof(argv[3]);
+        modified = true;
+    } else if (param == "homework-weight" && argc >= 4) {
+        config.homework_problems_weight = std::atof(argv[3]);
+        modified = true;
+    } else if (param == "homework-double" && argc >= 4) {
+        config.homework_contests_to_double = std::atoi(argv[3]);
+        modified = true;
+    } else if (param == "homework-bonus-top" && argc >= 4) {
+        config.homework_rank_bonus_top_n = std::atoi(argv[3]);
+        modified = true;
+    } else if (param == "homework-bonus-max" && argc >= 4) {
+        config.homework_rank_bonus_max = std::atof(argv[3]);
+        modified = true;
+    } else if (param == "upsolving-points" && argc >= 4) {
+        config.upsolving_points_per_problem = std::atof(argv[3]);
+        modified = true;
+    } else {
+        std::cerr << "[ERROR] Invalid parameter or missing value.\n\n";
+        std::cout << "Usage: " << argv[0] << " edit-config <parameter> <value>\n\n";
+        std::cout << "Parameters:\n";
+        std::cout << "  contest-weight <num>      - Contest base weight (default: 100)\n";
+        std::cout << "  contest-double <num>      - Contests to double (default: 11)\n";
+        std::cout << "  contest-bonus-top <num>   - Top N for bonus (default: 10)\n";
+        std::cout << "  contest-bonus-max <num>   - Max bonus (default: 20)\n";
+        std::cout << "  homework-weight <num>     - Homework base weight (default: 50)\n";
+        std::cout << "  homework-double <num>     - Homeworks to double (default: 11)\n";
+        std::cout << "  homework-bonus-top <num>  - Top N for bonus (default: 5)\n";
+        std::cout << "  homework-bonus-max <num>  - Max bonus (default: 10)\n";
+        std::cout << "  upsolving-points <num>    - Points per problem (default: 5)\n";
+        return 1;
+    }
+
+    if (modified) {
+        rating_system_.setConfig(config);
+        rating_system_.recalculateAllScores();
+        saveDatabase();
+
+        std::cout << "\n[OK] Configuration updated!\n\n";
+        OutputFormatter::printConfig(config);
+        return 0;
+    }
+
+    return 1;
 }
 
 }  // namespace cli

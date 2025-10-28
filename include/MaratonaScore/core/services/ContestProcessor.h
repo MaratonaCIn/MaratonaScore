@@ -27,17 +27,21 @@ class ContestProcessor {
      * @param filename Path to the scoreboard JSON file
      * @param contest_type "ontime" or "homework"
      * @param contest_duration_minutes Duration of the contest
+     * @param contest_order_index Chronological index (0-based) for compound interest
      * @param config Scoring configuration
      * @param competitors Map of competitors (will be updated)
      * @param processed_contests Map of processed contests (will be updated)
+     * @param use_hybrid_scoring Use new hybrid scoring system (default: true)
      * @return true if successful, false otherwise
      */
     static bool processScoreboard(
         const std::string& contest_id, const std::string& filename,
         const std::string& contest_type, int contest_duration_minutes,
+        int contest_order_index,
         const models::ScoringConfig& config,
         std::map<std::string, models::CompetitorData>& competitors,
-        std::map<std::string, models::ProcessedContest>& processed_contests);
+        std::map<std::string, models::ProcessedContest>& processed_contests,
+        bool use_hybrid_scoring = true);
 
    private:
     struct TempResult {

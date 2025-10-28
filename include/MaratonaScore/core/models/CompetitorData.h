@@ -11,6 +11,40 @@ namespace core {
 namespace models {
 
 /**
+ * @brief Status of a competitor in the ranking system
+ *
+ * - ACTIVE: Normal competitor, included in rankings
+ * - BLACKLISTED: Excluded from rankings (monitors, non-competitors, etc.)
+ * - GUEST: Participates but not in official ranking (optional visitors)
+ */
+enum class CompetitorStatus {
+    ACTIVE,
+    BLACKLISTED,
+    GUEST
+};
+
+/**
+ * @brief Convert CompetitorStatus enum to string
+ */
+inline std::string competitorStatusToString(CompetitorStatus status) {
+    switch (status) {
+        case CompetitorStatus::ACTIVE: return "active";
+        case CompetitorStatus::BLACKLISTED: return "blacklisted";
+        case CompetitorStatus::GUEST: return "guest";
+        default: return "unknown";
+    }
+}
+
+/**
+ * @brief Convert string to CompetitorStatus enum
+ */
+inline CompetitorStatus stringToCompetitorStatus(const std::string& str) {
+    if (str == "blacklisted") return CompetitorStatus::BLACKLISTED;
+    if (str == "guest") return CompetitorStatus::GUEST;
+    return CompetitorStatus::ACTIVE;  // default
+}
+
+/**
  * @brief Complete data for a competitor
  *
  * Contains all performance data, scores, and statistics for a single competitor
@@ -19,6 +53,10 @@ namespace models {
 struct CompetitorData {
     std::string user_name;
     std::string team_name;
+
+    // Competitor status for filtering rankings
+    CompetitorStatus status = CompetitorStatus::ACTIVE;
+    std::string blacklist_reason;  // Optional reason if blacklisted
 
     // Contest performances
     std::map<std::string, ContestPerformance> contests;

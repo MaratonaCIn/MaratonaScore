@@ -39,6 +39,7 @@ class CLIHandler {
     int handleBatchCommand(int argc, char* argv[]);
     int handleRankingsCommand();
     int handleConfigCommand();
+    int handleEditConfigCommand(int argc, char* argv[]);
     int handleConvertCommand(int argc, char* argv[]);
     int handleConvertBatchCommand(int argc, char* argv[]);
 };

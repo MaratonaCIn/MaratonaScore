@@ -1,0 +1,28 @@
+{
+  "scoring": {
+    "contest": {
+      "problems_weight": 100,
+      "contests_to_double": 11,
+      "rank_bonus_top_n": 10,
+      "rank_bonus_max": 20
+    },
+    "homework": {
+      "problems_weight": 50,
+      "contests_to_double": 11,
+      "rank_bonus_top_n": 5,
+      "rank_bonus_max": 10
+    },
+    "upsolving": {
+      "points_per_problem": 5
+    }
+  },
+  "database": {
+    "default_type": "json",
+    "json_path": "ratings_v2.json",
+    "sqlite_path": "data/ranking.db"
+  },
+  "ranking": {
+    "exclude_blacklisted": true,
+    "exclude_guests": false
+  }
+}
