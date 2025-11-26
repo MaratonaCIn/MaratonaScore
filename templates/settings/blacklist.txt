@@ -1,0 +1,5 @@
+# Blacklist - One team ID per line
+# Lines starting with # are comments
+# Example:
+# team123
+# team456

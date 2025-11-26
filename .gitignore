@@ -1,10 +1,12 @@
 # Build directories
 build/
+bin/
+lib/
+out/
+install/
 cmake-build-*/
 
-# Compiled files
-*.o
-*.obj
+# Compiled binaries
 *.exe
 *.out
 *.app
@@ -14,29 +16,61 @@ cmake-build-*/
 *.a
 *.lib
 
-# CMake
+# CMake generated files
 CMakeCache.txt
 CMakeFiles/
+CMakeScripts/
 cmake_install.cmake
 install_manifest.txt
+compile_commands.json
 CTestTestfile.cmake
+_deps/
 
-# IDEs
+# IDE and editor files
 .vscode/
 .idea/
+.vs/
 *.swp
 *.swo
 *~
-
-# Database files (optional - comment out if you want to commit them)
-# ratings_v2.json
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.egg-info/
-
-# OS
 .DS_Store
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode-test/
+.claude/
+
+# Generated output files
+*.csv
+scoreboard.csv
+
+# Data files (uncomment if you want to ignore data)
+# data/
+# *.xlsx
+# *.xls
+
+# Log files
+*.log
+
+# Dependencies
+_deps/
+
+# Testing
+Testing/
+CTestTestfile.cmake
+
+# Package managers
+vcpkg_installed/
+conan_imports_manifest.txt
+conanbuildinfo.*
+
+# OS specific
 Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig

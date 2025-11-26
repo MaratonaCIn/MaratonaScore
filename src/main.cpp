@@ -1,15 +1,74 @@
-/**
- * @file main.cpp
- * @brief Entry point for MaratonaCIn Rating System CLI application
- *
- * This is a clean CLI entry point that delegates all logic to the CLIHandler.
- * The core business logic is independent of this interface, allowing for
- * future GUI implementations.
- */
+#include <exception>
+#include <fstream>
+#include <iostream>
 
-#include "MaratonaScore/cli/CLIHandler.h"
+#include "models/Contest.hpp"
+#include "models/Scoreboard.hpp"
+#include "parser/FinalParser.hpp"
+#include "utils/Blacklist.hpp"
+#include "utils/Settings.hpp"
+
+using namespace MaratonaScore;
 
 int main(int argc, char* argv[]) {
-    MaratonaScore::cli::CLIHandler handler;
-    return handler.run(argc, argv);
+    std::string base_path = (argc > 1) ? argv[1] : "./data/";
+
+    std::string settings_path = (argc > 2) ? argv[2] : "./settings/";
+
+    std::string export_path = (argc > 3) ? argv[3] : "./scoreboard.csv";
+
+    if (!base_path.empty() && base_path.back() != '/' &&
+        base_path.back() != '\\') {
+        base_path += "/";
+    }
+    if (!settings_path.empty() && settings_path.back() != '/' &&
+        settings_path.back() != '\\') {
+        settings_path += "/";
+    }
+    if (!export_path.empty() &&
+        export_path.substr(export_path.size() - 4) != ".csv" &&
+        export_path.back() != '/' && export_path.back() != '\\') {
+        export_path += "/scoreboard.csv";
+    }
+
+    Settings::getInstance().loadFromFile(settings_path + "config.yaml");
+
+    Blacklist::loadFromFile(settings_path + "blacklist.txt");
+
+    Scoreboard scoreboard;
+
+    for (int i = 0; i < Settings::getInstance().NUMBER_OF_CONTESTS; i++) {
+        try {
+            scoreboard.addContest(
+                Contest(base_path + std::to_string(i + 1) + ".xlsx", CONTEST),
+                i);
+        } catch (const std::exception& e) {
+            std::cerr << "Could not load contest " << (i + 1) << ": "
+                      << e.what() << '\n';
+        }
+
+        try {
+            scoreboard.addContest(
+                Contest(base_path + "H" + std::to_string(i + 1) + ".xlsx",
+                        HOMEWORK),
+                i);
+        } catch (const std::exception& e) {
+            std::cerr << "Could not load homework " << (i + 1) << ": "
+                      << e.what() << '\n';
+        }
+    }
+
+    scoreboard.applyContestFiltering();
+
+    try {
+        scoreboard.addContest(FinalParser().parse(base_path + "finals.txt"),
+                              Settings::getInstance().NUMBER_OF_CONTESTS);
+    } catch (const std::exception& e) {
+        std::cerr << "Could not load finals: " << e.what() << '\n';
+    }
+
+    std::ofstream out(export_path);
+    scoreboard.renderCSV(out);
+
+    return 0;
 }

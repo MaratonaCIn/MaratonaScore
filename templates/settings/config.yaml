@@ -1,0 +1,27 @@
+# MaratonaScore Configuration File
+
+# Time limits (in minutes)
+time_limits:
+  contest: 300    # 5 hours
+  homework: 9600  # 160 hours (1 week approx)
+
+# Base values for scoring
+base_values:
+  contest: 4
+  homework: 2
+  upsolving: 1
+
+# Score bonuses
+score_bonuses:
+  contest: 20
+  homework: 10
+
+# Person bonuses
+person_bonuses:
+  contest: 5
+  homework: 5
+
+# Contest settings
+contest_settings:
+  number_of_contests: 10
+  ignore_worst_contests: 2

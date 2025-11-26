@@ -1,0 +1,6 @@
+# Finals results file
+# Format: TeamID Score
+# Example:
+# team001 100
+# team002 95
+# team003 90

@@ -1,0 +1,15 @@
+# Blacklist file for MaratonaScore
+# One team ID per line (must match team IDs in Excel files exactly)
+# Lines starting with # are comments
+#
+# Example:
+# TeamID123
+# TeamID456
+Julyana Alves
+Lua Guimarães<lgf>
+SamuellH12
+vlacerda
+Omena
+caions
+palao
+luma <lrf2>
