@@ -10,73 +10,51 @@ jobs:
   build:
     name: ${{ matrix.name }}
     runs-on: ${{ matrix.os }}
-
+    
     strategy:
       fail-fast: false
       matrix:
         include:
-          # Linux - GCC (Release + Debug)
-          - name: Linux (GCC 11) Release
+          # 1. Linux - GCC Release
+          - name: Linux (GCC) Release
             os: ubuntu-latest
-            compiler: gcc
-            cc: gcc-11
-            cxx: g++-11
             build_type: Release
+            cc: gcc
+            cxx: g++
 
-          - name: Linux (GCC 11) Debug
+          # 2. Linux - GCC Debug
+          - name: Linux (GCC) Debug
             os: ubuntu-latest
-            compiler: gcc
-            cc: gcc-11
-            cxx: g++-11
             build_type: Debug
+            cc: gcc
+            cxx: g++
 
-          # Linux - Clang (Release only)
-          - name: Linux (Clang 14) Release
+          # 3. Linux - Clang Release
+          - name: Linux (Clang) Release
             os: ubuntu-latest
-            compiler: clang
-            cc: clang-14
-            cxx: clang++-14
             build_type: Release
+            cc: clang
+            cxx: clang++
 
-          # Windows - MSVC (Release only)
-          - name: Windows (MSVC 2022) Release
+          # 4. Windows - MSVC Release
+          - name: Windows (MSVC) Release
             os: windows-latest
-            compiler: msvc
             build_type: Release
+            # Windows ignores CC/CXX env vars; it defaults to Visual Studio
 
-          # macOS - AppleClang (Release only)
+          # 5. macOS - AppleClang Release
           - name: macOS (AppleClang) Release
             os: macos-latest
-            compiler: clang
             build_type: Release
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Setup CMake
-      uses: jwlawson/actions-setup-cmake@v2
-      with:
-        cmake-version: '3.15.x'
-
-    - name: Setup GCC (Linux)
-      if: matrix.compiler == 'gcc'
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y g++-11
-
-    - name: Setup Clang (Linux)
-      if: matrix.compiler == 'clang' && matrix.os == 'ubuntu-latest'
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y clang-14
-
-    - name: Configure CMake (Linux with compiler selection)
-      if: runner.os == 'Linux'
-      run: cmake -B build -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} -DCMAKE_C_COMPILER=${{ matrix.cc }} -DCMAKE_CXX_COMPILER=${{ matrix.cxx }}
-
-    - name: Configure CMake (Windows/macOS)
-      if: runner.os != 'Linux'
+    - name: Configure CMake
+      env:
+        CC: ${{ matrix.cc }}
+        CXX: ${{ matrix.cxx }}
       run: cmake -B build -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
 
     - name: Build
@@ -85,21 +63,47 @@ jobs:
     - name: Test with sample data
       shell: bash
       run: |
-        cd build/bin
-        if [ "$RUNNER_OS" == "Windows" ]; then
-          ./maratona_score${{ matrix.build_type == 'Debug' && 'd' || '' }}.exe ../../sample/data/ ../../sample/settings/ ./test_output.csv
-        else
-          ./maratona_score${{ matrix.build_type == 'Debug' && 'd' || '' }} ../../sample/data/ ../../sample/settings/ ./test_output.csv
+        # --- 1. Construct Executable Name ---
+        EXE_NAME="maratona_score"
+        
+        # Add 'd' suffix if Debug build (common CMake pattern)
+        if [[ "${{ matrix.build_type }}" == "Debug" ]]; then
+          EXE_NAME="${EXE_NAME}d"
         fi
-        test -f ./test_output.csv || exit 1
-        echo "✅ Sample data processed successfully"
+        
+        # Add .exe extension if Windows
+        if [[ "${{ runner.os }}" == "Windows" ]]; then
+          EXE_NAME="${EXE_NAME}.exe"
+        fi
+
+        # --- 2. Locate the Binary ---
+        # Windows often puts binaries in build/bin/Release/
+        # Linux usually puts them in build/bin/
+        BIN_PATH=$(find build -name "$EXE_NAME" | head -n 1)
+
+        if [ -z "$BIN_PATH" ]; then
+          echo "❌ Error: Could not find executable $EXE_NAME"
+          exit 1
+        fi
+
+        echo "✅ Found executable at: $BIN_PATH"
+
+        # --- 3. Run Test ---
+        # We use the found path to execute
+        "$BIN_PATH" sample/data/ sample/settings/ ./test_output.csv
+        
+        if [ -f "./test_output.csv" ]; then
+          echo "✅ Test Passed: Sample data processed successfully"
+        else
+          echo "❌ Test Failed: Output file missing"
+          exit 1
+        fi
 
     - name: Upload build artifacts
       if: matrix.build_type == 'Release'
       uses: actions/upload-artifact@v4
       with:
-        name: maratona_score-${{ matrix.compiler }}-${{ matrix.os }}
+        name: maratona-score-${{ matrix.os }}-${{ matrix.cc || 'msvc' }}
         path: |
-          build/bin/maratona_score*
-          build/bin/MaratonaScoreLib*
-        retention-days: 30
+          build/**/maratona_score*
+          build/**/MaratonaScoreLib*

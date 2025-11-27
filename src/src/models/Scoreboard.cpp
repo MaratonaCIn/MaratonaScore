@@ -18,7 +18,7 @@
 #include <iostream>
 #include <vector>
 
-#include "score/getscore.hpp"
+#include "score/getScore.hpp"
 #include "utils/Blacklist.hpp"
 #include "utils/Settings.hpp"
 
