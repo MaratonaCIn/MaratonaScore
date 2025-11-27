@@ -1,0 +1,105 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # Linux - GCC (Release + Debug)
+          - name: Linux (GCC 11) Release
+            os: ubuntu-latest
+            compiler: gcc
+            cc: gcc-11
+            cxx: g++-11
+            build_type: Release
+
+          - name: Linux (GCC 11) Debug
+            os: ubuntu-latest
+            compiler: gcc
+            cc: gcc-11
+            cxx: g++-11
+            build_type: Debug
+
+          # Linux - Clang (Release only)
+          - name: Linux (Clang 14) Release
+            os: ubuntu-latest
+            compiler: clang
+            cc: clang-14
+            cxx: clang++-14
+            build_type: Release
+
+          # Windows - MSVC (Release only)
+          - name: Windows (MSVC 2022) Release
+            os: windows-latest
+            compiler: msvc
+            build_type: Release
+
+          # macOS - AppleClang (Release only)
+          - name: macOS (AppleClang) Release
+            os: macos-latest
+            compiler: clang
+            build_type: Release
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup CMake
+      uses: jwlawson/actions-setup-cmake@v2
+      with:
+        cmake-version: '3.15.x'
+
+    - name: Setup GCC (Linux)
+      if: matrix.compiler == 'gcc'
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y g++-11
+
+    - name: Setup Clang (Linux)
+      if: matrix.compiler == 'clang' && matrix.os == 'ubuntu-latest'
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y clang-14
+
+    - name: Configure CMake (Linux with compiler selection)
+      if: runner.os == 'Linux'
+      run: cmake -B build -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} -DCMAKE_C_COMPILER=${{ matrix.cc }} -DCMAKE_CXX_COMPILER=${{ matrix.cxx }}
+
+    - name: Configure CMake (Windows/macOS)
+      if: runner.os != 'Linux'
+      run: cmake -B build -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
+
+    - name: Build
+      run: cmake --build build --config ${{ matrix.build_type }}
+
+    - name: Test with sample data
+      shell: bash
+      run: |
+        cd build/bin
+        if [ "$RUNNER_OS" == "Windows" ]; then
+          ./maratona_score${{ matrix.build_type == 'Debug' && 'd' || '' }}.exe ../../sample/data/ ../../sample/settings/ ./test_output.csv
+        else
+          ./maratona_score${{ matrix.build_type == 'Debug' && 'd' || '' }} ../../sample/data/ ../../sample/settings/ ./test_output.csv
+        fi
+        test -f ./test_output.csv || exit 1
+        echo "✅ Sample data processed successfully"
+
+    - name: Upload build artifacts
+      if: matrix.build_type == 'Release'
+      uses: actions/upload-artifact@v4
+      with:
+        name: maratona_score-${{ matrix.compiler }}-${{ matrix.os }}
+        path: |
+          build/bin/maratona_score*
+          build/bin/MaratonaScoreLib*
+        retention-days: 30

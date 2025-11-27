@@ -1,6 +1,7 @@
 # MaratonaScore
 
 [![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/MaratonaCIn/MaratonaScore)
+[![Build Status](https://github.com/MaratonaCIn/MaratonaScore/workflows/Build%20and%20Test/badge.svg)](https://github.com/MaratonaCIn/MaratonaScore/actions)
 [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](LICENSE)
 [![C++](https://img.shields.io/badge/C++-20-00599C.svg?logo=c%2B%2B)](https://isocpp.org/)
 [![CMake](https://img.shields.io/badge/CMake-3.15+-064F8C.svg?logo=cmake)](https://cmake.org/)

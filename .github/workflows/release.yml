@@ -1,0 +1,92 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  build-release:
+    name: Build Release for ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup CMake
+      uses: jwlawson/actions-setup-cmake@v2
+      with:
+        cmake-version: '3.15.x'
+
+    - name: Build Release
+      run: |
+        cmake -B build -DCMAKE_BUILD_TYPE=Release
+        cmake --build build --config Release
+
+    - name: Package binaries (Linux/macOS)
+      if: runner.os != 'Windows'
+      run: |
+        mkdir -p package
+        cp build/bin/maratona_score package/
+        cp build/bin/MaratonaScoreLib.* package/
+        cp LICENSE package/
+        cp README.md package/
+        tar -czf maratona_score-${{ runner.os }}-${{ github.ref_name }}.tar.gz -C package .
+
+    - name: Package binaries (Windows)
+      if: runner.os == 'Windows'
+      run: |
+        mkdir package
+        copy build\bin\maratona_score.exe package\
+        copy build\bin\MaratonaScoreLib.dll package\
+        copy LICENSE package\
+        copy README.md package\
+        tar -czf maratona_score-Windows-${{ github.ref_name }}.tar.gz -C package .
+
+    - name: Upload Release Asset
+      uses: actions/upload-artifact@v4
+      with:
+        name: maratona_score-${{ runner.os }}-${{ github.ref_name }}
+        path: maratona_score-*.tar.gz
+
+  create-release:
+    name: Create GitHub Release
+    needs: build-release
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Download all artifacts
+      uses: actions/download-artifact@v4
+
+    - name: Create Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          maratona_score-*/*.tar.gz
+        body: |
+          ## MaratonaScore ${{ github.ref_name }}
+
+          ### Downloads
+          - **Linux**: `maratona_score-Linux-${{ github.ref_name }}.tar.gz`
+          - **macOS**: `maratona_score-macOS-${{ github.ref_name }}.tar.gz`
+          - **Windows**: `maratona_score-Windows-${{ github.ref_name }}.tar.gz`
+
+          ### Installation
+          1. Download the appropriate archive for your platform
+          2. Extract: `tar -xzf maratona_score-*.tar.gz`
+          3. Run: `./maratona_score` (Linux/macOS) or `maratona_score.exe` (Windows)
+
+          See [README.md](README.md) for full usage instructions.
+
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
