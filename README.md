@@ -1,62 +1,283 @@
-# MaratonaScore v2.0.0
+# MaratonaScore
 
-A point-based scoring system for competitive programming marathons and contests. This system processes Excel scoreboard files and generates comprehensive rankings for contestants across multiple contests and homework assignments.
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/MaratonaCIn/MaratonaScore)
+[![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](LICENSE)
+[![C++](https://img.shields.io/badge/C++-20-00599C.svg?logo=c%2B%2B)](https://isocpp.org/)
+[![CMake](https://img.shields.io/badge/CMake-3.15+-064F8C.svg?logo=cmake)](https://cmake.org/)
 
-## Features
+> Performance-based scoring system for competitive programming marathons.
 
-- Process multiple contest and homework scoreboards from Excel files (.xlsx)
-- Automatic score calculation and ranking
-- Blacklist support for excluding specific contestants
-- Finals scoring integration
-- CSV export for final scoreboard
-- Contest filtering capabilities
+**MaratonaScore** automatically processes contest and homework scoreboards (Excel format exported from vJudge) and generates a unified ranking with weighted scores, ranking bonuses, and finals integration.
 
-## Requirements
+## 📌 About Version 2.0.0
 
-- C++20 compatible compiler (GCC 10+, Clang 10+, MSVC 2019+)
-- CMake 3.14 or higher
-- Internet connection (for fetching OpenXLSX dependency)
+This version represents a **complete redesign** with different architectural goals. Version 1.x was a JavaScript-based browser automation solution.
 
-## Dependencies
+**Version 2.0.0** takes a different approach, built in C++20 with:
 
-The project automatically fetches its dependencies via CMake FetchContent:
+- Standalone architecture (shared library + executable)
+- YAML-based configuration system
+- Excel file processing from vJudge exports
+- Cross-platform support (Windows, Linux, macOS)
+- Enhanced configurability and extensibility
 
-- [OpenXLSX](https://github.com/troldal/OpenXLSX) - For reading Excel files (linked as static library)
+### Purpose and Use Case
 
-## Architecture
+**MaratonaScore** is actively used by **[MaratonaCIn](https://github.com/MaratonaCIn)** (the competitive programming team from CIn-UFPE) for their **team selection process**.
 
-The project uses a **library + executable** architecture:
+The system is designed for **extended marathon-style competitions** spanning multiple weeks, combining:
 
-- **MaratonaScoreLib** (shared library/DLL)
-  - Contains all business logic, models, parsers, and scoring
-  - Statically links OpenXLSX internally
-  - Output: `MaratonaScoreLib.dll` (Windows) or `MaratonaScoreLib.so` (Linux)
+- **Regular contests** (typically held on vJudge)
+- **Homework assignments** (extended practice problems)
+- **Finals** (usually hosted on Codeforces for the top performers)
 
-- **maratona_score** (executable)
-  - Thin wrapper containing only [main.cpp](src/main.cpp)
-  - Links against MaratonaScoreLib dynamically
-  - Output: `maratona_score.exe` (Windows) or `maratona_score` (Linux)
+This format allows comprehensive evaluation of contestants over time, rewarding both contest performance and consistent problem-solving practice.
 
-## Project Structure
+---
 
-```
-MaratonaScoreV2/
-├── src/
-│   ├── include/          # Header files
-│   │   ├── models/       # Data models (Contest, Contestant, Performance, Scoreboard)
-│   │   ├── parser/       # Excel and file parsers
-│   │   ├── score/        # Scoring logic
-│   │   ├── utils/        # Utility functions (Blacklist, StringUtils)
-│   │   └── export.hpp    # DLL export/import macros
-│   ├── src/              # Implementation files (compiled into MaratonaScoreLib)
-│   └── main.cpp          # Entry point (compiled into executable)
-├── sample/               # Sample Excel files for testing
-│   └── settings/         # Configuration files
-├── CMakeLists.txt        # Build configuration
-└── README.md
+## 🚀 Quickstart
+
+### 1. Build the project
+
+```bash
+cmake -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build
 ```
 
-## Building the Project
+### 2. Prepare your data
+
+Copy configuration templates:
+
+```bash
+mkdir -p data settings
+cp templates/settings/* settings/
+cp templates/data/* data/
+```
+
+Place your vJudge-exported Excel files in the `data/` folder:
+
+- Contests: `1.xlsx`, `2.xlsx`, ..., `N.xlsx`
+- Homeworks: `H1.xlsx`, `H2.xlsx`, ..., `HN.xlsx`
+- Finals (optional): `finals.txt`
+
+**Important**: Excel files must be exported from **vJudge** with:
+
+- ✅ **Timestamps enabled** (to distinguish in-time vs upsolving submissions)
+- ✅ **Upsolving active** (to track post-deadline problem solves)
+
+### 3. Configure the system
+
+Edit [`settings/config.yaml`](templates/settings/config.yaml) with your scoring rules:
+
+```yaml
+time_limits:
+  contest: 300      # 5 hours
+  homework: 9600    # ~1 week
+
+base_values:
+  contest: 4        # Base points per problem in contest
+  homework: 2       # Base points per problem in homework
+  upsolving: 1      # Points for upsolving
+
+score_bonuses:
+  contest: 20       # Ranking bonus for 1st place in contests
+  homework: 10      # Ranking bonus for 1st place in homeworks
+
+person_bonuses:
+  contest: 5        # Number of top solvers who receive linearly decreasing bonus
+  homework: 5       # 1st place gets full bonus, 2nd-Nth get progressively less
+
+contest_settings:
+  number_of_contests: 10
+  ignore_worst_contests: 2  # Drop the 2 worst contests
+```
+
+### 4. Run with sample data (recommended for first-time users)
+
+Test the installation with the included sample data:
+
+```bash
+cd build/bin
+./maratona_score ../../sample/data/ ../../sample/settings/
+```
+
+This will process the sample contests and generate `scoreboard.csv` in `build/bin/`.
+
+> **💡 Pro tip**: The `sample/` directory contains real example data that's perfect for:
+>
+> - Testing your installation
+> - Understanding the expected file formats
+> - Learning how the scoring system works
+> - Debugging configuration changes
+
+### 5. Run with your own data
+
+Once you've prepared your data:
+
+```bash
+cd build/bin
+./maratona_score ../../data/ ../../settings/
+```
+
+The final scoreboard will be generated as `scoreboard.csv` in the current directory.
+
+---
+
+## 💻 Usage
+
+### Command-Line Arguments
+
+```bash
+maratona_score [data_path] [settings_path] [output_path]
+```
+
+**Arguments** (all optional):
+
+1. **`data_path`**: Directory containing Excel files (default: `./data/`)
+2. **`settings_path`**: Directory with config.yaml and blacklist.txt (default: `./settings/`)
+3. **`output_path`**: Path for the output CSV file (default: `./scoreboard.csv`)
+
+**Examples:**
+
+```bash
+# Use defaults (./data/, ./settings/, ./scoreboard.csv)
+./maratona_score
+
+# Custom data and settings directories
+./maratona_score ./my_data/ ./my_settings/
+
+# Custom everything including output file
+./maratona_score ./2024_data/ ./2024_settings/ ./results/final_scores.csv
+
+# Use sample data for testing
+./maratona_score ../../sample/data/ ../../sample/settings/ ./test_output.csv
+```
+
+**Note**: Paths ending with `/` are treated as directories. If `output_path` is a directory, the file will be named `scoreboard.csv` within that directory.
+
+---
+
+## 📊 How It Works
+
+The system calculates scores based on three factors:
+
+### 1. **Problems Solved**
+
+Each solved problem earns points depending on activity type and submission time:
+
+- **During contest/homework**: `base_value` points (4 for contests, 2 for homeworks)
+- **After deadline (upsolving)**: 1 point
+
+### 2. **Ranking Bonuses**
+
+Top N solvers receive linearly decreasing bonuses based on their placement:
+
+- **Contests**: Top 5 get bonuses (1st: 20, 2nd: 16, 3rd: 12, 4th: 8, 5th: 4)
+- **Homeworks**: Top 5 get bonuses (1st: 10, 2nd: 8, 3rd: 6, 4th: 4, 5th: 2)
+
+The number of ranked positions (`person_bonuses`) and max bonus values (`score_bonuses`) are configurable.
+
+### 3. **Worst Results Dropped**
+
+The N worst contests are dropped (configurable), allowing contestants to have bad days without severely hurting their final score.
+
+### Calculation Example
+
+**Scenario**: A team solves 3 problems in a contest (within deadline) and finishes in 2nd place.
+
+```text
+Points from problems = 3 × 4 = 12 points
+Ranking bonus (top 2) = 16 points  (1st: 20, 2nd: 16, 3rd: 12, 4th: 8, 5th: 4)
+─────────────────────────────────────
+Total = 28 points
+```
+
+---
+
+## 📁 Expected Data Structure
+
+```text
+data/
+├── 1.xlsx           # Contest 1
+├── 2.xlsx           # Contest 2
+├── H1.xlsx          # Homework 1
+├── H2.xlsx          # Homework 2
+├── ...
+└── finals.txt       # Finals results (optional)
+
+settings/
+├── config.yaml      # System configuration
+└── blacklist.txt    # Team IDs to exclude (one per line)
+```
+
+### Excel File Format (vJudge Export)
+
+Excel files (`.xlsx`) **must be exported from vJudge** with the following settings:
+
+- **✅ Enable timestamps**: Required to differentiate in-time submissions from upsolving
+- **✅ Enable upsolving**: Required to track post-deadline problem solves
+
+The exported scoreboards should follow ICPC-style format with:
+
+- Team information columns (name, ID)
+- Problem columns with submissions/acceptances
+- Timestamp information
+
+### Finals Format (Manual Entry)
+
+The finals are typically hosted on **Codeforces** (not vJudge), so results must be entered manually in [`data/finals.txt`](templates/data/finals.txt).
+
+**Format**: Plain text file with one team per line in the format:
+
+```text
+TeamID ProblemsSolved Penalty
+```
+
+**Example**:
+
+```text
+alice_team 5 245
+bob_squad 4 180
+charlie_code 3 120
+```
+
+**Fields**:
+
+- `TeamID`: Team identifier (must match IDs in other files)
+- `ProblemsSolved`: Number of problems solved during finals
+- `Penalty`: Total penalty time (ICPC format)
+
+**Notes**:
+
+- Finals are optional - the system works without them
+- This format allows integration of external platforms (Codeforces, AtCoder, etc.)
+- The finals contest is added as a special contest after all regular contests
+- Scores are calculated using the same rules as regular contests
+
+### Blacklist
+
+To exclude teams from ranking, add their IDs to [`settings/blacklist.txt`](templates/settings/blacklist.txt):
+
+```text
+# Lines starting with # are comments
+TeamID123
+TeamID456
+```
+
+---
+
+## 🏗️ Building
+
+### Requirements
+
+- **C++20 compiler**: GCC 10+, Clang 10+, or MSVC 2019+
+- **CMake**: 3.15 or higher
+- **Internet connection**: For automatic dependency fetching
+
+### Dependencies (managed automatically)
+
+- [OpenXLSX](https://github.com/troldal/OpenXLSX) - Excel file reading
+- [yaml-cpp](https://github.com/jbeder/yaml-cpp) - YAML configuration parsing
 
 ### Release Build
 
@@ -67,180 +288,126 @@ cmake --build build
 
 ### Debug Build
 
-Debug builds append a 'd' suffix to binaries:
+Debug builds append a `d` suffix to binaries:
 
 ```bash
 cmake -B build -DCMAKE_BUILD_TYPE=Debug
 cmake --build build
+# Generates: maratona_scored.exe and MaratonaScoreLibd.dll
 ```
 
-This generates `maratona_scored.exe` and `MaratonaScoreLibd.dll`.
+### Generated Files
 
-### Build Output
-
-After building, all executables and DLLs are in `build/bin/`:
-
-```
+```text
 build/
-├── bin/                          # Ready-to-run distribution
-│   ├── maratona_score.exe       # Main executable (Release)
-│   ├── maratona_scored.exe      # Main executable (Debug)
-│   ├── MaratonaScoreLib.dll     # Shared library (Release)
-│   └── MaratonaScoreLibd.dll    # Shared library (Debug)
-└── lib/                          # Import libraries
-    ├── MaratonaScoreLib.dll.a
-    └── MaratonaScoreLibd.dll.a
+├── bin/
+│   ├── maratona_score(.exe)      # Main executable
+│   └── MaratonaScoreLib.dll/.so  # Shared library
+└── lib/
+    └── MaratonaScoreLib.lib/.a   # Import library (Windows)
 ```
 
-**Note:** Everything needed to run the program is in `build/bin/` - just the `.exe` and `.dll` files.
+To distribute, copy both files from the `build/bin/` folder.
 
-## Usage
+---
 
-### Input Files Structure
+## 🗂️ Project Structure
 
-The program expects the following file structure in your data directory:
-
+```text
+MaratonaScore/
+├── src/
+│   ├── include/              # Public headers
+│   │   ├── models/           # Contest, Contestant, Performance, Scoreboard
+│   │   ├── parser/           # ScoreboardParser, FinalParser
+│   │   ├── score/            # Scoring calculation logic
+│   │   ├── utils/            # Blacklist, Settings, StringUtils
+│   │   └── export.hpp        # DLL export macros
+│   ├── src/                  # Implementations (.cpp)
+│   └── main.cpp              # Executable entry point
+├── sample/                   # Sample data for testing
+│   ├── data/                 # Example contest Excel files
+│   └── settings/             # Example configuration files
+├── templates/                # Configuration templates (for your own data)
+├── CMakeLists.txt            # Root build configuration
+└── README.md
 ```
-data/
-├── blacklist.txt        # List of contestants to exclude (one per line)
-├── 1.xlsx               # Contest 1 scoreboard
-├── H1.xlsx              # Homework 1 scoreboard
-├── 2.xlsx               # Contest 2 scoreboard
-├── H2.xlsx              # Homework 2 scoreboard
-├── ...
-├── N.xlsx               # Contest N scoreboard
-├── HN.xlsx              # Homework N scoreboard
-└── finals.txt           # Finals results
-```
 
-### Running the Program
+### Architecture
 
-1. Update the `base_path` in [main.cpp](src/main.cpp:14) to point to your data directory
-2. Build the project (see above)
-3. Run from the `build/bin/` directory:
+The project uses a **library + executable** architecture:
+
+- **MaratonaScoreLib** (DLL/shared library): Contains all business logic
+- **maratona_score** (executable): Thin wrapper that calls the library
+
+This allows reusing the library in other projects (GUI, tests, etc.).
+
+---
+
+## 🐛 Troubleshooting
+
+### "MaratonaScoreLib.dll not found"
+
+**Solution**: Run the program from inside `build/bin/` or copy the DLL to the same directory as the executable.
 
 ```bash
 cd build/bin
-./maratona_score        # Linux/macOS
-.\maratona_score.exe    # Windows
+./maratona_score ../../data/ ../../settings/
 ```
 
-The program will generate `scoreboard.csv` in the current working directory.
+### Errors reading Excel files
 
-**Distribution:** To distribute the program, copy both files from `build/bin/`:
+**Common causes**:
 
-- `maratona_score.exe` (or `maratona_scored.exe` for debug)
-- `MaratonaScoreLib.dll` (or `MaratonaScoreLibd.dll` for debug)
+- File doesn't exist or incorrect path
+- Excel format incompatible (must be vJudge export with timestamps and upsolving)
+- Corrupted file
+- Missing timestamp columns (export without timestamps enabled)
 
-### Configuration
+**Solution**: Verify the path and ensure files are exported from vJudge with the correct settings.
 
-Configure the number of contests in [utils/Settings.hpp](src/include/utils/Settings.hpp):
+### Build issues
 
-```cpp
-namespace Settings {
-    constexpr int NUMBER_OF_CONTESTS = 10; // Adjust as needed
-}
-```
+**Solution**: Clean the build and try again:
 
-## Input File Format
-
-### Excel Scoreboards (.xlsx)
-
-Contest and homework Excel files should follow a standard competitive programming scoreboard format with:
-- Contestant information (name, ID, etc.)
-- Problem scores/submissions
-- Total scores
-
-### Blacklist (blacklist.txt)
-
-Plain text file with one contestant identifier per line:
-```
-contestant1
-contestant2
-...
-```
-
-### Finals (finals.txt)
-
-Special format for finals results (parsed by FinalParser).
-
-## Output
-
-The program generates a CSV file (`scoreboard.csv`) containing:
-- Contestant rankings
-- Individual contest scores
-- Homework scores
-- Final scores
-- Overall ratings
-
-## Development
-
-### Key Components
-
-- **Contest**: Represents a single contest or homework assignment
-- **Contestant**: Represents a participant with their performance data
-- **Performance**: Individual performance metrics
-- **Scoreboard**: Aggregates all contests and generates rankings
-- **ScoreboardParser**: Parses Excel files into Contest objects
-- **FinalParser**: Parses finals results from text files
-- **Blacklist**: Manages contestant exclusions
-
-### Build System Details
-
-The project uses CMake with:
-
-- **C++20** standard
-- **Shared library** architecture for better modularity
-- **FetchContent** for dependency management
-- **Debug postfix** ('d') for debug builds
-- Optimized build settings (demos/tests disabled for dependencies)
-
-### Adding New Features
-
-1. Models are in [src/include/models/](src/include/models/)
-2. Parsers are in [src/include/parser/](src/include/parser/)
-3. Scoring logic is in [src/include/score/](src/include/score/)
-4. All implementation goes into `MaratonaScoreLib` for reusability
-
-## Troubleshooting
-
-### Build Issues
-
-If you encounter dependency fetching issues:
 ```bash
-# Clear the build directory and rebuild
 rm -rf build
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 ```
 
-### Missing DLL Errors
+---
 
-If you get "MaratonaScoreLib.dll not found" errors:
+## 🤝 Contributing
 
-- Ensure you're running the executable from `build/bin/` directory
-- Or copy both the `.exe` and `.dll` to the same directory
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details on:
 
-### Excel File Errors
+- Setting up the development environment
+- Code standards
+- Submitting pull requests
+- Internal project architecture
 
-If a contest file fails to load:
-- Verify the file exists and path is correct
-- Check the Excel file format matches expected structure
-- Review error messages in console output
+---
 
-## License
+## 📄 License
 
-This project is part of the MaratonaCIn program.
+This project is licensed under the [Apache License 2.0](LICENSE).
 
-## Contributing
+```text
+Copyright 2025 MaratonaCIn
 
-Contributions are welcome! Please ensure:
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-- Code follows C++20 standards
-- New features include appropriate error handling
-- Changes maintain backward compatibility with existing data files
-- DLL exports are properly handled (use `MARATONASCORE_API` macro if needed)
+    http://www.apache.org/licenses/LICENSE-2.0
+```
 
-## Contact
+---
 
-For issues, questions, or contributions, please open an issue in the repository.
+## 📧 Contact
+
+To report bugs, suggest features, or ask questions, open an [issue](https://github.com/MaratonaCIn/MaratonaScore/issues) in the repository.
+
+---
+
+**Built with ❤️ by the [MaratonaCIn](https://github.com/MaratonaCIn) team**

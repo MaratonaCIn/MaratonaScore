@@ -1,21 +1,31 @@
+//    Copyright 2025 MaratonaCIn
+//
+//    Licensed under the Apache License, Version 2.0 (the "License");
+//    you may not use this file except in compliance with the License.
+//    You may obtain a copy of the License at
+//
+//        http://www.apache.org/licenses/LICENSE-2.0
+//
+//    Unless required by applicable law or agreed to in writing, software
+//    distributed under the License is distributed on an "AS IS" BASIS,
+//    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//    See the License for the specific language governing permissions and
+//    limitations under the License.
+
 #ifndef MSCR_MODELS_PERFORMANCE_HPP
 #define MSCR_MODELS_PERFORMANCE_HPP
 
-#include "export.hpp"
-#include <string>
 #include <map>
+#include <string>
+
+#include "export.hpp"
 
 namespace MaratonaScore {
 
-enum PROBLEM_STATUS {
-    NOT_ATTEMPTED,
-    ATTEMPTED,
-    SOLVED,
-    UPSOLVED
-};
+enum PROBLEM_STATUS { NOT_ATTEMPTED, ATTEMPTED, SOLVED, UPSOLVED };
 
 class MARATONASCORE_API ProblemStatus {
-  public:
+   public:
     ProblemStatus();
     ProblemStatus(PROBLEM_STATUS status, int time, int att);
     ~ProblemStatus() = default;
@@ -28,15 +38,15 @@ class MARATONASCORE_API ProblemStatus {
     void setTimeTaken(int time);
     void setAttempts(int att);
 
-  private:
+   private:
     PROBLEM_STATUS problem_status;
     int timeTaken;
     int attempts;
 
-}; // class ProblemStatus
+};  // class ProblemStatus
 
 class MARATONASCORE_API Performance {
-  public:
+   public:
     Performance();
     Performance(int r, int p);
     ~Performance() = default;
@@ -55,9 +65,9 @@ class MARATONASCORE_API Performance {
     void addProblem(const std::string& problemId, const ProblemStatus& status);
     void setProblemsUpsolved(int ups);
 
-    const bool operator < (const Performance& other) const;
+    const bool operator<(const Performance& other) const;
 
-  private:
+   private:
     int rank;
     int penalty;
     int problems_solved;
@@ -66,8 +76,8 @@ class MARATONASCORE_API Performance {
     double bonus_score;
 
     std::map<std::string, ProblemStatus> problems;
-}; // class Performance
+};  // class Performance
 
-} // namespace MaratonaScore
+}  // namespace MaratonaScore
 
 #endif  // MSCR_MODELS_PERFORMANCE_HPP

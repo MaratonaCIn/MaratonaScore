@@ -1,21 +1,33 @@
+//    Copyright 2025 MaratonaCIn
+//
+//    Licensed under the Apache License, Version 2.0 (the "License");
+//    you may not use this file except in compliance with the License.
+//    You may obtain a copy of the License at
+//
+//        http://www.apache.org/licenses/LICENSE-2.0
+//
+//    Unless required by applicable law or agreed to in writing, software
+//    distributed under the License is distributed on an "AS IS" BASIS,
+//    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//    See the License for the specific language governing permissions and
+//    limitations under the License.
+
 #include "parser/ScoreboardParser.hpp"
 
-#include "utils/StringUtils.hpp"
-#include "utils/Blacklist.hpp"
-#include "score/getScore.hpp"
-
 #include <OpenXLSX.hpp>
-
-#include <stdexcept>
+#include <algorithm>
+#include <iomanip>
+#include <iostream>
+#include <regex>
+#include <sstream>
 #include <stdexcept>
 #include <string>
-#include <sstream>
-#include <vector>
-#include <algorithm>
 #include <utility>
-#include <regex>
-#include <iostream>
-#include <iomanip>
+#include <vector>
+
+#include "score/getScore.hpp"
+#include "utils/Blacklist.hpp"
+#include "utils/StringUtils.hpp"
 
 namespace MaratonaScore {
 
@@ -43,14 +55,14 @@ std::string cell_to_string(const OpenXLSX::XLCellValue& val) {
 long long timeToTotalMinutes_noms(const std::string& timeStr) {
     std::stringstream ss(timeStr);
     std::string segment;
-    long long parts[4] = {0, 0, 0, 0}; // Days, Hours, Minutes, Seconds
-    
+    long long parts[4] = {0, 0, 0, 0};  // Days, Hours, Minutes, Seconds
+
     int i = 0;
     while (std::getline(ss, segment, ':') && i < 4) {
         try {
             parts[i] = std::stoll(segment);
         } catch (...) {
-            parts[i] = 0; 
+            parts[i] = 0;
         }
         i++;
     }
@@ -61,15 +73,15 @@ long long timeToTotalMinutes_noms(const std::string& timeStr) {
 
 int penaltyFromString(const std::string& penaltyStr) {
     size_t firstColon = penaltyStr.find(':');
-    
+
     if (firstColon == std::string::npos || firstColon == 0) {
-        return 0; 
+        return 0;
     }
-    
+
     for (size_t i = firstColon; i > 0; --i) {
         std::string penaltyPart = penaltyStr.substr(0, i);
         std::string timePart = penaltyStr.substr(i);
-        
+
         try {
             long long penaltyValue = std::stoll(penaltyPart);
             long long timeValue = timeToTotalMinutes_noms(timePart);
@@ -78,9 +90,7 @@ int penaltyFromString(const std::string& penaltyStr) {
                 return static_cast<int>(penaltyValue);
             }
         } catch (const std::invalid_argument& e) {
-
         } catch (const std::out_of_range& e) {
-   
         }
     }
 
@@ -91,7 +101,8 @@ int penaltyFromString(const std::string& penaltyStr) {
     }
 }
 
-Contest ScoreboardParser::parse(const std::string& file_path, CONTEST_TYPE contestType) {
+Contest ScoreboardParser::parse(const std::string& file_path,
+                                CONTEST_TYPE contestType) {
     int TIME_LIMIT;
 
     if (contestType == CONTEST) {
@@ -108,17 +119,19 @@ Contest ScoreboardParser::parse(const std::string& file_path, CONTEST_TYPE conte
 
     uint32_t row_count = wks.rowCount();
     uint32_t col_count = wks.columnCount();
-    
+
     Contest contest(contestType);
     std::vector<std::pair<Performance, std::string>> temp_performances;
 
     for (uint32_t r = 2; r <= row_count; ++r) {
         try {
             std::string team_raw = cell_to_string(wks.cell(r, 2).value());
-            
-            if (team_raw.empty()) continue; 
 
-            std::string teamID = team_raw.substr(team_raw.find('(')+1, team_raw.find(')') - team_raw.find('(')-1);
+            if (team_raw.empty()) continue;
+
+            std::string teamID =
+                team_raw.substr(team_raw.find('(') + 1,
+                                team_raw.find(')') - team_raw.find('(') - 1);
             std::string team_name = team_raw.substr(0, team_raw.find('('));
 
             int problems = stoi(cell_to_string(wks.cell(r, 3).value()));
@@ -131,7 +144,7 @@ Contest ScoreboardParser::parse(const std::string& file_path, CONTEST_TYPE conte
 
             for (uint32_t c = 5; c <= col_count; ++c) {
                 std::string cellValue = cell_to_string(wks.cell(r, c).value());
-                
+
                 if (trim(cellValue).empty()) {
                     continue;
                 }
@@ -142,7 +155,8 @@ Contest ScoreboardParser::parse(const std::string& file_path, CONTEST_TYPE conte
                     size_t pos_start = cellValue.find('(') + 1;
                     size_t pos_end = cellValue.find(')');
                     size_t count = pos_end - pos_start;
-                    std::string number_part = cellValue.substr(pos_start, count);
+                    std::string number_part =
+                        cellValue.substr(pos_start, count);
 
                     status.setStatus(ATTEMPTED);
                     status.setAttempts(std::abs(std::stoi(number_part)));
@@ -153,7 +167,7 @@ Contest ScoreboardParser::parse(const std::string& file_path, CONTEST_TYPE conte
 
                 if (!cellValue.empty()) {
                     int problemPenalty = timeStringToMinutes(cellValue);
-    
+
                     if (problemPenalty <= TIME_LIMIT) {
                         status.setStatus(SOLVED);
                         real_penalty += problemPenalty;
@@ -162,20 +176,21 @@ Contest ScoreboardParser::parse(const std::string& file_path, CONTEST_TYPE conte
                         status.setStatus(UPSOLVED);
                     }
                     status.setTimeTaken(problemPenalty);
-
                 }
 
                 char problem_char = static_cast<char>((c - 5) + 'A');
                 std::string problem_id(1, problem_char);
-                
+
                 performance.addProblem(problem_id, status);
             }
             performance.setPenalty(real_penalty);
-            performance.setProblemsUpsolved(problems - performance.getProblemsSolved());
+            performance.setProblemsUpsolved(problems -
+                                            performance.getProblemsSolved());
             temp_performances.emplace_back(performance, teamID);
 
         } catch (const std::exception& e) {
-            std::cerr << "[WARNING] Pulando linha " << r << ". Erro: " << e.what() << "\n";
+            std::cerr << "[WARNING] Pulando linha " << r
+                      << ". Erro: " << e.what() << "\n";
         }
     }
 
@@ -206,4 +221,4 @@ Contest ScoreboardParser::parse(const std::string& file_path, CONTEST_TYPE conte
     return contest;
 }
 
-} // namespace MaratonaScore
+}  // namespace MaratonaScore

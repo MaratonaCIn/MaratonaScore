@@ -1,20 +1,34 @@
+//    Copyright 2025 MaratonaCIn
+//
+//    Licensed under the Apache License, Version 2.0 (the "License");
+//    you may not use this file except in compliance with the License.
+//    You may obtain a copy of the License at
+//
+//        http://www.apache.org/licenses/LICENSE-2.0
+//
+//    Unless required by applicable law or agreed to in writing, software
+//    distributed under the License is distributed on an "AS IS" BASIS,
+//    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//    See the License for the specific language governing permissions and
+//    limitations under the License.
+
 #pragma once
 
 // DLL Export/Import macros for all platforms
 #ifdef _WIN32
-    // Windows (MSVC/MinGW)
-    #ifdef MARATONASCORE_EXPORTS
-        #define MARATONASCORE_API __declspec(dllexport)
-    #elif defined(MARATONASCORE_DLL)
-        #define MARATONASCORE_API __declspec(dllimport)
-    #else
-        #define MARATONASCORE_API
-    #endif
+// Windows (MSVC/MinGW)
+#ifdef MARATONASCORE_EXPORTS
+#define MARATONASCORE_API __declspec(dllexport)
+#elif defined(MARATONASCORE_DLL)
+#define MARATONASCORE_API __declspec(dllimport)
 #else
-    // Linux/macOS (GCC/Clang with -fvisibility=hidden)
-    #ifdef MARATONASCORE_EXPORTS
-        #define MARATONASCORE_API __attribute__((visibility("default")))
-    #else
-        #define MARATONASCORE_API
-    #endif
+#define MARATONASCORE_API
+#endif
+#else
+// Linux/macOS (GCC/Clang with -fvisibility=hidden)
+#ifdef MARATONASCORE_EXPORTS
+#define MARATONASCORE_API __attribute__((visibility("default")))
+#else
+#define MARATONASCORE_API
+#endif
 #endif

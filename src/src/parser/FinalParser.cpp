@@ -1,15 +1,29 @@
+//    Copyright 2025 MaratonaCIn
+//
+//    Licensed under the Apache License, Version 2.0 (the "License");
+//    you may not use this file except in compliance with the License.
+//    You may obtain a copy of the License at
+//
+//        http://www.apache.org/licenses/LICENSE-2.0
+//
+//    Unless required by applicable law or agreed to in writing, software
+//    distributed under the License is distributed on an "AS IS" BASIS,
+//    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//    See the License for the specific language governing permissions and
+//    limitations under the License.
+
 #include "parser/FinalParser.hpp"
 
-#include "score/getScore.hpp"
-
+#include <algorithm>
 #include <fstream>
 #include <sstream>
 #include <stdexcept>
 #include <vector>
-#include <algorithm>
+
+#include "score/getScore.hpp"
 
 namespace MaratonaScore {
-    
+
 Contest FinalParser::parse(const std::string& file_path) {
     Contest contest(CONTEST);
     contest.setId("FINALS");
@@ -21,7 +35,7 @@ Contest FinalParser::parse(const std::string& file_path) {
 
     std::string teamID = "";
 
-    std::vector<std::tuple<int, int , std::string>> temp_performances;
+    std::vector<std::tuple<int, int, std::string>> temp_performances;
 
     while (f_in >> teamID) {
         if (teamID[0] == '#') continue;
@@ -36,12 +50,12 @@ Contest FinalParser::parse(const std::string& file_path) {
     f_in.close();
 
     std::sort(temp_performances.begin(), temp_performances.end(),
-        [](const auto& a, const auto& b) {
-            if (std::get<0>(a) != std::get<0>(b)) {
-                return std::get<0>(a) > std::get<0>(b);
-            }
-            return std::get<1>(a) < std::get<1>(b);
-        });
+              [](const auto& a, const auto& b) {
+                  if (std::get<0>(a) != std::get<0>(b)) {
+                      return std::get<0>(a) > std::get<0>(b);
+                  }
+                  return std::get<1>(a) < std::get<1>(b);
+              });
 
     int rank = 1;
     for (const auto& [problemsSolved, penalty, teamID] : temp_performances) {
@@ -59,8 +73,8 @@ Contest FinalParser::parse(const std::string& file_path) {
         contest.addPerformance(teamID, performance);
         rank++;
     }
-    
+
     return contest;
 }
 
-} // namespace MaratonaScore
+}  // namespace MaratonaScore

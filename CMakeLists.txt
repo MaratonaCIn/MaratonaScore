@@ -1,3 +1,28 @@
+#    Copyright 2025 MaratonaCIn
+#
+#    Licensed under the Apache License, Version 2.0 (the "License");
+#    you may not use this file except in compliance with the License.
+#    You may obtain a copy of the License at
+#
+#        http://www.apache.org/licenses/LICENSE-2.0
+#
+#    Unless required by applicable law or agreed to in writing, software
+#    distributed under the License is distributed on an "AS IS" BASIS,
+#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#    See the License for the specific language governing permissions and
+#    limitations under the License.
+
+# ============================================================================
+# MaratonaScore - CMake Build Configuration
+# ============================================================================
+# This is a library + executable project:
+#   - MaratonaScoreLib: Shared library containing all business logic
+#   - maratona_score: Thin executable wrapper
+#
+# The library statically links OpenXLSX and yaml-cpp to avoid runtime
+# dependency conflicts.
+# ============================================================================
+
 cmake_minimum_required(VERSION 3.15)
 
 project(MaratonaScore
@@ -6,31 +31,45 @@ project(MaratonaScore
     LANGUAGES CXX
 )
 
-# Set C++ standard
+# ============================================================================
+# C++ Standard Configuration
+# ============================================================================
+# Require C++20 for modern features (concepts, ranges, etc.)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_CXX_EXTENSIONS OFF)  # Disable compiler-specific extensions
 
-# Add 'd' suffix for debug builds
+# ============================================================================
+# Build Configuration
+# ============================================================================
+# Add 'd' suffix to debug binaries (e.g., maratona_scored.exe)
 set(CMAKE_DEBUG_POSTFIX d)
 
-# Output directories
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+# Output directories for generated binaries
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)  # Executables and DLLs
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)  # Shared libraries (.so)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)  # Static libraries (.a, .lib)
 
-# Options
+# ============================================================================
+# Build Options
+# ============================================================================
 option(BUILD_TESTS "Build unit tests" OFF)
 option(BUILD_GUI "Build GUI application" ON)
 
-# Fetch dependencies
+# ============================================================================
+# Dependency Management with FetchContent
+# ============================================================================
+# Dependencies are automatically downloaded and built during configuration
 include(FetchContent)
 
-# Disable OpenXLSX demos, tests, and documentation
-set(OPENXLSX_CREATE_DOCS OFF CACHE BOOL "" FORCE)
-set(OPENXLSX_BUILD_SAMPLES OFF CACHE BOOL "" FORCE)
-set(OPENXLSX_BUILD_TESTS OFF CACHE BOOL "" FORCE)
-set(OPENXLSX_BUILD_BENCHMARKS OFF CACHE BOOL "" FORCE)
+# ----------------------------------------------------------------------------
+# OpenXLSX - Excel file reading library
+# ----------------------------------------------------------------------------
+# Disable unnecessary components to speed up build
+set(OPENXLSX_CREATE_DOCS OFF CACHE BOOL "Disable OpenXLSX documentation" FORCE)
+set(OPENXLSX_BUILD_SAMPLES OFF CACHE BOOL "Disable OpenXLSX samples" FORCE)
+set(OPENXLSX_BUILD_TESTS OFF CACHE BOOL "Disable OpenXLSX tests" FORCE)
+set(OPENXLSX_BUILD_BENCHMARKS OFF CACHE BOOL "Disable OpenXLSX benchmarks" FORCE)
 
 FetchContent_Declare(
     OpenXLSX
@@ -38,10 +77,13 @@ FetchContent_Declare(
     GIT_TAG        master
 )
 
-# Disable yaml-cpp tests and tools
-set(YAML_CPP_BUILD_TESTS OFF CACHE BOOL "" FORCE)
-set(YAML_CPP_BUILD_TOOLS OFF CACHE BOOL "" FORCE)
-set(YAML_CPP_BUILD_CONTRIB OFF CACHE BOOL "" FORCE)
+# ----------------------------------------------------------------------------
+# yaml-cpp - YAML configuration file parser
+# ----------------------------------------------------------------------------
+# Disable unnecessary components
+set(YAML_CPP_BUILD_TESTS OFF CACHE BOOL "Disable yaml-cpp tests" FORCE)
+set(YAML_CPP_BUILD_TOOLS OFF CACHE BOOL "Disable yaml-cpp tools" FORCE)
+set(YAML_CPP_BUILD_CONTRIB OFF CACHE BOOL "Disable yaml-cpp contrib" FORCE)
 
 FetchContent_Declare(
     yaml-cpp
@@ -49,29 +91,40 @@ FetchContent_Declare(
     GIT_TAG        master
 )
 
+# Make dependencies available for linking
 FetchContent_MakeAvailable(OpenXLSX yaml-cpp)
 
+# ============================================================================
+# Project Subdirectories
+# ============================================================================
+# Contains library and executable targets
 add_subdirectory(src)
 
-# Installation rules
+# ============================================================================
+# Installation Rules
+# ============================================================================
+# These rules define how 'cmake --install' behaves
+
+# Install executable to bin/
 install(TARGETS maratona_score
     RUNTIME DESTINATION bin
 )
 
-# Install the library
+# Install shared library to bin/ (Windows DLL) or lib/ (Linux .so)
 install(TARGETS MaratonaScoreLib
-    RUNTIME DESTINATION bin
-    LIBRARY DESTINATION lib
-    ARCHIVE DESTINATION lib
+    RUNTIME DESTINATION bin     # DLL goes to bin/ on Windows
+    LIBRARY DESTINATION lib     # .so goes to lib/ on Linux
+    ARCHIVE DESTINATION lib     # Import .lib stays in lib/
 )
 
-# Install headers (for library usage)
+# Install public headers for library usage
+# Allows other projects to link against MaratonaScoreLib
 install(DIRECTORY src/include/
     DESTINATION include/maratona_score
     FILES_MATCHING PATTERN "*.hpp"
 )
 
-# Install template files
+# Install template configuration files
 install(FILES
     templates/settings/config.yaml
     templates/settings/blacklist.txt
@@ -88,19 +141,27 @@ install(FILES
     DESTINATION share/maratona_score/templates
 )
 
-# Optional: Add tests
+# ============================================================================
+# Optional: Unit Tests
+# ============================================================================
 if(BUILD_TESTS)
     enable_testing()
     add_subdirectory(tests)
 endif()
 
-# Print build information (sem alteração)
+# ============================================================================
+# Build Summary
+# ============================================================================
+# Print configuration information for user reference
 message(STATUS "===========================================")
-message(STATUS "MaratonaScore Configuration")
+message(STATUS "MaratonaScore Build Configuration")
 message(STATUS "===========================================")
-message(STATUS "Version: ${PROJECT_VERSION}")
+message(STATUS "Version:      ${PROJECT_VERSION}")
 message(STATUS "C++ Standard: ${CMAKE_CXX_STANDARD}")
-message(STATUS "Build Type: ${CMAKE_BUILD_TYPE}")
-
-message(STATUS "Build Tests: ${BUILD_TESTS}")
+message(STATUS "Build Type:   ${CMAKE_BUILD_TYPE}")
+message(STATUS "Build Tests:  ${BUILD_TESTS}")
+message(STATUS "===========================================")
+message(STATUS "Output Directories:")
+message(STATUS "  Executables: ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}")
+message(STATUS "  Libraries:   ${CMAKE_LIBRARY_OUTPUT_DIRECTORY}")
 message(STATUS "===========================================")
