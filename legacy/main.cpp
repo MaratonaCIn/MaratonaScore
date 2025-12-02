@@ -16,15 +16,26 @@
 #include <fstream>
 #include <iostream>
 
-#include "models/Contest.hpp"
-#include "models/Scoreboard.hpp"
-#include "parser/FinalParser.hpp"
-#include "utils/Blacklist.hpp"
-#include "utils/Settings.hpp"
+#include "maratona_score/models/Contest.hpp"
+#include "maratona_score/models/Scoreboard.hpp"
+#include "maratona_score/parser/FinalParser.hpp"
+#include "maratona_score/utils/Blacklist.hpp"
+#include "maratona_score/utils/Settings.hpp"
 
 using namespace MaratonaScore;
 
 int main(int argc, char* argv[]) {
+#ifdef DEPRECATED_CLI
+    std::cerr << "\n";
+    std::cerr << "⚠️  WARNING: This CLI is deprecated.\n";
+    std::cerr << "   Please use 'MaratonaScoreCLI' instead for new features:\n";
+    std::cerr << "     - Custom file naming support\n";
+    std::cerr << "     - Multiple output formats (JSON, HTML, Markdown)\n";
+    std::cerr << "     - Powerful inspection and analysis commands\n";
+    std::cerr << "   This executable will be removed in v" NEW_VERSION "\n";
+    std::cerr << "\n";
+#endif
+
     std::string base_path = (argc > 1) ? argv[1] : "./data/";
 
     std::string settings_path = (argc > 2) ? argv[2] : "./settings/";

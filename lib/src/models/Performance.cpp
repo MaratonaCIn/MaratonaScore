@@ -111,7 +111,7 @@ void Performance::addProblem(const std::string& problemId, const ProblemStatus& 
     }
 }
 
-const bool Performance::operator<(const Performance& other) const {
+bool Performance::operator<(const Performance& other) const {
     if (problems_solved != other.problems_solved) {
         return problems_solved > other.problems_solved;
     }

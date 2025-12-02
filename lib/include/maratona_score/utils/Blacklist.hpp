@@ -18,7 +18,7 @@
 #include <set>
 #include <string>
 
-#include "export.hpp"
+#include "maratona_score/export.hpp"
 
 namespace MaratonaScore {
 

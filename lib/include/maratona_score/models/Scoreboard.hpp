@@ -12,22 +12,34 @@
 //    See the License for the specific language governing permissions and
 //    limitations under the License.
 
-#ifndef MSCR_PARSER_SCOREBOARDPARSER_HPP
-#define MSCR_PARSER_SCOREBOARDPARSER_HPP
+#ifndef MSCR_MODELS_SCOREBOARD_HPP
+#define MSCR_MODELS_SCOREBOARD_HPP
 
+#include <map>
+#include <ostream>
 #include <string>
 
-#include "export.hpp"
-#include "models/Contest.hpp"
-#include "utils/Settings.hpp"
-
+#include "maratona_score/export.hpp"
+#include "maratona_score/models/Contest.hpp"
+#include "maratona_score/models/Contestant.hpp"
 namespace MaratonaScore {
 
-class MARATONASCORE_API FinalParser {
+class MARATONASCORE_API Scoreboard {
    public:
-    Contest parse(const std::string& file_path);
-};
+    Scoreboard() = default;
+    ~Scoreboard() = default;
+
+    void addContest(const Contest& contest, int index);
+    void applyContestFiltering();
+    friend std::ostream& operator<<(std::ostream& os, const Scoreboard& sb);
+
+    void renderCSV(std::ostream& os) const;
+
+   protected:
+    std::map<std::string, Contestant> contestants;
+
+};  // class Scoreboard
 
 }  // namespace MaratonaScore
 
-#endif  // MSCR_PARSER_SCOREBOARDPARSER_HPP
+#endif  // MSCR_MODELS_SCOREBOARD_HPP

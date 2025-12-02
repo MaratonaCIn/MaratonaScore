@@ -12,7 +12,6 @@
 //    See the License for the specific language governing permissions and
 //    limitations under the License.
 
-
 #include "score/getScore.hpp"
 
 #include <cmath>
@@ -23,7 +22,7 @@ namespace MaratonaScore {
 
 double getSolveScore(CONTEST_TYPE contestType, const Performance& performance,
                      int contestIndex) {
-    double problem_value;
+    double problem_value = 0.0;
     if (contestType == CONTEST) {
         problem_value = Settings::getInstance().CONTEST_BASE_VALUE *
                         pow(2, double(contestIndex) /

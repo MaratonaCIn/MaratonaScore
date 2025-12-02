@@ -13,17 +13,22 @@
 //    limitations under the License.
 
 
-#ifndef MSCR_SCORE_GETSCORE_HPP
-#define MSCR_SCORE_GETSCORE_HPP
+#ifndef MSCR_PARSER_SCOREBOARDPARSER_HPP
+#define MSCR_PARSER_SCOREBOARDPARSER_HPP
 
-#include "export.hpp"
-#include "models/Performance.hpp"
-#include "models/Contest.hpp"
+#include <string>
+
+#include "maratona_score/export.hpp"
+#include "maratona_score/models/Contest.hpp"
+#include "maratona_score/utils/Settings.hpp"
 
 namespace MaratonaScore {
-    MARATONASCORE_API double getSolveScore(CONTEST_TYPE contestType, const Performance& performance, int contestIndex);
-    MARATONASCORE_API double getUpsolveScore(const Performance& performance);
-    MARATONASCORE_API double getRankBonus(CONTEST_TYPE contestType, int rank);
 
-} // namespace MaratonaScore
-#endif // MSCR_SCORE_GETSCORE_HPP
+class MARATONASCORE_API ScoreboardParser {
+   public:
+    Contest parse(const std::string& file_path, CONTEST_TYPE contestType);
+};
+
+}  // namespace MaratonaScore
+
+#endif  // MSCR_PARSER_SCOREBOARDPARSER_HPP

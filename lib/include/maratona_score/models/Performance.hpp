@@ -18,7 +18,7 @@
 #include <map>
 #include <string>
 
-#include "export.hpp"
+#include "maratona_score/export.hpp"
 
 namespace MaratonaScore {
 
@@ -65,7 +65,7 @@ class MARATONASCORE_API Performance {
     void addProblem(const std::string& problemId, const ProblemStatus& status);
     void setProblemsUpsolved(int ups);
 
-    const bool operator<(const Performance& other) const;
+    bool operator<(const Performance& other) const;
 
    private:
     int rank;

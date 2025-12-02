@@ -18,8 +18,8 @@
 #include <map>
 #include <string>
 
-#include "export.hpp"
-#include "models/Performance.hpp"
+#include "maratona_score/export.hpp"
+#include "maratona_score/models/Performance.hpp"
 
 namespace MaratonaScore {
 
